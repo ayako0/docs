@@ -50,7 +50,7 @@ export default {
 }
 
 .main {
-  padding: 100px 30px 30px 30px;
+  padding: 140px 140px 140px 40px;
   max-width: 800px;
   transition: transform .15s ease-in-out;
 
