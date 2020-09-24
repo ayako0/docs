@@ -105,7 +105,7 @@ export default {
 .sidebar {
   transition: background .15s ease-in-out, transform .15s ease-in-out, border-color .15s linear;
   padding: 100px 30px 30px 20px;
-  width: 260px;
+  width: 280px;
   line-height: 20px;
   position: fixed;
   top: 0;
