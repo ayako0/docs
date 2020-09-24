@@ -115,6 +115,7 @@ export default {
   will-change: transform;
   transform: translateX(-300px);
   overflow: auto;
+  text-align: right;
 
   @include respond-above(sm) {
     transform: translateX(0);
