@@ -16,7 +16,6 @@
             </ul>
           </li>
         </ul>
-        <GitLink class="git" />
       </nav>
     </aside>
 </template>
@@ -105,8 +104,9 @@ export default {
 <style lang="scss" scoped>
 .sidebar {
   transition: background .15s ease-in-out, transform .15s ease-in-out, border-color .15s linear;
-  padding: 100px 30px 30px;
+  padding: 100px 30px 30px 20px;
   width: 300px;
+  line-height: 20px;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -114,7 +114,6 @@ export default {
   z-index: 9;
   will-change: transform;
   transform: translateX(-300px);
-  border-right: 1px solid transparent;
   overflow: auto;
 
   @include respond-above(sm) {
@@ -123,11 +122,6 @@ export default {
 
   &--open {
     transform: translateX(0);
-  }
-  
-  .bright & {
-    background: $sidebarBright;
-    border-color: shade($sidebarBright, 10%);
   }
 
   .dark & {
@@ -168,37 +162,32 @@ ul {
   text-transform: uppercase;
   font-size: 12px;
   margin-bottom: 20px;
-  opacity: .3;
+  opacity: .2;
   letter-spacing: .15em;
   font-weight: 700;
 }
 
 .topic {
   font-weight: 700;
+  font-size: .875rem
 }
 
 .sub-topic {
   font-size: .875rem;
   position: relative;
-  opacity: .8;
-
-  &::after {
-    content: '';
-    transition: opacity .15s ease-in-out;
-    width: 6px;
-    height: 6px;
-    background: $brandPrimary;
-    border-radius: 100%;
-    display: block;
-    opacity: 0;
-    position: absolute;
-    top: 13px;
-    left: -15px;
-  }
 
   &.current {
     &::after {
       opacity: 1;
+      content: '';
+      transition: opacity .15s ease-in-out;
+      width: 40px;
+      height: 10px;
+      background: $brandPrimary;
+      display: block;
+      position: absolute;
+      z-index: -1;
+      top: 16px;
     }
   }
 }
@@ -209,5 +198,3 @@ ul {
   left: 0;
 }
 </style>
-
-
