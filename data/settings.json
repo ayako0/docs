@@ -1,6 +1,15 @@
 {
   "sidebar": [
     {
+      "section": "asdf",
+      "topics": [
+        {
+          "title": "1234",
+          "slug": "qwerty"
+        }
+      ]
+    },
+    {
       "section": "Introduction",
       "topics": [
         {
