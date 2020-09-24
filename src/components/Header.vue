@@ -1,6 +1,5 @@
 <template>
   <header class="header" :class="{ 'header--scrolled': pageScrolled }">
-    <Logo :color="logoColor" />
     <nav class="nav">
       <MenuToggle v-if="menuToggle" />
     </nav>
