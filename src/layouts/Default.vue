@@ -61,7 +61,7 @@ export default {
   }
 
   @include respond-above(md) {
-    padding: 100px 80px 30px;
+    padding: 140px 140px 140px 40px;
   }
 
   &--no-sidebar {
