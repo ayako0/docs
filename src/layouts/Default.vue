@@ -54,13 +54,13 @@ export default {
   transition: transform .15s ease-in-out;
 
   @include respond-above(sm) {
-    padding: 100px 30px 30px;
+    padding: 100px 40px 40px 40px;
     transform: translateX(300px);
     width: calc(100% - 300px);
   }
 
   @include respond-above(md) {
-    padding: 140px 140px 140px 40px;
+    padding: 140px 160px 140px 120px;
   }
 
   &--no-sidebar {
