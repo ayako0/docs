@@ -186,6 +186,8 @@ ul {
       display: block;
       position: absolute;
       z-index: -1;
+      left: 0px;
+      top: 15px;
     }
   }
 }
