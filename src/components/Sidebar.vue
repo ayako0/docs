@@ -182,7 +182,7 @@ ul {
       transition: opacity .15s ease-in-out;
       width: 40px;
       height: 1px;
-      background: $brandPrimary;
+      background: $textBright;
       display: block;
       position: absolute;
       z-index: -1;
