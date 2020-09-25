@@ -50,7 +50,7 @@ export default {
 }
 
 .main {
-  padding: 140px 140px 140px 40px;
+  padding: 140px 160px 140px 120px;
   transition: transform .15s ease-in-out;
 
   @include respond-above(sm) {
