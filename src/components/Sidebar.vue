@@ -181,7 +181,7 @@ ul {
       content: '';
       transition: opacity .15s ease-in-out;
       width: 40px;
-      height: 10px;
+      height: 1px;
       background: $brandPrimary;
       display: block;
       position: absolute;
