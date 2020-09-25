@@ -54,7 +54,7 @@ export default {
   transition: transform .15s ease-in-out;
 
   @include respond-above(sm) {
-    padding: 100px 40px 40px 40px;
+    padding: 100px 60px 100px 20px;
     transform: translateX(300px);
     width: calc(100% - 300px);
   }
