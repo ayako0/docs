@@ -162,8 +162,6 @@ ul {
 .section-title {
   text-transform: uppercase;
   font-size: 12px;
-  margin-bottom: 20px;
-  opacity: .2;
   letter-spacing: .15em;
   font-weight: 700;
 }
