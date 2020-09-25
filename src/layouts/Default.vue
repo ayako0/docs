@@ -51,7 +51,6 @@ export default {
 
 .main {
   padding: 140px 140px 140px 40px;
-  max-width: 800px;
   transition: transform .15s ease-in-out;
 
   @include respond-above(sm) {
