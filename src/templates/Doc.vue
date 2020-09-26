@@ -53,7 +53,9 @@ export default {
     max-width: 100%;
   }
 
+/*
 .markdown {
   padding-bottom: 50vh;
 }
+*/
 </style>
