@@ -172,6 +172,8 @@ ul {
   font-size: 1rem;
   opacity: 0.6;
   font-style: italic;
+  border-top: 1px solid whitesmoke;
+  margin-top: 1em;
 }
 
 .sub-topic {
