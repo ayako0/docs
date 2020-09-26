@@ -53,21 +53,21 @@ export default {
   padding: 140px 160px 20px 120px;
   transition: transform .15s ease-in-out;
 
-  @include respond-between(xxs) {
+  @include respond-between(xxs, xs) {
     padding: 100px 88px 100px 88px;
   }
 
-  @include respond-between(xs) {
+  @include respond-between(xs, sm) {
     padding: 100px 88px 100px 88px;
   }
   
-  @include respond-between(sm) {
+  @include respond-between(sm, md) {
     padding: 100px 60px 20px 20px;
     transform: translateX(300px);
     width: calc(100% - 300px);
   }
 
-  @include respond-between(md) {
+  @include respond-between(md, lg) {
     padding: 140px 160px 20px 120px;
   }
 
