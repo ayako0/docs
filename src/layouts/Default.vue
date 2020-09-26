@@ -62,19 +62,19 @@ export default {
   }
   
   @include respond-between(sm, md) {
-    padding: 100px 60px 20px 20px;
+    padding: 100px 60px 100px 20px;
     transform: translateX(300px);
     width: calc(100% - 300px);
   }
 
   @include respond-between(md, lg) {
-    padding: 140px 160px 20px 20px;
+    padding: 140px 160px 100px 20px;
     transform: translateX(300px);
     width: calc(100% - 300px);
   }
   
   @include respond-above(lg) {
-    padding: 140px 160px 20px 120px;
+    padding: 140px 160px 100px 120px;
     transform: translateX(300px);
     width: calc(100% - 300px);
   }
