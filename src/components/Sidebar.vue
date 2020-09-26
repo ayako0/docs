@@ -116,7 +116,6 @@ export default {
   transform: translateX(-300px);
   overflow: auto;
   text-align: right;
-  font-weight: 700;
 
   @include respond-above(sm) {
     transform: translateX(0);
@@ -179,6 +178,7 @@ ul {
 .sub-topic {
   font-size: .875rem;
   position: relative;
+  font-weight: 700;
 
   &.current {
     &::after {
