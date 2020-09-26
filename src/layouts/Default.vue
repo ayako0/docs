@@ -63,20 +63,20 @@ export default {
   
   @include respond-between(sm, md) {
     padding: 100px 60px 100px 20px;
-    transform: translateX(300px);
-    width: calc(100% - 300px);
+    transform: translateX(280px);
+    width: calc(100% - 280px);
   }
 
   @include respond-between(md, lg) {
     padding: 140px 160px 100px 20px;
-    transform: translateX(300px);
-    width: calc(100% - 300px);
+    transform: translateX(280px);
+    width: calc(100% - 280px);
   }
   
   @include respond-above(lg) {
     padding: 140px 160px 100px 120px;
-    transform: translateX(300px);
-    width: calc(100% - 300px);
+    transform: translateX(280px);
+    width: calc(100% - 280px);
   }
 
   &--no-sidebar {
@@ -87,7 +87,7 @@ export default {
   }
 
   &--sidebar-is-open {
-    transform: translate(300px);
+    transform: translate(280px);
   }
 }
 </style>
