@@ -193,7 +193,7 @@ ul {
       transition: opacity .15s ease-in-out;
       width: 40px;
       height: 4px;
-      background: $brandPrimary;
+      background: linear-gradient(260deg, #1aff24, #20e95c);
       display: block;
       position: absolute;
       z-index: -1;
