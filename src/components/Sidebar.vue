@@ -116,6 +116,7 @@ export default {
   transform: translateX(-300px);
   overflow: auto;
   text-align: right;
+  font-weight: 700;
 
   @include respond-above(sm) {
     transform: translateX(0);
