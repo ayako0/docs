@@ -32,6 +32,8 @@ pre[class*="language-"] {
 	padding: .25em;
 	border-radius: 20px;
 	white-space: normal;
+	color: $textBright;
+	opacity: .8;
 }
 
 .token.comment,
