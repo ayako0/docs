@@ -161,7 +161,7 @@ ul {
 }
 
 .section-title {
-  font-size: 12px;
+  font-size: 1rem;
   font-weight: 600;
   margin: 0;
   padding-bottom: 5px;
