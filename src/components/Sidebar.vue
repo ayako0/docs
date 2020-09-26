@@ -170,16 +170,16 @@ ul {
 }
 
 .topic {
-  font-weight: 700;
-  font-size: .875rem;
+  font-weight: 600;
+  font-size: 1rem;
   opacity: 0.6;
   font-style: italic;
 }
 
 .sub-topic {
-  font-size: .875rem;
+  font-size: 1rem;
   position: relative;
-  font-weight: 700;
+  font-weight: 600;
 
   &.current {
     &::after {
