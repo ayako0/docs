@@ -50,8 +50,8 @@ export default {
 }
 
 .main {
-  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,300;1,200;1,300&display=swap');
-
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+  
   padding: 140px 160px 20px 120px;
   transition: transform .15s ease-in-out;
 
