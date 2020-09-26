@@ -85,3 +85,7 @@ a {
   -webkit-text-fill-color: transparent;
   -webkit-box-decoration-break: clone;
 }
+
+.sidebar a {
+  color: $textBright;
+}
