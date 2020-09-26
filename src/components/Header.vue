@@ -65,19 +65,19 @@ export default {
   right: -12px;
   left: 0;
   z-index: 10;
-  padding: 15px 30px;
+  padding: 20px 20px;
   transition: padding 0.15s linear, background 0.15s linear,
     border-color 0.15s linear;
   will-change: padding, background;
   border-bottom: 1px solid transparent;
 
   @include respond-above(sm) {
-    padding: 30px;
+    padding: 20px;
   }
 
   &--scrolled {
     @include respond-below(sm) {
-      padding: 15px 30px;
+      padding: 20px 20px;
 
       .dark & {
         background: $sidebarDark;
