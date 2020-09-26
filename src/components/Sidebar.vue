@@ -113,7 +113,7 @@ export default {
   left: 0;
   z-index: 9;
   will-change: transform;
-  transform: translateX(-300px);
+  transform: translateX(-280px);
   overflow: auto;
   text-align: right;
 
