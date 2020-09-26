@@ -69,6 +69,8 @@ export default {
 
   @include respond-between(md, lg) {
     padding: 140px 160px 20px 120px;
+    transform: translateX(300px);
+    width: calc(100% - 300px);
   }
 
   &--no-sidebar {
