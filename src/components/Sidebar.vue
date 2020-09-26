@@ -171,7 +171,6 @@ ul {
 .topic {
   font-weight: 600;
   font-size: 1rem;
-  font-style: italic;
   border-top: 1px solid $textBright;
   margin-top: 1em;
   margin-left: 50%;
