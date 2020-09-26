@@ -64,7 +64,11 @@ export default {
   }
   
   @include respond-above(xs) {
-    padding: 88px;
+    padding: 100px 88px 100px 88px;
+  }
+  
+  @include respond-above(xxs) {
+    padding: 100px 88px 100px 88px;
   }
 
   &--no-sidebar {
