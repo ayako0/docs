@@ -150,7 +150,8 @@ ul {
     display: block;
 
     &.active {
-      color: $textBright;
+      color: $brandPrimary;
+      opacity: 1;
     }
   }
 }
