@@ -170,7 +170,7 @@ ul {
 
 .topic {
   font-weight: 700;
-  font-size: .875rem
+  font-size: .875rem;
   opacity: 0.6;
   font-style: italic;
 }
