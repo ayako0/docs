@@ -24,6 +24,8 @@ pre[class*="language-"] {
 	overflow: auto;
 	border-radius: 20px;
 	font-size: 14px;
+	color: $textBright;
+	opacity: .8;
 }
 
 :not(pre) > code[class*="language-"] {
