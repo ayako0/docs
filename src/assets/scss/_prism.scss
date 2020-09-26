@@ -1,6 +1,6 @@
 code[class*="language-"],
 pre[class*="language-"] {
-  background: none;
+  background-color: rgb(250, 250, 250);
   font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
   font-size: 1em;
   text-align: left;
@@ -23,7 +23,8 @@ pre[class*="language-"] {
 	padding: 30px;
 	margin: 2em 0;
 	overflow: auto;
-	border-radius: 5px;
+	border-radius: 20px;
+	font-size: 14px;
 }
 
 :not(pre) > code[class*="language-"] {
