@@ -105,7 +105,7 @@ export default {
 .sidebar {
   transition: background .15s ease-in-out, transform .15s ease-in-out, border-color .15s linear;
   padding: 140px 0px 100px 0px;
-  width: 280px;
+  width: 300px;
   line-height: 20px;
   position: fixed;
   top: 0;
@@ -116,6 +116,7 @@ export default {
   transform: translateX(-280px);
   overflow: auto;
   text-align: right;
+  padding-right: 20px;
 
   @include respond-above(sm) {
     transform: translateX(0);
