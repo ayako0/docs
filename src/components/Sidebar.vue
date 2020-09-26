@@ -150,7 +150,10 @@ ul {
     display: block;
 
     &.active {
-      color: $brandPrimary;
+      background: linear-gradient(260deg, #1aff24, #20e95c);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-box-decoration-break: clone;
       opacity: 1;
     }
   }
