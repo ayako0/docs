@@ -185,8 +185,8 @@ ul {
       content: '';
       transition: opacity .15s ease-in-out;
       width: 40px;
-      height: 1px;
-      background: $textBright;
+      height: 4px;
+      background: $brandPrimary;
       display: block;
       position: absolute;
       z-index: -1;
