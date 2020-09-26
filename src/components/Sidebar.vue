@@ -150,7 +150,7 @@ ul {
     display: block;
 
     &.active {
-      color: $brandPrimary;
+      color: $textBright;
     }
   }
 }
