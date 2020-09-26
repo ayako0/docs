@@ -79,13 +79,13 @@ a {
   text-underline-offset: 2px;}
 */
 
-a {
+.main a {
   background: linear-gradient(260deg, #1aff24, #20e95c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-box-decoration-break: clone;
 }
 
-.sidebar a {
-  color: $textBright;
+a {
+  color: blue;
 }
