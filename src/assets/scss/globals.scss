@@ -1,8 +1,8 @@
-@import 'config/colors';
-@import 'config/maps';
-@import 'config/mixins';
-@import 'config/functions';
-@import 'prism';
+@import "config/colors";
+@import "config/maps";
+@import "config/mixins";
+@import "config/functions";
+@import "prism";
 
 html {
   scroll-behavior: smooth;
@@ -15,15 +15,15 @@ body {
   font-weight: 200;
   line-height: 1.4;
   font-size: 1.125rem;
-  transition: background .15s ease-in-out, color .15s ease-in-out;
+  transition: background 0.15s ease-in-out, color 0.15s ease-in-out;
 
   &::before {
     display: none;
     visibility: hidden;
-    content: 'small';
+    content: "small";
 
     @include respond-above(sm) {
-      content: 'large'
+      content: "large";
     }
   }
 
@@ -46,7 +46,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: -apple-system, 'Source Sans Pro', sans-serif;
+  font-family: -apple-system, "Source Sans Pro", sans-serif;
   font-weight: 300;
   line-height: 1.6;
   opacity: 0.2;
@@ -56,7 +56,7 @@ h1 {
   margin-top: -10px;
   font-weight: 600;
   font-size: 2.2rem;
-  
+
   @include respond-above(md) {
     font-size: 2.2rem;
   }
