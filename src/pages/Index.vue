@@ -1,9 +1,7 @@
 <template>
   <Layout :sidebar="false">
     <div class="flex-container">
-      <div class="flex-item">
-        <p>&#9632;</p>
-      </div>
+      <div class="flex-item"></div>
       <div class="flex-item">
         <a href="/getting-started">Featured link 1</a>
         <p>
