@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap");
 
 code[class*="language-"],
 pre[class*="language-"] {
-  font-family: 'IBM Plex Sans', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-family: "IBM Plex Sans", monospace;
   font-size: 14px;
   text-align: left;
   white-space: pre;
@@ -12,58 +12,58 @@ pre[class*="language-"] {
   line-height: 1.5;
   tab-size: 4;
   hyphens: none;
-  transition: background .15s ease-in-out, color .15s ease-in-out;
+  transition: background 0.15s ease-in-out, color 0.15s ease-in-out;
   border-left: 1px solid $textBright;
   font-weight: 400;
 
   * {
-    transition: color .15s ease-in-out;
+    transition: color 0.15s ease-in-out;
   }
 }
 
 pre[class*="language-"] {
-	padding: 0px 20px;
-	margin: 0 0 4em 0;
-	overflow: auto;
-	font-size: 14px;
-	color: $textBright;
-	opacity: 1;
-	font-weight: 400;
+  padding: 0px 20px;
+  margin: 0 0 4em 0;
+  overflow: auto;
+  font-size: 14px;
+  color: $textBright;
+  opacity: 1;
+  font-weight: 400;
 }
 
 :not(pre) > code[class*="language-"] {
-	// padding: .1em .3em;
-	// border-radius: 4px;
-	// white-space: normal;
-	color: $textBright;
-	opacity: 1;
-	border-left: none;
-	font-size: 1.125rem;
+  // padding: .1em .3em;
+  // border-radius: 4px;
+  // white-space: normal;
+  color: $textBright;
+  opacity: 1;
+  border-left: none;
+  font-size: 1.125rem;
 }
 
 .token.comment,
 .token.prolog,
 .token.doctype,
 .token.cdata {
-	color: $textBright;
-	opacity: .4;
+  color: $textBright;
+  opacity: 0.4;
 }
 
 .namespace {
-	opacity: .7;
+  opacity: 0.7;
 }
 
 .token.important,
 .token.bold {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .token.italic {
-	font-style: italic;
+  font-style: italic;
 }
 
 .token.entity {
-	cursor: help;
+  cursor: help;
 }
 
 .bright {
@@ -116,7 +116,7 @@ pre[class*="language-"] {
 
   .token.function,
   .token.class-name {
-    color: #DD4A68;
+    color: #dd4a68;
   }
 
   .token.regex,
