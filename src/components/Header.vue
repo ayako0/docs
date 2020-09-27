@@ -1,6 +1,8 @@
 <template>
   <header class="header" :class="{ 'header--scrolled': pageScrolled }">
+    <Logo :color="logoColor" />
     <nav class="nav">
+      <ThemeSwitch v-off:theme-change="updateLogo" />
       <MenuToggle v-if="menuToggle" />
     </nav>
   </header>
@@ -61,7 +63,7 @@ export default {
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  top: 0;
+  bottom: 0;
   right: -12px;
   left: 0;
   z-index: 10;
@@ -94,5 +96,6 @@ export default {
 
 nav {
   display: flex;
+  // display: none;
 }
 </style>
