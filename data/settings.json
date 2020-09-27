@@ -1,6 +1,15 @@
 {
   "sidebar": [
     {
+      "section": "test",
+      "topics": [
+        {
+          "title": "test topic",
+          "slug": "test1"
+        }
+      ]
+    },
+    {
       "section": "asdf",
       "topics": [
         {
