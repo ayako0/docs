@@ -1,14 +1,30 @@
 <template>
   <Layout :sidebar="false">
-    <div class="content">
-      <h1>{{ $static.metadata.siteName }} - {{ this.description }}</h1>
-      <nav>
-        <!-- To use other icons here, you need to import them in the Shortcut component -->
-        <Shortcut link="/getting-started" text="Introduction" icon="play-icon" />
-        <Shortcut link="/theme-configuration" text="Configuration" icon="sliders-icon" />
-        <Shortcut link="/theme-configuration#changing-colors" text="Change colors" icon="eye-icon" />
-      </nav>
-      <GitLink class="git" size="large" />
+    <div class="flex-container">
+      <div class="flex-item">
+        <p>&#9632;</p>
+      </div>
+      <div class="flex-item">
+        <a href="/getting-started">Featured link 1</a>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor...
+        </p>
+      </div>
+      <div class="flex-item">
+        <a href="/getting-started">Featured link 2</a>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor...
+        </p>
+      </div>
+      <div class="flex-item">
+        <a href="/getting-started">Featured link 3</a>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor...
+        </p>
+      </div>
     </div>
   </Layout>
 </template>
@@ -22,28 +38,34 @@ query {
 </static-query>
 
 <script>
-import GitLink from '~/components/GitLink.vue'
-import Shortcut from '~/components/Shortcut.vue'
+import GitLink from "~/components/GitLink.vue";
+import Shortcut from "~/components/Shortcut.vue";
 
 export default {
   components: {
     GitLink,
-    Shortcut
+    Shortcut,
   },
   data() {
     return {
-      description: 'The ultimate static generated documentation theme for the JAM-stack'
-    }
+      description:
+        "The ultimate static generated documentation theme for the JAM-stack",
+    };
   },
   metaInfo() {
     return {
       title: this.description,
       meta: [
-        { key: 'description', name: 'description', content: 'A theme for static site documentation based on Gridsome, ready to deploy to Netlify in one click.' }
-      ]
-    }
-  }
-}
+        {
+          key: "description",
+          name: "description",
+          content:
+            "A theme for static site documentation based on Gridsome, ready to deploy to Netlify in one click.",
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -84,5 +106,58 @@ nav {
   @include respond-above(md) {
     margin: 5em 0 0;
   }
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  // align-items: flex-end;
+  height: 100%;
+  // font-family: "IBM Plex Sans", monospace;
+  // font-size: 14px;
+  // font-style: italic;
+}
+
+.flex-item {
+  color: white;
+  font-style: italic;
+}
+
+.flex-item:nth-child(1) {
+  order: 0;
+  flex: 12 1 auto;
+  align-self: auto;
+  margin-top: auto;
+  width: 50%;
+}
+
+.flex-item:nth-child(2) {
+  order: 0;
+  flex: 1 1 auto;
+  align-self: auto;
+  transform: translateY(50%);
+}
+
+.flex-item:nth-child(3) {
+  order: 0;
+  flex: 1 1 auto;
+  align-self: auto;
+  transform: translateY(50%);
+}
+
+.flex-item:nth-child(4) {
+  order: 0;
+  flex: 1 1 auto;
+  align-self: auto;
+  transform: translateY(50%);
+}
+
+.flex-item:nth-child(2),
+.flex-item:nth-child(3),
+.flex-item:nth-child(4) {
+  width: 16.67%;
 }
 </style>
