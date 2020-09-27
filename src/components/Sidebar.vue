@@ -1,23 +1,40 @@
 <template>
-    <aside class="sidebar" :class="{'sidebar--open' : this.$store.state.sidebarOpen}">
-      <nav>
-        <ul>
-          <li class="section" v-for="{ node } in $static.menu.edges" :key="node.id">
-            <h3 class="section-title">{{node.section}}</h3>
-            <ul>
-              <li v-for="item in node.topics" :key="item.title">
-                <g-link class="topic" :to="'/' + item.slug">{{item.title}}</g-link>
-                <ul v-if="checkAnchors(node.slug, item.slug)" v-for="{ node } in $static.docs.edges" :key="node.id">
-                  <li v-for="heading in node.headings" :key="heading.value">
-                    <a class="sub-topic" :href="'/' + item.slug + heading.anchor">{{heading.value}}</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
-    </aside>
+  <aside
+    class="sidebar"
+    :class="{ 'sidebar--open': this.$store.state.sidebarOpen }"
+  >
+    <nav>
+      <ul>
+        <li
+          class="section"
+          v-for="{ node } in $static.menu.edges"
+          :key="node.id"
+        >
+          <h3 class="section-title">{{ node.section }}</h3>
+          <ul>
+            <li v-for="item in node.topics" :key="item.title">
+              <g-link class="topic" :to="'/' + item.slug">{{
+                item.title
+              }}</g-link>
+              <ul
+                v-if="checkAnchors(node.slug, item.slug)"
+                v-for="{ node } in $static.docs.edges"
+                :key="node.id"
+              >
+                <li v-for="heading in node.headings" :key="heading.value">
+                  <a
+                    class="sub-topic"
+                    :href="'/' + item.slug + heading.anchor"
+                    >{{ heading.value }}</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </aside>
 </template>
 
 <static-query>
@@ -48,62 +65,68 @@ query Menu {
 </static-query>
 
 <script>
-import GitLink from '~/components/GitLink.vue'
-import throttle from 'lodash/throttle'
+import GitLink from "~/components/GitLink.vue";
+import throttle from "lodash/throttle";
 
 export default {
   components: {
-    GitLink
+    GitLink,
   },
   watch: {
-    '$route' () {
-      this.$store.commit('closeSidebar')
-    }
+    $route() {
+      this.$store.commit("closeSidebar");
+    },
   },
   methods: {
     checkAnchors(slug, item) {
       if (slug == item) {
-        return true
+        return true;
       }
     },
-    stateFromSize: function() {
-      if (window.getComputedStyle(document.body, ':before').content == '"small"') {
-        this.$store.commit('closeSidebar')
+    stateFromSize: function () {
+      if (
+        window.getComputedStyle(document.body, ":before").content == '"small"'
+      ) {
+        this.$store.commit("closeSidebar");
       } else {
-        this.$store.commit('openSidebar')
+        this.$store.commit("openSidebar");
       }
     },
-    sidebarScroll: function() {
-      let mainNavLinks = document.querySelectorAll('.topic.active + ul .sub-topic')
-      let fromTop = window.scrollY
+    sidebarScroll: function () {
+      let mainNavLinks = document.querySelectorAll(
+        ".topic.active + ul .sub-topic"
+      );
+      let fromTop = window.scrollY;
 
-      mainNavLinks.forEach(link => {
-        let section = document.querySelector(link.hash)
-        let allCurrent = document.querySelectorAll('.current'), i
+      mainNavLinks.forEach((link) => {
+        let section = document.querySelector(link.hash);
+        let allCurrent = document.querySelectorAll(".current"),
+          i;
 
         if (section.offsetTop <= fromTop) {
           for (i = 0; i < allCurrent.length; ++i) {
-            allCurrent[i].classList.remove('current')
+            allCurrent[i].classList.remove("current");
           }
-          link.classList.add('current')
+          link.classList.add("current");
         } else {
-          link.classList.remove('current')
+          link.classList.remove("current");
         }
-      })
-    }
+      });
+    },
   },
-  beforeMount () {
-    this.stateFromSize()
+  beforeMount() {
+    this.stateFromSize();
   },
   mounted() {
-    window.addEventListener('scroll', throttle(this.sidebarScroll, 50))
-  }
-}
+    window.addEventListener("scroll", throttle(this.sidebarScroll, 50));
+  },
+};
 </script>
 
 <style lang="scss" scoped>
 .sidebar {
-  transition: background .15s ease-in-out, transform .15s ease-in-out, border-color .15s linear;
+  transition: background 0.15s ease-in-out, transform 0.15s ease-in-out,
+    border-color 0.15s linear;
   padding: 140px 0px 100px 0px;
   width: 280px;
   line-height: 20px;
@@ -188,15 +211,15 @@ ul {
   &.current {
     &::after {
       opacity: 1;
-      content: '';
-      transition: opacity .15s ease-in-out;
+      content: "";
+      transition: opacity 0.15s ease-in-out;
       width: 40px;
       height: 4px;
       background: linear-gradient(260deg, #1aff24, #20e95c);
       display: block;
       position: absolute;
       z-index: -1;
-      left: 0px;
+      left: 20px;
       top: 15px;
     }
   }
