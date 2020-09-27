@@ -1,7 +1,7 @@
 ---
 title: Title Example 1-(copy)
 date: 2020-09-02
-slug: a
+slug: test1
 
 ---
 ## Example Title
