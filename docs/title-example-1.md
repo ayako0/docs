@@ -1,7 +1,7 @@
 ---
-title: Title Example 1
+title: normalized_basic_eps
 date: 2020-09-02
-slug: a
+slug: normalized_basic_eps
 
 ---
 ## Example Title
