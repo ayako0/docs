@@ -4,11 +4,11 @@
       "section": "Benjamin Graham Factors",
       "topics": [
         {
-          "title": "S&P 500 / Growth Grade",
+          "title": "Growth Grade",
           "slug": "growth_grade"
         },
         {
-          "title": "S&P 500 / Earnings Per Share",
+          "title": "Earnings Per Share",
           "slug": "normalized_basic_eps"
         }
       ]
