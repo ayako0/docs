@@ -4,10 +4,10 @@ date: 2020-09-28
 slug: algorithms-intro
 
 ---
-Simple Moving Average
+## Simple Moving Average
 
 Lorem ipsum
 
-Exponential Moving Average
+## Exponential Moving Average
 
 Lorem ipsum
