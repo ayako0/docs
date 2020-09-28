@@ -13,6 +13,10 @@
       "section": "Economic Drivers",
       "topics": [
         {
+          "title": "Morningstar Fundamentals",
+          "slug": "morningstar-fundamentals"
+        },
+        {
           "title": "Balance Sheet",
           "slug": "balance-sheet"
         },
