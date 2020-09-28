@@ -46,8 +46,12 @@
       "section": "Algorithms",
       "topics": [
         {
-          "title": "Simple Moving Average",
-          "slug": "simple-moving-average"
+          "title": "Intro",
+          "slug": "algorithms-into"
+        },
+        {
+          "title": "",
+          "slug": ""
         }
       ]
     },
