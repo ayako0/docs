@@ -62,11 +62,11 @@ export default {
   transition: transform 0.15s ease-in-out;
 
   @include respond-between(xxs, xs) {
-    padding: 100px 88px 100px 88px;
+    padding: 100px 80px 100px 80px;
   }
 
   @include respond-between(xs, sm) {
-    padding: 100px 88px 100px 88px;
+    padding: 100px 80px 100px 80px;
   }
 
   @include respond-between(sm, md) {
