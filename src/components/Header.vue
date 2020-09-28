@@ -1,9 +1,9 @@
 <template>
   <header class="header" :class="{ 'header--scrolled': pageScrolled }">
     <Logo :color="logoColor" />
+    <div class="menu-left"><MenuToggle v-if="menuToggle" /></div>
     <nav class="nav">
       <ThemeSwitch v-off:theme-change="updateLogo" />
-      <MenuToggle v-if="menuToggle" />
     </nav>
   </header>
 </template>
@@ -33,10 +33,10 @@ export default {
     };
   },
   methods: {
-    updateLogo: function () {
+    updateLogo: function() {
       this.logoColor = this.logoColor == "dark" ? "bright" : "dark";
     },
-    headerScroll: function () {
+    headerScroll: function() {
       let fromTop = window.scrollY;
 
       if (
@@ -58,28 +58,39 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.menu-left {
   position: fixed;
-  bottom: 0;
-  right: -12px;
+  top: 0;
   left: 0;
   z-index: 10;
-  padding: 20px 20px;
+  margin: 20px;
   transition: padding 0.15s linear, background 0.15s linear,
     border-color 0.15s linear;
-  will-change: padding, background;
-  max-width: 100%;
+}
+
+.header {
+  display: flex;
+  //justify-content: space-between;
+  //align-items: center;
+  position: fixed;
+  bottom: 0;
+  //right: -12px;
+  left: 0;
+  z-index: 10;
+  //padding: 20px 20px;
+  margin: 20px;
+  transition: padding 0.15s linear, background 0.15s linear,
+    border-color 0.15s linear;
+  //will-change: padding, background;
+  //max-width: 100%;
 
   @include respond-above(sm) {
-    padding: 20px;
+    margin: 20px;
   }
 
   &--scrolled {
     @include respond-below(sm) {
-      padding: 20px 20px;
+      margin: 20px 20px;
 
       .dark & {
         background: $sidebarDark;
