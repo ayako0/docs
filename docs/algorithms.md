@@ -15,3 +15,11 @@ Lorem ipsum
 ## Mean Reversion
 
 Lorem ipsum
+
+## Relative Strength
+
+Lorem ipsum
+
+## Inertia
+
+Lorem ipsum
