@@ -6,4 +6,4 @@ slug: economic-intro
 ---
 ## Fundamentals
 
-Quantopian Morningstar fundamental stats
+Quantopian Morningstar fundamentals - mix and match optimal strategies.
