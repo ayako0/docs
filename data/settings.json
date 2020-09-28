@@ -13,8 +13,8 @@
       "section": "Economic Drivers",
       "topics": [
         {
-          "title": "Operation Ratios",
-          "slug": "operation-ratios"
+          "title": "Valuation",
+          "slug": "valuation"
         },
         {
           "title": "Balance Sheet",
@@ -31,6 +31,10 @@
         {
           "title": "Income Statement",
           "slug": "income-statement"
+        },
+        {
+          "title": "Operation Ratios",
+          "slug": "operation-ratios"
         },
         {
           "title": "Free Cash Flow",
