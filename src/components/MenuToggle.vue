@@ -34,8 +34,8 @@ button {
   padding: 0;
   transition: color .15s ease-in-out;
   cursor: pointer;
-  width: 48px;
-  height: 48px;
+  width: 40px;
+  height: 40px;
   position: relative;
 
   @include respond-above(sm) {
@@ -57,8 +57,8 @@ button {
 
 svg {
   position: absolute;
-  top: 12px;
-  left: 12px;
+  top: 8px;
+  left: 8px;
 }
 
 .toggle-enter-active, .toggle-leave-active {
