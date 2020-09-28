@@ -15,6 +15,7 @@ fields:
   name: slug
   label: slug
 pages:
+- docs/algorithms.md
 - docs/cash-flow.md
 - docs/intro.md
 - docs/revenue.md
