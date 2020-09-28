@@ -15,5 +15,4 @@ fields:
   name: slug
   label: slug
 pages:
-- docs/editing-in-forestry.md
 - docs/title-example-1.md
