@@ -1,7 +1,7 @@
 ---
 title: Benjamin Graham
 date: 2020-09-02
-slug: ben_graham
+slug: benjamin_graham
 
 ---
 ## Earnings Per Share
