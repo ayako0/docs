@@ -95,7 +95,7 @@ export default {
     max-width: 100%;
     height: 100vh;
     padding: 20px;
-    background: linear-gradient(260deg, #94ff99, #54ff87);
+    background: linear-gradient(260deg, #8fea93, #51c574);
   }
 
   &--sidebar-is-open {
