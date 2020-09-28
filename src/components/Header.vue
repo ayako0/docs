@@ -34,7 +34,7 @@ export default {
   },
   methods: {
     updateLogo: function() {
-      this.logoColor = this.logoColor == "dark" ? "bright" : "dark";
+      this.logoColor = this.logoColor == "bright";
     },
     headerScroll: function() {
       let fromTop = window.scrollY;
