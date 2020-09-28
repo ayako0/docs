@@ -1,6 +1,15 @@
 {
   "sidebar": [
     {
+      "section": "Personal",
+      "topics": [
+        {
+          "title": "Trading Algorithm",
+          "slug": "trading-algorithm"
+        }
+      ]
+    },
+    {
       "section": "Formulas",
       "topics": [
         {
