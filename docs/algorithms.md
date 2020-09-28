@@ -23,3 +23,7 @@ Lorem ipsum
 ## Inertia
 
 Lorem ipsum
+
+## 52-Week Highs
+
+Lorem ipsum
