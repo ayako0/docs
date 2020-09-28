@@ -16,16 +16,7 @@
       ]
     },
     {
-      "section": "Introduction",
-      "topics": [
-        {
-          "title": "Getting started",
-          "slug": "getting-started"
-        }
-      ]
-    },
-    {
-      "section": "Setup",
+      "section": "Contact",
       "topics": [
         {
           "title": "Theme configuration",
