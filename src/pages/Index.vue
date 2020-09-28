@@ -47,7 +47,7 @@ export default {
   data() {
     return {
       description:
-        "Plus",
+        "Home",
     };
   },
   metaInfo() {
