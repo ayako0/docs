@@ -13,10 +13,6 @@
       "section": "Economic Drivers",
       "topics": [
         {
-          "title": "Valuation",
-          "slug": "valuation"
-        },
-        {
           "title": "Balance Sheet",
           "slug": "balance-sheet"
         },
@@ -37,12 +33,8 @@
           "slug": "operation-ratios"
         },
         {
-          "title": "Free Cash Flow",
-          "slug": "free_cash_flow"
-        },
-        {
-          "title": "Revenue",
-          "slug": "total_revenue"
+          "title": "Valuation",
+          "slug": "valuation"
         }
       ]
     },
