@@ -6,4 +6,4 @@ slug: economic-intro
 ---
 ## Introduction
 
-Quantopian Morningstar Fundamentals
+Quantopian Morningstar Fundamental samples
