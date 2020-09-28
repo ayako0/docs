@@ -200,7 +200,7 @@ ul {
   margin-top: 1em;
   margin-left: 50%;
   width: 50%;
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
 }
 
 .sub-topic {
