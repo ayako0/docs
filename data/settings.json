@@ -45,7 +45,10 @@
     {
       "section": "Algorithms",
       "topics": [
-
+        {
+          "title": "Simple Moving Average",
+          "slug": "simple-moving-average"
+        }
       ]
     },
     {
