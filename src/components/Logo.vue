@@ -2,12 +2,14 @@
   <g-link to="/" class="logo" title="Back to home">
     <transition name="theme">
       <div v-if="color == 'dark'">
-        <g-image src="~/assets/img/logo-bright.svg" alt="logo" />
+        <div class="square"></div>
+        <!--g-image src="~/assets/img/logo-bright.svg" alt="logo" /-->
       </div>
     </transition>
     <transition name="theme">
       <div v-if="color == 'bright'">
-        <g-image src="~/assets/img/logo-dark.svg" alt="logo" />
+        <div class="square"></div>
+        <!--g-image src="~/assets/img/logo-dark.svg" alt="logo" /-->
       </div>
     </transition>
   </g-link>
@@ -44,6 +46,12 @@ export default {
     height: 100%;
     width: auto;
   }
+}
+
+.square {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(260deg, #1aff24, #20e95c);
 }
 
 .theme-enter-active, .theme-leave-active {
