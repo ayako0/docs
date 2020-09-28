@@ -1,19 +1,6 @@
 {
   "sidebar": [
     {
-      "section": "Personal",
-      "topics": [
-        {
-          "title": "Contact",
-          "slug": "contact"
-        },
-        {
-          "title": "Trading Algorithm",
-          "slug": "trading-algorithm"
-        }
-      ]
-    },
-    {
       "section": "Formulas",
       "topics": [
         {
@@ -59,6 +46,19 @@
       "section": "Algorithms",
       "topics": [
 
+      ]
+    },
+    {
+      "section": "Personal",
+      "topics": [
+        {
+          "title": "Contact",
+          "slug": "contact"
+        },
+        {
+          "title": "Trading Algorithm",
+          "slug": "trading-algorithm"
+        }
       ]
     }
   ]
