@@ -1,7 +1,7 @@
 ---
 title: Benjamin Graham
 date: 2020-09-02
-slug: normalized_basic_eps
+slug: ben_graham
 
 ---
 ## Earnings Per Share
@@ -15,3 +15,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ## Growth Grade
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+`growth_grade`
