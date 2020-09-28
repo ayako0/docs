@@ -13,8 +13,8 @@
       "section": "Economic Drivers",
       "topics": [
         {
-          "title": "Earnings Report",
-          "slug": "earnings-report"
+          "title": "Income Statement",
+          "slug": "income-statement"
         },
         {
           "title": "Balance Sheet",
@@ -23,6 +23,10 @@
         {
           "title": "Cash Flow",
           "slug": "cash-flow"
+        },
+        {
+          "title": "Earnings Report",
+          "slug": "earnings-report"
         },
         {
           "title": "Free Cash Flow",
