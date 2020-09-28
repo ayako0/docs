@@ -1,6 +1,6 @@
 <template>
   <aside
-    class="sidebar"
+    class="sidebar disable-scrollbars"
     :class="{ 'sidebar--open': this.$store.state.sidebarOpen }"
   >
     <nav>
@@ -229,5 +229,15 @@ ul {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.disable-scrollbars {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+.disable-scrollbars::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* Chrome/Safari/Webkit */
 }
 </style>
