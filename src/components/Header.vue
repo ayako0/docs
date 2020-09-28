@@ -71,6 +71,7 @@ export default {
   transition: padding 0.15s linear, background 0.15s linear,
     border-color 0.15s linear;
   will-change: padding, background;
+  max-width: 100%;
 
   @include respond-above(sm) {
     padding: 20px;
