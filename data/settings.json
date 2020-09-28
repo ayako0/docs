@@ -4,6 +4,10 @@
       "section": "Personal",
       "topics": [
         {
+          "title": "Contact",
+          "slug": "contact"
+        },
+        {
           "title": "Trading Algorithm",
           "slug": "trading-algorithm"
         }
