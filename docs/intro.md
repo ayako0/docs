@@ -4,6 +4,6 @@ date: 2020-09-28
 slug: economic-intro
 
 ---
-## Introduction
+## Fundamentals
 
-Quantopian Morningstar Fundamental samples
+Quantopian Morningstar fundamental stats
