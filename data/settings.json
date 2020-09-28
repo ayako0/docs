@@ -13,8 +13,8 @@
       "section": "Economic Drivers",
       "topics": [
         {
-          "title": "Income Statement",
-          "slug": "income-statement"
+          "title": "Operation Ratios",
+          "slug": "operation-ratios"
         },
         {
           "title": "Balance Sheet",
@@ -27,6 +27,10 @@
         {
           "title": "Earnings Report",
           "slug": "earnings-report"
+        },
+        {
+          "title": "Income Statement",
+          "slug": "income-statement"
         },
         {
           "title": "Free Cash Flow",
