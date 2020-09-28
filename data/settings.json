@@ -1,11 +1,11 @@
 {
   "sidebar": [
     {
-      "section": "test",
+      "section": "Economic Drivers",
       "topics": [
         {
-          "title": "test topic",
-          "slug": "test1"
+          "title": "S&P 500 / Revenue",
+          "slug": "sp500-revenue"
         }
       ]
     },
