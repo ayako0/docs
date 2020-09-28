@@ -11,3 +11,7 @@ Lorem ipsum
 ## Exponential Moving Average
 
 Lorem ipsum
+
+## Mean Reversion
+
+Lorem ipsum
