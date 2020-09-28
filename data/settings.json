@@ -4,8 +4,12 @@
       "section": "Economic Drivers",
       "topics": [
         {
+          "title": "S&P 500 / Free Cash Flow",
+          "slug": "free_cash_flow"
+        },
+        {
           "title": "S&P 500 / Revenue",
-          "slug": "sp500-revenue"
+          "slug": "total_revenue"
         }
       ]
     },
