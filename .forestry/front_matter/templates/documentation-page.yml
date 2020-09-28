@@ -16,5 +16,6 @@ fields:
   label: slug
 pages:
 - docs/cash-flow.md
+- docs/intro.md
 - docs/revenue.md
 - docs/title-example-1.md
