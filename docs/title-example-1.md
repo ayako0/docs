@@ -1,5 +1,5 @@
 ---
-title: Growth Factors
+title: Benjamin Graham
 date: 2020-09-02
 slug: normalized_basic_eps
 
