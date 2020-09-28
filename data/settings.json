@@ -4,10 +4,6 @@
       "section": "Benjamin Graham Factors",
       "topics": [
         {
-          "title": "S&P 500 / Growth Score",
-          "slug": "growth_score"
-        },
-        {
           "title": "S&P 500 / Growth Grade",
           "slug": "growth_grade"
         },
@@ -39,10 +35,6 @@
     {
       "section": "Contact",
       "topics": [
-        {
-          "title": "Theme configuration",
-          "slug": "theme-configuration"
-        },
         {
           "title": "Forestry CMS",
           "slug": "forestry-cms"
