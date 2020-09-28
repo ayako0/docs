@@ -1,6 +1,15 @@
 {
   "sidebar": [
     {
+      "section": "Benjamin Graham Factors",
+      "topics": [
+        {
+          "title": "S&P 500 / Earnings Per Share",
+          "slug": "normalized_basic_eps"
+        }
+      ]
+    },
+    {
       "section": "Economic Drivers",
       "topics": [
         {
