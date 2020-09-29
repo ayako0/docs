@@ -1,6 +1,6 @@
 ---
 title: Benjamin Graham
-date: 
+date: ''
 slug: benjamin-graham
 
 ---
@@ -18,4 +18,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
     growth_grade
 
-## S&P 500 Benchmark
+## Chart
