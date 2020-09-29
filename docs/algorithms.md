@@ -12,14 +12,14 @@ Lorem ipsum
 
 Lorem ipsum
 
-## Mean Reversion
-
-Lorem ipsum
-
-## Relative Strength
+## MACD
 
 Lorem ipsum
 
 ## Inertia
+
+Lorem ipsum
+
+## Parabolic SAR
 
 Lorem ipsum
