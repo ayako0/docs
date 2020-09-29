@@ -1,5 +1,5 @@
 ---
-title: Algorithms
+title: Intro
 date: 2020-09-28
 slug: algorithms-intro
 
