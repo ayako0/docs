@@ -1,7 +1,7 @@
 ---
 title: Trend
 date: 2020-09-28
-slug: algorithms-technical
+slug: algorithms-trend
 
 ---
 ## Simple Moving Average
