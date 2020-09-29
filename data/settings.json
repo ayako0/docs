@@ -46,6 +46,10 @@
       "section": "Algorithms",
       "topics": [
         {
+          "title": "Volume",
+          "slug": "algorithms-volume"
+        },
+        {
           "title": "Volatility",
           "slug": "algorithms-volatility"
         },
