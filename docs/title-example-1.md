@@ -12,10 +12,10 @@ slug: benjamin-graham
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-## Growth Grade
+## Price to Earnings
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-    growth_grade
+## Long Term Debt to Equity Ratio
 
 ## Chart
