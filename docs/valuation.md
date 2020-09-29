@@ -6,4 +6,12 @@ slug: valuation
 ---
 ## Enterprise Value
 
-`enterprise_value`
+enterprise_value
+
+## Market Cap
+
+market_cap
+
+## Shares Outstanding
+
+shares_outstanding
