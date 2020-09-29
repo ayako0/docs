@@ -4,22 +4,14 @@ date: 2020-09-28
 slug: algorithms-momentum
 
 ---
-## Simple Moving Average
+## Stochastic Oscillator
 
 Lorem ipsum
 
-## Exponential Moving Average
+## CCI
 
 Lorem ipsum
 
-## Mean Reversion
-
-Lorem ipsum
-
-## Relative Strength
-
-Lorem ipsum
-
-## Inertia
+## RSI
 
 Lorem ipsum
