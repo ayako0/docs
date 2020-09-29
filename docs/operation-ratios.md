@@ -1,57 +1,87 @@
 ---
 title: Operation Ratios
 date: ''
-slug: valuation-ratios
+slug: operation-ratios
 
 ---
-## Book Value Per Share
+## Current Ratio
 
-book_value_per_share
+current_ratio
 
-## Book Value Yield
+## Debt to Assets
 
-book_value_yield
+debtto_assets
 
-## Cash Return
+## EBITDA to Margin
 
-cash_return
+ebitda_margin
 
-## Earning Yield
+## Financial Leverage
 
-earning_yield
+financial_leverage
 
-## Enterprise Value to EBITDA
+## Gross Margin
 
-ev_to_ebitda
+gross_margin
 
-## Free Cash Flow per Share
+## Inventory Turnover
 
-fcf_per_share
+inventory_turnover
 
-## Free Cash Flow Yield
+## Long Term Debt to Equity Ratio
 
-fcf_yield
+long_term_debt_equity_ratio
 
-## Forward Earning Yield
+## Long Term Debt to Total Capital Ratio
 
-forward_earning_yield
+long_term_debt_total_capital_ratio
 
-## Price to Earnings Growth Ratio
+## Net Income Growth
 
-peg_ratio
+net_income_growth
 
-## Sales per Share
+## Net Margin
 
-sales_per_share
+net_margin
 
-## Sales Yield
+## Normalized Net Profit Margin
 
-sales_yield
+normalized_net_profit_margin
 
-## Sustainable Growth Rate
+## Operation Margin
 
-sustainable_growth_rate
+operation_margin
 
-## Working Capital per Share
+## Operation Revenue Growth, Three Month Average
 
-working_capital_per_share
+operation_revenue_growth3_month_avg
+
+## Quick Ratio
+
+quick_ratio
+
+## Revenue Growth
+
+revenue_growth
+
+## Return on Assets
+
+roa
+
+## Return on Equity
+
+roe
+
+## Return on Invested Capital
+
+roic
+
+## Tax Rate
+
+Refers to the ratio of tax provision to pretax income
+
+tax_rate
+
+## Total Debt to Equity Ratio
+
+total_debt_equity_ratio
