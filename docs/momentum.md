@@ -8,10 +8,10 @@ slug: algorithms-momentum
 
 Lorem ipsum
 
-## CCI
+## Commodity Channel
 
 Lorem ipsum
 
-## RSI
+## Relative Strength
 
 Lorem ipsum
