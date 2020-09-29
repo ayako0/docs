@@ -1,6 +1,6 @@
 ---
 title: Benjamin Graham
-date: 2020-09-02
+date: 
 slug: benjamin-graham
 
 ---
