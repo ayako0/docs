@@ -1,6 +1,6 @@
 ---
 title: Latest
-date: '2020-09-29'
+date: 
 slug: latest
 
 ---
