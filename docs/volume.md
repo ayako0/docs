@@ -1,7 +1,7 @@
 ---
 title: Volume
 date: 
-slug: algorithms-volatility
+slug: algorithms-volume
 
 ---
 ## Simple Moving Average
