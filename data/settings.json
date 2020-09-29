@@ -22,10 +22,6 @@
       "section": "Economic Drivers",
       "topics": [
         {
-          "title": "Intro",
-          "slug": "economic-intro"
-        },
-        {
           "title": "Balance Sheet",
           "slug": "balance-sheet"
         },
