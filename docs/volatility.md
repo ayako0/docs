@@ -1,7 +1,7 @@
 ---
 title: Volatility
 date: 2020-09-28
-slug: algorithms-trend
+slug: algorithms-volatility
 
 ---
 ## Simple Moving Average
