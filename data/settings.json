@@ -46,6 +46,10 @@
       "section": "Algorithms",
       "topics": [
         {
+          "title": "Volatility",
+          "slug": "algorithms-volatility"
+        },
+        {
           "title": "Momentum",
           "slug": "algorithms-momentum"
         },
