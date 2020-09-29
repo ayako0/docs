@@ -1,15 +1,6 @@
 {
   "sidebar": [
     {
-      "section": "Latest",
-      "topics": [
-        {
-          "title": "Topic 1",
-          "slug": "latest"
-        }
-      ]
-    },
-    {
       "section": "Formulas",
       "topics": [
         {
