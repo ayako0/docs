@@ -219,7 +219,7 @@ ul {
       display: block;
       position: absolute;
       z-index: -1;
-      left: 20px;
+      left: -60px;
       top: 15px;
     }
   }
