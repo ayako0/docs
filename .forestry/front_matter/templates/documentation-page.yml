@@ -10,6 +10,7 @@ fields:
   label: slug
 pages:
 - docs/algorithms.md
+- docs/bonds.md
 - docs/cash-flow.md
 - docs/momentum.md
 - docs/operation-ratios.md
