@@ -1,6 +1,6 @@
 ---
 title: Volatility
-date: 2020-09-28
+date: 
 slug: algorithms-volatility
 
 ---
