@@ -13,10 +13,6 @@
       "section": "Economic Drivers",
       "topics": [
         {
-          "title": "Earnings Ratios",
-          "slug": "earnings-ratios"
-        },
-        {
           "title": "Balance Sheet",
           "slug": "balance-sheet"
         },
@@ -27,6 +23,10 @@
         {
           "title": "Earnings Report",
           "slug": "earnings-report"
+        },
+        {
+          "title": "Earnings Ratios",
+          "slug": "earnings-ratios"
         },
         {
           "title": "Income Statement",
