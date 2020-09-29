@@ -6,4 +6,4 @@ slug: latest
 ---
 ## Topic 1
 
-(Intro page) Quantopian Morningstar fundamentals - mix and match optimal strategies.
+Quantopian Morningstar fundamentals - mix and match optimal strategies. Personal lab to document trading strategies. I can't think of a better introductory page.
