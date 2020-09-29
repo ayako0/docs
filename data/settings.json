@@ -46,6 +46,10 @@
       "section": "Algorithms",
       "topics": [
         {
+          "title": "Momentum",
+          "slug": "algorithms-momentum"
+        },
+        {
           "title": "Trend",
           "slug": "algorithms-trend"
         }
