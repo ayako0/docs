@@ -64,15 +64,15 @@ quick_ratio
 
 revenue_growth
 
-## Return on Assets
+## Return on Assets (ROA)
 
 roa
 
-## Return on Equity
+## Return on Equity (ROE)
 
 roe
 
-## Return on Invested Capital
+## Return on Invested Capital (ROIC)
 
 roic
 
