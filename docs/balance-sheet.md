@@ -1,7 +1,7 @@
 ---
 title: Balance Sheet
 date: ''
-slug: earnings-report
+slug: balance-sheet
 
 ---
 ## Basic EPS
