@@ -13,6 +13,10 @@
       "section": "Economic Drivers",
       "topics": [
         {
+          "title": "Valuation Ratios",
+          "slug": "algorithms-valuation-ratios"
+        },
+        {
           "title": "Balance Sheet",
           "slug": "balance-sheet"
         },
