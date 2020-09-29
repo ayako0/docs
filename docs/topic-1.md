@@ -6,8 +6,4 @@ slug: latest
 ---
 ## Topic 1
 
-Quantopian Morningstar fundamentals - mix and match optimal strategies.
-
-## Topic 2
-
-## Topic 3
+(Intro page) Quantopian Morningstar fundamentals - mix and match optimal strategies.
