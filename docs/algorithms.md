@@ -1,5 +1,5 @@
 ---
-title: Technical Indicators
+title: Trend Indicators
 date: 2020-09-28
 slug: algorithms-technical
 
