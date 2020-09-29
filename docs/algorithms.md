@@ -1,5 +1,5 @@
 ---
-title: Intro
+title: Technical Indicators
 date: 2020-09-28
 slug: algorithms-intro
 
@@ -21,9 +21,5 @@ Lorem ipsum
 Lorem ipsum
 
 ## Inertia
-
-Lorem ipsum
-
-## 52-Week Highs
 
 Lorem ipsum
