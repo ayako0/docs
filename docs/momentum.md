@@ -1,7 +1,7 @@
 ---
 title: Momentum
 date: 2020-09-28
-slug: algorithms-trend
+slug: algorithms-momentum
 
 ---
 ## Simple Moving Average
