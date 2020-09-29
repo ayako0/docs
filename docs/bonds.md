@@ -1,9 +1,13 @@
 ---
 title: Bonds
 date: 
-slug: cash-flow
+slug: bonds
 
 ---
-## Free Cash Flow
+## Bank Indebtedness
 
-Lorem ipsum
+bank_indebtedness
+
+## Long Term Debt
+
+long_term_debt
