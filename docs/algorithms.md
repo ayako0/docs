@@ -1,7 +1,7 @@
 ---
 title: Technical Indicators
 date: 2020-09-28
-slug: algorithms-intro
+slug: algorithms-technical
 
 ---
 ## Simple Moving Average
