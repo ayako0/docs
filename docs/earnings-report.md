@@ -1,17 +1,17 @@
 ---
 title: Earnings Report
 date: ''
-slug: valuation
+slug: earnings-report
 
 ---
-## Enterprise Value
+## Basic EPS
 
-enterprise_value
+basic_eps_earnings_reports
 
-## Market Cap
+## Normalized Basic EPS
 
-market_cap
+normalized_basic_eps
 
-## Shares Outstanding
+## Normalized Diluted EPS
 
-shares_outstanding
+normalized_diluted_eps_earnings_reports
