@@ -17,3 +17,5 @@ g: (Return on equity, 10 years ago / current return on equity)^(1/10))-1
 4\.4: Bond rate at the time the equation was written
 
 Y: Current 20 year corporate bond rate
+
+V = (EPS * (PE ratio + (ROE growth)) / current bond rate) - resulting figure
