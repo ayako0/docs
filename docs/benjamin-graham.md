@@ -4,6 +4,8 @@ date: ''
 slug: benjamin-graham
 
 ---
+Original:
+
 V = (EPS * (8.5 + 2g) * 4.4) / Y
 
 V: Intrinsic value
