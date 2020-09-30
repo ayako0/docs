@@ -18,12 +18,6 @@ Net income / revenue
 
 net_margin
 
-## Normalized Net Profit Margin
-
-Normalized net income / revenue
-
-normalized_net_profit_margin
-
 ## Operation Margin
 
 Operating income / revenue
