@@ -24,7 +24,7 @@ cash_return
 
 ## Earning Yield
 
-Diluted earnings per share / price
+(Diluted earnings / common shares outstanding) / price
 
 earning_yield
 
@@ -35,6 +35,8 @@ earning_yield
 ev_to_ebitda
 
 ## Free Cash Flow Yield
+
+(Cash flow operations - capital expenditures / common shares outstanding) / price
 
 fcf_yield
 
