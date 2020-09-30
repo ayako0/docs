@@ -32,6 +32,18 @@ fcf_yield
 
 forward_earning_yield
 
+## Price to Book Ratio
+
+pb_ratio
+
+## Price to Earnings Ratio
+
+pe_ratio
+
+## Price to Sales Ratio
+
+ps_ratio
+
 ## Price to Earnings Growth Ratio
 
 peg_ratio
