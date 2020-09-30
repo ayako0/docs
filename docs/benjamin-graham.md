@@ -10,6 +10,6 @@ V: Book value per share
 
 EPS: Earnings per share
 
-g: 7-10 year growth rate
+g: Return on equity, P (1 + r/10)^(1/10)
 
 Y: Current 20 year corporate bond rate
