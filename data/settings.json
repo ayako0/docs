@@ -50,6 +50,10 @@
       "section": "Algorithms",
       "topics": [
         {
+          "title": "Machine Learning",
+          "slug": "machine-learning"
+        },
+        {
           "title": "Volume",
           "slug": "algorithms-volume"
         },
