@@ -28,7 +28,7 @@ Value 1 = (EPS * ((PE ratio > 8.5) + (ROE growth rate * .01))
 
 Current bond rate = (current bond rate * .01)
 
-Value 2 = Value 1 * current bond rate
+Value 2 = Value 1 * Current bond rate
 
 Final = Value 1 + Value 2
 
