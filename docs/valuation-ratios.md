@@ -18,7 +18,7 @@ book_value_yield
 
 ## Cash Return
 
-Free cash flow / enterprise value
+(Cash flow operations - capital expenditures) / enterprise value
 
 cash_return
 
@@ -30,7 +30,7 @@ earning_yield
 
 ## Enterprise Value to EBITDA
 
-Enterprise value / net income - interest + taxes + depreciation + amortization
+**Enterprise value / net income - interest + taxes + depreciation + amortization**
 
 ev_to_ebitda
 
