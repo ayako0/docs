@@ -6,6 +6,8 @@ slug: valuation-ratios
 ---
 ## Book Value per Share
 
+(Assets - liabilities ) / common shares outstanding
+
 book_value_per_share
 
 ## Book Value Yield
@@ -33,6 +35,8 @@ fcf_yield
 forward_earning_yield
 
 ## Price to Book Ratio
+
+Close price / (assets - liabilities)
 
 pb_ratio
 
