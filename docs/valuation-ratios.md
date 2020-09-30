@@ -42,6 +42,8 @@ fcf_yield
 
 ## Forward Earning Yield
 
+(Next year's estimate for diluted earnings / common shares outstanding) / price
+
 forward_earning_yield
 
 ## Price to Book Ratio
