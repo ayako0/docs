@@ -30,6 +30,8 @@ operation_revenue_growth3_month_avg
 
 ## Quick Ratio
 
+Liquidity / liabilities
+
 quick_ratio
 
 ## Revenue Growth
@@ -40,13 +42,19 @@ revenue_growth
 
 ## Return on Assets (ROA)
 
+Net income / total assets
+
 roa
 
 ## Return on Equity (ROE)
 
+Net income / total common equity
+
 roe
 
 ## Return on Invested Capital (ROIC)
+
+Net income / (total equity + total debt and capital lease obligation)
 
 roic
 
