@@ -14,29 +14,21 @@ Earnings - (interest + tax + deprecation + amortization)
 
 ebitda
 
-## Gross Profit
-
-Revenue - cost of revenue
-
-gross_profit
-
 ## Net Income
 
-Revenue - (expenses)
+Revenue - expenses
 
 net_income_income_statement
 
-## Net Income from Continuing and Discontinued Operation
-
-net_income_from_continuing_and_discontinued_operation
-
 ## Operating Income
+
+Revenue - expenses - income from investing activities
 
 operating_income
 
 ## Tax Rate Used for Calculations
 
-tax_rate_for_calcs ***
+tax_rate_for_calcs
 
 ## Total Revenue
 
