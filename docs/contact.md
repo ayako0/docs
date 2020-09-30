@@ -1,6 +1,8 @@
 ---
 title: Contact
-slug: trading-algorithm
+slug: contact
 
 ---
-Document personal trading algorithm.
+email
+
+twitter
