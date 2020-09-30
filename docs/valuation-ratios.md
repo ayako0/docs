@@ -64,14 +64,6 @@ Close price / (revenue / common shares outstanding)
 
 ps_ratio
 
-## Price to Earnings Growth Ratio
-
-Close price / (net income / common shares outstanding) / average long-term earning growth rate
-
-ForwardPERatio / Long-term Average Earning Growth Rate
-
-peg_ratio
-
 ## Sales Yield
 
 (Revenue / common shares outstanding) / close price
@@ -79,5 +71,7 @@ peg_ratio
 sales_yield
 
 ## Sustainable Growth Rate
+
+Net income / total common equity * (1 - dividend per share / diluted earnings per share)
 
 sustainable_growth_rate
