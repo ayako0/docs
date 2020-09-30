@@ -8,47 +8,25 @@ slug: operation-ratios
 
 current_ratio
 
-## Debt to Assets
-
-debtto_assets
-
-## EBITDA to Margin
-
-ebitda_margin
-
-## Financial Leverage
-
-financial_leverage
-
-## Gross Margin
-
-gross_margin
-
-## Inventory Turnover
-
-inventory_turnover
-
-## Long Term Debt to Equity Ratio
-
-long_term_debt_equity_ratio
-
-## Long Term Debt to Total Capital Ratio
-
-long_term_debt_total_capital_ratio
-
 ## Net Income Growth
 
 net_income_growth
 
 ## Net Margin
 
+Net income / revenue
+
 net_margin
 
 ## Normalized Net Profit Margin
 
+Normalized net income / revenue
+
 normalized_net_profit_margin
 
 ## Operation Margin
+
+Operating income / revenue
 
 operation_margin
 
@@ -75,12 +53,6 @@ roe
 ## Return on Invested Capital (ROIC)
 
 roic
-
-## Tax Rate
-
-Refers to the ratio of tax provision to pretax income
-
-tax_rate
 
 ## Total Debt to Equity Ratio
 
