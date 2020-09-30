@@ -6,9 +6,13 @@ slug: valuation
 ---
 ## Enterprise Value
 
+Common equity + preferred equity + minority equity + debt - cash
+
 enterprise_value
 
 ## Market Cap
+
+Common shares outstanding * share price
 
 market_cap
 
