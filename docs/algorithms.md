@@ -12,6 +12,10 @@ Lorem ipsum
 
 Lorem ipsum
 
+## Parabolic SAR
+
+Lorem ipsum
+
 ## Linear Regression
 
 Lorem ipsum
@@ -20,6 +24,6 @@ Lorem ipsum
 
 [https://github.com/twopirllc/pandas-ta](https://github.com/twopirllc/pandas-ta "https://github.com/twopirllc/pandas-ta")
 
-## Parabolic SAR
+## Capital Asset Pricing Model (CAPM)
 
 Lorem ipsum
