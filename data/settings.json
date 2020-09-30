@@ -58,10 +58,6 @@
           "slug": "algorithms-volatility"
         },
         {
-          "title": "Momentum",
-          "slug": "algorithms-momentum"
-        },
-        {
           "title": "Trend",
           "slug": "algorithms-trend"
         }
