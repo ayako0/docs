@@ -4,14 +4,10 @@ date:
 slug: algorithms-momentum
 
 ---
-## Stochastic Oscillator
+## Relative Strength
 
 Lorem ipsum
 
 ## Commodity Channel
-
-Lorem ipsum
-
-## Relative Strength
 
 Lorem ipsum
