@@ -42,9 +42,13 @@ pb_ratio
 
 ## Price to Earnings Ratio
 
+Close price / (net income / common shares outstanding)
+
 pe_ratio
 
 ## Price to Sales Ratio
+
+Close price / (revenue / common shares outstanding)
 
 ps_ratio
 
