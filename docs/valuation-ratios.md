@@ -30,7 +30,7 @@ earning_yield
 
 ## Enterprise Value to EBITDA
 
-Enterprise value / net income - interest + taxes + depreciation + amorization
+Enterprise value / net income - interest + taxes + depreciation + amortization
 
 ev_to_ebitda
 
