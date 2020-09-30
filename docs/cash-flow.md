@@ -6,4 +6,4 @@ slug: cash-flow
 ---
 ## Free Cash Flow
 
-Lorem ipsum
+Cash flow operations - capital expenditures
