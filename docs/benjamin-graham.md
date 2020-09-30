@@ -25,3 +25,5 @@ Original equation is using outdated bond rates. The static weightings (8.5 and 2
 Baseline:
 
 V = (EPS * (PE ratio + (ROE growth)) / current bond rate) - resulting figure
+
+Try different weightings.
