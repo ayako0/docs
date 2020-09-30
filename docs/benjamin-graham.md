@@ -18,4 +18,6 @@ g: (Return on equity, 10 years ago / current return on equity)^(1/10))-1
 
 Y: Current 20 year corporate bond rate
 
+Equation is still using outdated bond rates. The static weightings (8.5 and 2) may need to change for time series analysis. 
+
 V = (EPS * (PE ratio + (ROE growth)) / current bond rate) - resulting figure
