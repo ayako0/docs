@@ -6,7 +6,7 @@ slug: valuation
 ---
 ## Enterprise Value
 
-Common equity + preferred equity + minority equity + debt - cash
+Common equity + preferred equity + minority equity + debt - cash and cash equivalents
 
 enterprise_value
 
