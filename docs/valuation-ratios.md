@@ -30,7 +30,7 @@ earning_yield
 
 ## Enterprise Value to EBITDA
 
-**Enterprise value / net income - interest + taxes + depreciation + amortization**
+(Common equity + preferred equity + minority equity + total debt - cash and cash equivalents) / net income - (interest + tax + deprecation + amortization)
 
 ev_to_ebitda
 
