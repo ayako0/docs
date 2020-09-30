@@ -6,7 +6,7 @@ slug: valuation-ratios
 ---
 ## Book Value per Share
 
-(Assets - liabilities ) / common shares outstanding
+(Assets - liabilities) / common shares outstanding
 
 book_value_per_share
 
