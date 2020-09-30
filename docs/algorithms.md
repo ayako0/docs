@@ -16,13 +16,13 @@ Lorem ipsum
 
 Lorem ipsum
 
-## Linear Regression
-
-Lorem ipsum
-
 ## Inertia
 
 [https://github.com/twopirllc/pandas-ta](https://github.com/twopirllc/pandas-ta "https://github.com/twopirllc/pandas-ta")
+
+## Linear Regression
+
+Lorem ipsum
 
 ## Capital Asset Pricing Model (CAPM)
 
