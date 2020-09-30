@@ -4,12 +4,6 @@ date: ''
 slug: balance-sheet
 
 ---
-## Book Value per Share
-
-(Assets - liabilities) / common shares outstanding
-
-book_value_per_share
-
 ## Cash and Cash Equivalents
 
 Cash + immediately liquid instruments
