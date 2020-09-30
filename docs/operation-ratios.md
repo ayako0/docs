@@ -6,9 +6,13 @@ slug: operation-ratios
 ---
 ## Current Ratio
 
+Current assets / current liabilities
+
 current_ratio
 
 ## Net Income Growth
+
+((Net income current - net income from previous quarter) / net income current) * 100
 
 net_income_growth
 
@@ -18,13 +22,9 @@ Net income / revenue
 
 net_margin
 
-## Operation Margin
-
-Operating income / revenue
-
-operation_margin
-
 ## Operation Revenue Growth, Three Month Average
+
+((Operation revenue current - operation revenue from previous quarter) / operation revenue current) * 100
 
 operation_revenue_growth3_month_avg
 
@@ -33,6 +33,8 @@ operation_revenue_growth3_month_avg
 quick_ratio
 
 ## Revenue Growth
+
+((Revenue current - revenue from previous quarter) / revenue current) * 100
 
 revenue_growth
 
@@ -49,5 +51,7 @@ roe
 roic
 
 ## Total Debt to Equity Ratio
+
+Common shares outstanding - total debt
 
 total_debt_equity_ratio
