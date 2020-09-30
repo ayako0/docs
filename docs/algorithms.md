@@ -4,15 +4,11 @@ date:
 slug: algorithms-trend
 
 ---
-## Simple Moving Average
+## Simple Moving Average Convergence
 
 Lorem ipsum
 
-## Exponential Moving Average
-
-Lorem ipsum
-
-## Moving Average Convergence / Divergence
+## Exponential Moving Average Convergence
 
 Lorem ipsum
 
