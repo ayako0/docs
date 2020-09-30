@@ -16,15 +16,9 @@ Cash + immediately liquid instruments
 
 cash_and_cash_equivalents
 
-## Stockholders Equity
-
-Common shares outstanding
-
-stockholders_equity
-
 ## Total Assets
 
-Tangible and intangible material worth
+Tangible and intangible value
 
 total_assets
 
@@ -36,6 +30,6 @@ total_debt
 
 ## Total Equity
 
-Preferred + common shares outstanding
+Assets - liabilities
 
 total_equity
