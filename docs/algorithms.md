@@ -12,7 +12,7 @@ Lorem ipsum
 
 Lorem ipsum
 
-## MACD
+## Moving Average Convergence / Divergence
 
 Lorem ipsum
 
