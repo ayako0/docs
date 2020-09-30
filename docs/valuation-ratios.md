@@ -12,7 +12,7 @@ book_value_per_share
 
 ## Book Value Yield
 
-(Assets - liabilities) / price
+(Assets - liabilities) / close price
 
 book_value_yield
 
@@ -24,7 +24,7 @@ cash_return
 
 ## Earning Yield
 
-(Diluted earnings / common shares outstanding) / price
+(Diluted earnings / common shares outstanding) / close price
 
 earning_yield
 
@@ -36,13 +36,13 @@ ev_to_ebitda
 
 ## Free Cash Flow Yield
 
-(Cash flow operations - capital expenditures / common shares outstanding) / price
+(Cash flow operations - capital expenditures / common shares outstanding) / close price
 
 fcf_yield
 
 ## Forward Earning Yield
 
-(Next year's estimate for diluted earnings / common shares outstanding) / price
+(Next year's estimate for diluted earnings / common shares outstanding) / close price
 
 forward_earning_yield
 
@@ -66,9 +66,15 @@ ps_ratio
 
 ## Price to Earnings Growth Ratio
 
+Close price / (net income / common shares outstanding) / average long-term earning growth rate
+
+ForwardPERatio / Long-term Average Earning Growth Rate
+
 peg_ratio
 
 ## Sales Yield
+
+(Revenue / common shares outstanding) / close price
 
 sales_yield
 
