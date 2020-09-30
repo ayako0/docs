@@ -20,4 +20,6 @@ Y: Current 20 year corporate bond rate
 
 Original equation is using outdated bond rates. The static weightings (8.5 and 2) may need to be re-figured for weekly or monthly time series analysis. 
 
+Baseline:
+
 V = (EPS * (PE ratio + (ROE growth)) / current bond rate) - resulting figure
