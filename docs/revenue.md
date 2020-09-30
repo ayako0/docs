@@ -6,7 +6,9 @@ slug: income-statement
 ---
 ## Depreciation and Amortization
 
-(Assets - liabilities) - cost and degradation of assets depreciation_and_amortization_income_statement
+(Assets - liabilities) - cost and degradation of assets 
+
+depreciation_and_amortization_income_statement
 
 ## EBITDA
 
