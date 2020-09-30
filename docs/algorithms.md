@@ -16,6 +16,10 @@ Lorem ipsum
 
 Lorem ipsum
 
+## Linear Regression
+
+Lorem ipsum
+
 ## Inertia
 
 Lorem ipsum
