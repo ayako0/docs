@@ -4,6 +4,10 @@ date: ''
 slug: valuation-ratios
 
 ---
+## Book Value per Share
+
+book_value_per_share
+
 ## Book Value Yield
 
 book_value_yield
@@ -39,7 +43,3 @@ sales_yield
 ## Sustainable Growth Rate
 
 sustainable_growth_rate
-
-## Tangible Book Value per Share
-
-tangible_book_value_per_share
