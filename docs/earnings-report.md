@@ -4,6 +4,6 @@ date: ''
 slug: earnings-report
 
 ---
-## Basic EPS
+## Earnings per Share (EPS)
 
 basic_eps_earnings_reports
