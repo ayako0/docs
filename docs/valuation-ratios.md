@@ -12,17 +12,25 @@ book_value_per_share
 
 ## Book Value Yield
 
+(Assets - liabilities) / price
+
 book_value_yield
 
 ## Cash Return
+
+Free cash flow / enterprise value
 
 cash_return
 
 ## Earning Yield
 
+Diluted earnings per share / price
+
 earning_yield
 
 ## Enterprise Value to EBITDA
+
+Enterprise value / net income - interest + taxes + depreciation + amorization
 
 ev_to_ebitda
 
