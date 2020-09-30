@@ -52,6 +52,6 @@ sales_yield
 
 sustainable_growth_rate
 
-## Working Capital per Share
+## Tangible Book Value per Share
 
-working_capital_per_share
+tangible_book_value_per_share
