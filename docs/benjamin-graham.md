@@ -4,8 +4,12 @@ date: ''
 slug: benjamin-graham
 
 ---
-(Update 3) Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+V = (EPS * (8.5 + 2g) * 4.4) / Y
 
-    normalized_basic_eps + pricetoearnings - bondyield
+V: Book value per share
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+EPS: Earnings per share
+
+g: 7-10 year growth rate
+
+Y: Current 20 year corporate bond rate
