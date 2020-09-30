@@ -4,50 +4,42 @@ date:
 slug: income-statement
 
 ---
-## Depreciation and Amortization, Income Statement
+## Depreciation and Amortization
 
-depreciation_and_amortization_income_statement
+(Assets - liabilities) - cost and degradation of assets depreciation_and_amortization_income_statement
 
 ## EBITDA
 
+Earnings - (interest + tax + deprecation + amortization)
+
 ebitda
-
-## Fee Revenue and Other Income
-
-fee_revenue_and_other_income
 
 ## Gross Profit
 
+Revenue - cost of revenue
+
 gross_profit
 
-## Net Income, Income Statement
+## Net Income
+
+Revenue - (expenses)
 
 net_income_income_statement
-
-## Net Income, Common Stockholders
-
-net_income_common_stockholders
 
 ## Net Income from Continuing and Discontinued Operation
 
 net_income_from_continuing_and_discontinued_operation
 
-## Normalized Income
-
-normalized_income
-
 ## Operating Income
 
 operating_income
-
-## Pretax Income
-
-pretax_income
 
 ## Tax Rate Used for Calculations
 
 tax_rate_for_calcs ***
 
 ## Total Revenue
+
+Income as produced by sales
 
 total_revenue
