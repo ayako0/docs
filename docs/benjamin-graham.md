@@ -6,7 +6,7 @@ slug: benjamin-graham
 ---
 V = (EPS * (8.5 + 2g) * 4.4) / Y
 
-V: Intrinsic value, defined as book value per share
+V: Intrinsic value
 
 EPS: Current earnings per share
 
