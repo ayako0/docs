@@ -110,16 +110,11 @@ nav {
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-content: stretch;
-  // align-items: flex-end;
   height: 100%;
-  // font-family: "IBM Plex Sans", monospace;
-  // font-size: 14px;
-  // font-style: italic;
 }
 
 .flex-item {
   color: white;
-  font-style: italic;
 }
 
 .flex-item:nth-child(1) {
@@ -127,33 +122,44 @@ nav {
   flex: 12 1 auto;
   align-self: auto;
   margin-top: auto;
-  width: 50%;
-}
-
-.flex-item:nth-child(2) {
-  order: 0;
-  flex: 1 1 auto;
-  align-self: auto;
-  transform: translateY(50%);
-}
-
-.flex-item:nth-child(3) {
-  order: 0;
-  flex: 1 1 auto;
-  align-self: auto;
-  transform: translateY(50%);
-}
-
-.flex-item:nth-child(4) {
-  order: 0;
-  flex: 1 1 auto;
-  align-self: auto;
-  transform: translateY(50%);
+  width: 33.4%;
 }
 
 .flex-item:nth-child(2),
 .flex-item:nth-child(3),
 .flex-item:nth-child(4) {
-  width: 16.67%;
+  order: 0;
+  flex: 1 1 auto;
+  align-self: auto;
+  transform: translateY(50%);
+  width: 22.2%;
+  padding-right: 20px;
+  // font-family: "IBM Plex Sans", monospace;
+  // font-size: 14px;
+  // font-style: italic;
+}
+
+.main .flex-item a {
+  text-decoration: none;
+}
+
+@include respond-between(xxs, sm) {
+  .flex-container {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    padding: 0px 80px;
+  }
+
+  .flex-item:nth-child(1) {
+    display: none;
+  }
+
+  .flex-item:nth-child(2),
+  .flex-item:nth-child(3),
+  .flex-item:nth-child(4) {
+    width: 100%;
+    padding-right: 0px;
+  }
 }
 </style>
