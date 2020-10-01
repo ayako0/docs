@@ -1,5 +1,9 @@
 <template>
-  <button @click="toggleSidebar()" class="toggle" aria-label="Toggle the sidebar">
+  <button
+    @click="toggleSidebar()"
+    class="toggle"
+    aria-label="Toggle the sidebar"
+  >
     <transition name="toggle">
       <menu-icon v-show="!this.$store.state.sidebarOpen" class="open" />
     </transition>
@@ -10,21 +14,21 @@
 </template>
 
 <script>
-import { MenuIcon, XIcon } from 'vue-feather-icons'
+import { MenuIcon, XIcon } from "vue-feather-icons";
 
 export default {
   components: {
     MenuIcon,
-    XIcon
+    XIcon,
   },
   methods: {
     toggleSidebar: function() {
       if (process.isClient) {
-        this.$store.commit('toggleSidebar')
+        this.$store.commit("toggleSidebar");
       }
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -32,7 +36,7 @@ button {
   background: none;
   border: 0;
   padding: 0;
-  transition: color .15s ease-in-out;
+  transition: color 0.15s ease-in-out;
   cursor: pointer;
   width: 40px;
   height: 40px;
@@ -45,7 +49,7 @@ button {
   &:focus {
     outline: none;
   }
-  
+
   .bright & {
     color: $textBright;
   }
@@ -61,12 +65,12 @@ svg {
   left: 8px;
 }
 
-.toggle-enter-active, .toggle-leave-active {
-  transition: transform .25s ease-in-out, opacity .25s ease-in-out;
+.toggle-enter-active,
+.toggle-leave-active {
+  transition: transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
 }
 .toggle-enter, .toggle-leave-to /* .fade-leave-active below version 2.1.8 */ {
   transform: rotateZ(-180deg);
   opacity: 0;
 }
 </style>
-
