@@ -3,21 +3,21 @@
     <div class="flex-container">
       <div class="flex-item"></div>
       <div class="flex-item">
-        <a href="/economic-intro">Featured link 1</a>
+        <a href="/benjamin-graham">Featured link 1</a>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor...
         </p>
       </div>
       <div class="flex-item">
-        <a href="/economic-intro">Featured link 2</a>
+        <a href="/benjamin-graham">Featured link 2</a>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor...
         </p>
       </div>
       <div class="flex-item">
-        <a href="/economic-intro">Featured link 3</a>
+        <a href="/benjamin-graham">Featured link 3</a>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor...
@@ -46,8 +46,7 @@ export default {
   },
   data() {
     return {
-      description:
-        "Home",
+      description: "Home",
     };
   },
   metaInfo() {
@@ -57,8 +56,7 @@ export default {
         {
           key: "description",
           name: "description",
-          content:
-            "Visualizing economic theory.",
+          content: "Visualizing economic theory.",
         },
       ],
     };
