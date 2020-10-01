@@ -2,7 +2,8 @@
 
 code[class*="language-"],
 pre[class*="language-"] {
-  font-family: "IBM Plex Sans",SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  font-family: "IBM Plex Sans", SFMono-Regular, Consolas, Liberation Mono, Menlo,
+    monospace;
   font-size: 14px;
   text-align: left;
   white-space: pre;
@@ -78,7 +79,7 @@ pre[class*="language-"] {
   }
 
   .token.punctuation {
-    color: #999;
+    color: #31d194;
   }
 
   .token.property,
@@ -88,7 +89,7 @@ pre[class*="language-"] {
   .token.constant,
   .token.symbol,
   .token.deleted {
-    color: #905;
+    color: #d943b1;
   }
 
   .token.selector,
@@ -97,7 +98,7 @@ pre[class*="language-"] {
   .token.char,
   .token.builtin,
   .token.inserted {
-    color: #690;
+    color: #f25050;
   }
 
   .token.operator,
@@ -105,24 +106,24 @@ pre[class*="language-"] {
   .token.url,
   .language-css .token.string,
   .style .token.string {
-    color: #9a6e3a;
+    color: #18dab0;
   }
 
   .token.atrule,
   .token.attr-value,
   .token.keyword {
-    color: #07a;
+    color: #023373;
   }
 
   .token.function,
   .token.class-name {
-    color: #dd4a68;
+    color: #f25ce8;
   }
 
   .token.regex,
   .token.important,
   .token.variable {
-    color: #e90;
+    color: #d943b1;
   }
 }
 
@@ -138,7 +139,7 @@ pre[class*="language-"] {
   }
 
   .token.punctuation {
-    color: #f8f8f2;
+    color: #31d194;
   }
 
   .token.property,
@@ -147,12 +148,12 @@ pre[class*="language-"] {
   .token.symbol,
   .token.deleted,
   .language-scss .token.variable {
-    color: #f92672;
+    color: #31d194;
   }
 
   .token.boolean,
   .token.number {
-    color: #ae81ff;
+    color: #f25ce8;
   }
 
   .token.selector,
@@ -161,7 +162,7 @@ pre[class*="language-"] {
   .token.char,
   .token.builtin,
   .token.inserted {
-    color: #a6e22e;
+    color: #b8f73a;
   }
 
   .token.operator,
@@ -170,14 +171,14 @@ pre[class*="language-"] {
   .language-css .token.string,
   .style .token.string,
   .token.variable {
-    color: #f8f8f2;
+    color: #f25ce8;
   }
 
   .token.atrule,
   .token.attr-value,
   .token.function,
   .token.class-name {
-    color: #e6db74;
+    color: #b8f73a;
   }
 
   .token.keyword {
@@ -186,6 +187,6 @@ pre[class*="language-"] {
 
   .token.regex,
   .token.important {
-    color: #fd971f;
+    color: #d943b1;
   }
 }
