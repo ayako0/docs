@@ -38,7 +38,4 @@ Final = Value 1 + Value 2
 
 Try different weightings.
 
-<div>
-    <a href="https://plotly.com/~ayako0/1/?share_key=h4KTXitEFu9J9zWbMOMch4" target="_blank" title="Plot 1" style="display: block; text-align: center;"><img src="https://plotly.com/~ayako0/1.png?share_key=h4KTXitEFu9J9zWbMOMch4" alt="Plot 1" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
-    <script data-plotly="ayako0:1" sharekey-plotly="h4KTXitEFu9J9zWbMOMch4" src="https://plotly.com/embed.js" async></script>
-</div>
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~ayako0/1.embed"></iframe>
