@@ -84,6 +84,15 @@ Tangible and intangible value
 
 total_assets
 
+    import { MoonIcon, SunIcon } from 'vue-feather-icons'
+    
+    export default {
+      components: {
+        MoonIcon,
+        SunIcon
+      },
+    ...
+
 ## Total Debt
 
 Current and long-term debts owed
