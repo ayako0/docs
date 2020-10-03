@@ -3,6 +3,6 @@ title: Trading Algorithm
 slug: trading-algorithm
 
 ---
-## Personal Trading
+## Personal Chart
 
 _In short order_
