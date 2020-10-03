@@ -18,7 +18,7 @@ _In short order_
 
 ## Inertia
 
-[https://github.com/twopirllc/pandas-ta](https://github.com/twopirllc/pandas-ta "https://github.com/twopirllc/pandas-ta")
+_In short order_
 
 ## Linear Regression
 
