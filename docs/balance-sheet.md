@@ -102,14 +102,10 @@ Find stocks with lowest debt.
 
     def make_pipeline(context):
         univ = Q3000US()
-    
         factor = ms.total_debt.latest.rank(mask=univ, ascending=True)
-    
         bottom = factor.bottom(context.FINE_FILTER)
-    
         pipe = Pipeline(
             columns={'bottom': bottom}, screen=univ)
-    
         return pipe
 
 _All fundamental testing algos have the following attributes:_
