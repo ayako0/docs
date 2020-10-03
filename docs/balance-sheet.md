@@ -8,7 +8,9 @@ slug: balance-sheet
 
 Cash + immediately liquid instruments
 
-Find stocks with highest cash and cash equivalents. cash_and_cash_equivalents
+Find stocks with highest cash and cash equivalents.
+
+cash_and_cash_equivalents
 
     import quantopian.algorithm as algo
     from quantopian.pipeline import Pipeline
@@ -84,14 +86,7 @@ Tangible and intangible value
 
 total_assets
 
-    import { MoonIcon, SunIcon } from 'vue-feather-icons'
-    
-    export default {
-      components: {
-        MoonIcon,
-        SunIcon
-      },
-    ...
+    factor = ms.total_assets.latest.rank(mask=univ, ascending=False)
 
 ## Total Debt
 
@@ -99,11 +94,15 @@ Current and long-term debts owed
 
 total_debt
 
+    factor = ms.total_assets.latest.rank(mask=univ, ascending=False)
+
 ## Total Equity
 
 Assets - liabilities
 
 total_equity
+
+    factor = ms.total_assets.latest.rank(mask=univ, ascending=False)
 
 _All testing algos have the following attributes:_
 
