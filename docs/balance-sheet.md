@@ -104,7 +104,7 @@ Assets - liabilities
 
     factor = ms.total_assets.latest.rank(mask=univ, ascending=False)
 
-_All testing algos have the following attributes:_
+_All fundamental testing algos have the following attributes:_
 
 Start to end: 01/02/2006 - 09/01/2020
 
