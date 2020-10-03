@@ -71,3 +71,13 @@ Find stocks with highest earnings per share.
             objective=target_weights,
             constraints=constraints
         )
+
+_All fundamental testing algos have the following attributes:_
+
+Start to end: 01/02/2006 - 09/01/2020
+
+Starting capital: $10000
+
+Number of stocks: 5
+
+Max leverage: 1
