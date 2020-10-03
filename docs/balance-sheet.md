@@ -27,11 +27,8 @@ Find stocks with highest cash and cash equivalents.
         set_slippage(slippage.FixedSlippage(spread=0.00))
     
         context.SPY = symbol('SPY')
-    
         context.FINE_FILTER = 5
-    
         context.stock_weights = pd.Series()
-    
         algo.attach_pipeline(make_pipeline(context), 'pipeline')
     
         schedule_function(
@@ -49,14 +46,10 @@ Find stocks with highest cash and cash equivalents.
     
     def make_pipeline(context):
     	univ = Q3000US()
-    
         factor = ms.cash_and_cash_equivalents.latest.rank(mask=univ, ascending=False)
-    
         top = factor.top(context.FINE_FILTER)
-    
         pipe = Pipeline(
             columns={'top': top}, screen=univ)
-    
         return pipe
     
     
@@ -64,7 +57,6 @@ Find stocks with highest cash and cash equivalents.
         df = algo.pipeline_output('pipeline')
         rule = 'top'
         stocks_to_hold = df.query(rule).index
-    
         stock_weight = 1.0 / context.FINE_FILTER
         context.stocks_weights = pd.Series(index=stocks_to_hold, data=stock_weight)
     
