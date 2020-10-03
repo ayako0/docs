@@ -3,4 +3,6 @@ title: Trading Algorithm
 slug: trading-algorithm
 
 ---
-Document personal trading algorithm.
+## Personal Trading
+
+_In short order_
