@@ -57,7 +57,6 @@ Find stocks with highest free cash flow.
         df = algo.pipeline_output('pipeline')
         rule = 'top'
         stocks_to_hold = df.query(rule).index
-    
         stock_weight = 1.0 / context.FINE_FILTER
         context.stocks_weights = pd.Series(index=stocks_to_hold, data=stock_weight)
     
