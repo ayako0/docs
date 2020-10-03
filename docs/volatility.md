@@ -6,8 +6,8 @@ slug: algorithms-volatility
 ---
 ## Beta
 
-Lorem ipsum
+_In short order_
 
 ## Mean Reversion
 
-Lorem ipsum
+_In short order_
