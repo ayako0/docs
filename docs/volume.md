@@ -6,8 +6,8 @@ slug: algorithms-volume
 ---
 ## Money Flow Index
 
-Lorem ipsum
+_In short order_
 
 ## Force
 
-Lorem ipsum
+_In short order_
