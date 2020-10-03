@@ -6,15 +6,15 @@ slug: algorithms-trend
 ---
 ## Simple Moving Average Convergence
 
-Lorem ipsum
+_In short order_
 
 ## Exponential Moving Average Convergence
 
-Lorem ipsum
+_In short order_
 
 ## Parabolic SAR
 
-Lorem ipsum
+_In short order_
 
 ## Inertia
 
@@ -22,8 +22,8 @@ Lorem ipsum
 
 ## Linear Regression
 
-Lorem ipsum
+_In short order_
 
 ## Capital Asset Pricing Model (CAPM)
 
-Lorem ipsum
+_In short order_
