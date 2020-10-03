@@ -10,7 +10,7 @@ Cash + immediately liquid instruments
 
 Find stocks with highest cash and cash equivalents.
 
-cash_and_cash_equivalents
+[cash_and_cash_equivalents](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#cash-and-cash-equivalents "cash_and_cash_equivalents")
 
     import quantopian.algorithm as algo
     from quantopian.pipeline import Pipeline
@@ -84,7 +84,7 @@ cash_and_cash_equivalents
 
 Tangible and intangible value
 
-total_assets
+[total_assets](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-assets "total_assets")
 
     factor = ms.total_assets.latest.rank(mask=univ, ascending=False)
 
@@ -92,7 +92,7 @@ total_assets
 
 Current and long-term debts owed
 
-total_debt
+[total_debt](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-debt "total_debt")
 
     factor = ms.total_assets.latest.rank(mask=univ, ascending=False)
 
@@ -100,7 +100,7 @@ total_debt
 
 Assets - liabilities
 
-total_equity
+[total_equity](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-equity "total_equity")
 
     factor = ms.total_assets.latest.rank(mask=univ, ascending=False)
 
