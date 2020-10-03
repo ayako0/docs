@@ -84,15 +84,9 @@ Find stocks with highest cash and cash equivalents.
 
 Tangible and intangible value
 
+Find stocks with highest total assets.
+
 [total_assets](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-assets "total_assets")
-
-    factor = ms.total_assets.latest.rank(mask=univ, ascending=False)
-
-## Total Debt
-
-Current and long-term debts owed
-
-[total_debt](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-debt "total_debt")
 
     factor = ms.total_assets.latest.rank(mask=univ, ascending=False)
 
@@ -100,9 +94,31 @@ Current and long-term debts owed
 
 Assets - liabilities
 
+Find stocks with highest total equity.
+
 [total_equity](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-equity "total_equity")
 
     factor = ms.total_assets.latest.rank(mask=univ, ascending=False)
+
+## Total Debt
+
+Current and long-term debts owed
+
+Find stocks with lowest debt.
+
+[total_debt](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-debt "total_debt")
+
+    def make_pipeline(context):
+        univ = Q3000US()
+    
+        factor = ms.total_debt.latest.rank(mask=univ, ascending=True)
+    
+        bottom = factor.bottom(context.FINE_FILTER)
+    
+        pipe = Pipeline(
+            columns={'bottom': bottom}, screen=univ)
+    
+        return pipe
 
 _All fundamental testing algos have the following attributes:_
 
