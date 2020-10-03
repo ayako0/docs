@@ -6,7 +6,7 @@ slug: balance-sheet
 ---
 ## Cash and Cash Equivalents
 
-Cash + immediately liquid instruments
+> Cash + immediately liquid instruments
 
 Find stocks with highest cash and cash equivalents.
 
@@ -82,7 +82,7 @@ Find stocks with highest cash and cash equivalents.
 
 ## Total Assets
 
-Tangible and intangible value
+> Tangible and intangible value
 
 Find stocks with highest total assets.
 
@@ -92,7 +92,7 @@ Find stocks with highest total assets.
 
 ## Total Equity
 
-Assets - liabilities
+> Assets - liabilities
 
 Find stocks with highest total equity.
 
@@ -102,7 +102,7 @@ Find stocks with highest total equity.
 
 ## Total Debt
 
-Current and long-term debts owed
+> Current and long-term debts owed
 
 Find stocks with lowest debt.
 
