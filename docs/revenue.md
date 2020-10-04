@@ -46,7 +46,7 @@ Find stocks with lowest depreciation and amortization.
     
     def make_pipeline(context):
         univ = Q3000US()
-        factor = ms.free_cash_flow.latest.rank(mask=univ, ascending=False)
+        factor = ms.depreciation_and_amortization_income_statement.latest.rank(mask=univ, ascending=False)
         bottom = factor.bottom(context.FINE_FILTER)
         pipe = Pipeline(
             columns={'bottom': bottom}, screen=univ)
@@ -114,7 +114,7 @@ Find stocks with highest earnings before interest, tax, depreciation and amortiz
     
     def make_pipeline(context):
         univ = Q3000US()
-        factor = ms.free_cash_flow.latest.rank(mask=univ, ascending=False)
+        factor = ms.ebitda.latest.rank(mask=univ, ascending=False)
         top = factor.top(context.FINE_FILTER)
         pipe = Pipeline(
             columns={'top': top}, screen=univ)
