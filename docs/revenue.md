@@ -23,10 +23,6 @@ Find stocks with lowest depreciation and amortization.
     
     
     def initialize(context):
-        set_commission(commission.PerTrade(cost=0.00))
-        set_slippage(slippage.FixedSlippage(spread=0.00))
-    
-        context.SPY = symbol('SPY')
         context.FINE_FILTER = 5
         context.stock_weights = pd.Series()
         algo.attach_pipeline(make_pipeline(context), 'pipeline')
@@ -91,10 +87,6 @@ Find stocks with highest earnings before interest, tax, depreciation and amortiz
     
     
     def initialize(context):
-        set_commission(commission.PerTrade(cost=0.00))
-        set_slippage(slippage.FixedSlippage(spread=0.00))
-    
-        context.SPY = symbol('SPY')
         context.FINE_FILTER = 5
         context.stock_weights = pd.Series()
         algo.attach_pipeline(make_pipeline(context), 'pipeline')
