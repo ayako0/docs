@@ -161,8 +161,8 @@ A balance of debt to equity may be optimal.
     def make_pipeline(context):
         univ = Q3000US()
     
-        debt_eq_low = ms.total_debt_equity_ratio.latest < 0
-        debt_eq_med = 0 < ms.total_debt_equity_ratio.latest < 2
+        debt_eq_low = ms.total_debt_equity_ratio.latest < 0.5
+        debt_eq_med = 0.5 < ms.total_debt_equity_ratio.latest < 2
         debt_eq_hi = ms.total_debt_equity_ratio.latest > 2
     
         factor = ms.debt_eq_low.latest.rank(mask=univ, ascending=False)
