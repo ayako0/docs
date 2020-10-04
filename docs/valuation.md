@@ -84,10 +84,22 @@ Find stocks with a minimum market cap.
 
 Find stocks within ranges of shares outstanding.
 
-    #todo
-    #< range
-    #med range
-    #range >
+    def make_pipeline(context):
+        univ = Q3000US()
+    
+        300_shares = 0 < ms.shares_outstanding.latest < 300
+        600_shares = 301 < ms.shares_outstanding.latest < 600
+        900_shares = 601 < ms.shares_outstanding.latest < 900
+        1200_shares = ms.shares_outstanding.latest > 1200
+    
+        factor = ms.300_shares.latest.rank(mask=univ, ascending=False)
+        #factor = ms.600_shares.latest.rank(mask=univ, ascending=False)
+        #factor = ms.900_shares.latest.rank(mask=univ, ascending=False)
+        #factor = ms.1200_shares.latest.rank(mask=univ, ascending=False)
+        top = factor.top(context.FINE_FILTER)
+        pipe = Pipeline(
+            columns={'top': top}, screen=univ)
+        return pipe
 
 _All fundamental testing algos have the following attributes:_
 
