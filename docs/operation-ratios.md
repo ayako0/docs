@@ -158,6 +158,13 @@ Find stocks with highest** debt to equity ratio.
 
     factor = ms.total_debt_equity_ratio.latest.rank(mask=univ, ascending=False)
 
+A balance of debt to equity may be optimal. 
+
+    # compare:
+    # a range of debt_equity being around 0
+    # highest debt_equity
+    # lowest debt_equity
+
 _All fundamental testing algos have the following attributes:_
 
 Start to end: 01/02/2006 - 09/01/2020
