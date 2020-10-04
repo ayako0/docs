@@ -8,6 +8,8 @@ slug: operation-ratios
 
 Current assets / current liabilities
 
+Find stocks with highest current ratio.
+
 current_ratio
 
     import quantopian.algorithm as algo
@@ -70,6 +72,8 @@ current_ratio
 
 ((Net income current - net income from previous quarter) / net income current) * 100
 
+Find stocks with highest net income growth.
+
 net_income_growth
 
     factor = ms.net_income_growth.latest.rank(mask=univ, ascending=False)
@@ -77,6 +81,8 @@ net_income_growth
 ## Net Margin
 
 Net income / revenue
+
+Find stocks with highest net margin.
 
 net_margin
 
@@ -86,6 +92,8 @@ net_margin
 
 ((Operation revenue current - operation revenue from previous quarter) / operation revenue current) * 100
 
+Find stocks with highest operation revenue growth.
+
 operation_revenue_growth3_month_avg
 
     factor = ms.operation_revenue_growth3_month_avg.latest.rank(mask=univ, ascending=False)
@@ -93,6 +101,8 @@ operation_revenue_growth3_month_avg
 ## Quick Ratio
 
 Liquidity / liabilities
+
+Find stocks with highest quick ratio.
 
 quick_ratio
 
@@ -102,6 +112,8 @@ quick_ratio
 
 ((Revenue current - revenue from previous quarter) / revenue current) * 100
 
+Find stocks with highest revenue growth.
+
 revenue_growth
 
     factor = ms.revenue_growth.latest.rank(mask=univ, ascending=False)
@@ -109,6 +121,8 @@ revenue_growth
 ## Return on Assets (ROA)
 
 Net income / total assets
+
+Find stocks with highest return on assets.
 
 roa
 
@@ -118,6 +132,8 @@ roa
 
 Net income / total common equity
 
+Find stocks with highest return on equity.
+
 roe
 
     factor = ms.roe.latest.rank(mask=univ, ascending=False)
@@ -126,6 +142,8 @@ roe
 
 Net income / (total equity + total debt and capital lease obligation)
 
+Find stocks with highest return on invested capital.
+
 roic
 
     factor = ms.roic.latest.rank(mask=univ, ascending=False)
@@ -133,6 +151,8 @@ roic
 ## Total Debt to Equity Ratio
 
 Common shares outstanding - total debt
+
+Find stocks with highest debt to equity ratio.
 
 total_debt_equity_ratio
 
