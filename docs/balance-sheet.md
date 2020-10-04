@@ -96,7 +96,7 @@ Find stocks with highest total equity.
 
 _Current and long-term debts owed_
 
-In theory, we find stocks with lowest debt.
+Ideally, we find stocks with lowest debt.
 
 [total_debt](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-debt "total_debt")
 
