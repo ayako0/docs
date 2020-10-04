@@ -168,4 +168,4 @@ Number of stocks: 5
 
 Max leverage: 1
 
-\** See [Total Debt](#asdf).
+\** See [Total Debt](https://annayakowenko.com/balance-sheet#total-debt).
