@@ -156,14 +156,22 @@ Find stocks with highest** debt to equity ratio.
 
 [total_debt_equity_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-debt-equity-ratio)
 
-    factor = ms.total_debt_equity_ratio.latest.rank(mask=univ, ascending=False)
-
 A balance of debt to equity may be optimal.
 
-    # compare:
-    # a range of debt_equity being around 0
-    # highest debt_equity
-    # lowest debt_equity
+    def make_pipeline(context):
+        univ = Q3000US()
+    
+        debt_eq_low = ms.total_debt_equity_ratio.latest < 0
+        debt_eq_med = 0 < ms.total_debt_equity_ratio.latest < 2
+        debt_eq_hi = ms.total_debt_equity_ratio.latest > 2
+    
+        factor = ms.debt_eq_low.latest.rank(mask=univ, ascending=False)
+        #factor = ms.debt_eq_med.latest.rank(mask=univ, ascending=False)
+        #factor = ms.debt_eq_hi.latest.rank(mask=univ, ascending=False)
+        top = factor.top(context.FINE_FILTER)
+        pipe = Pipeline(
+            columns={'top': top}, screen=univ)
+        return pipe
 
 _All fundamental testing algos have the following attributes:_
 
