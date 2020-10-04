@@ -82,9 +82,12 @@ Find stocks with a minimum market cap.
 
 [shares_outstanding](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#shares-outstanding)
 
-Find stocks with a minimum of shares outstanding.
+Find stocks within ranges of shares outstanding.
 
     #todo
+    #< range
+    #med range
+    #range >
 
 _All fundamental testing algos have the following attributes:_
 
