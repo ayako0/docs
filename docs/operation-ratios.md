@@ -158,7 +158,7 @@ Find stocks with highest** debt to equity ratio.
 
     factor = ms.total_debt_equity_ratio.latest.rank(mask=univ, ascending=False)
 
-A balance of debt to equity may be optimal. 
+A balance of debt to equity may be optimal.
 
     # compare:
     # a range of debt_equity being around 0
@@ -174,5 +174,7 @@ Starting capital: $10000
 Number of stocks: 5
 
 Max leverage: 1
+
+Universe: Quantopian Q3000US dataset
 
 \** See [Total Debt](https://annayakowenko.com/balance-sheet#total-debt).
