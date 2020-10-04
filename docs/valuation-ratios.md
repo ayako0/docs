@@ -188,4 +188,4 @@ Number of stocks: 5
 
 Max leverage: 1
 
-Universe: Quantopian Q3000 dataset
+Universe: Quantopian Q3000US dataset
