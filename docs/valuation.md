@@ -79,9 +79,9 @@ Find stocks within market cap ranges.
     def make_pipeline(context):
         univ = Q3000US()
     
-        mkt_cap_low = ms.shares_outstanding.latest < 2e9
-        mkt_cap_med = 2e9 < ms.shares_outstanding.latest < 10e9
-        mkt_cap_hi = ms.shares_outstanding.latest > 10e9
+        mkt_cap_low = ms.market_cap.latest < 2e9
+        mkt_cap_med = 2e9 < ms.market_cap.latest < 10e9
+        mkt_cap_hi = ms.market_cap.latest > 10e9
     
         factor = ms.mkt_cap_low.latest.rank(mask=univ, ascending=False)
         #factor = ms.mkt_cap_med.latest.rank(mask=univ, ascending=False)
