@@ -81,3 +81,5 @@ Starting capital: $10000
 Number of stocks: 5
 
 Max leverage: 1
+
+Universe: Quantopian Q3000US dataset
