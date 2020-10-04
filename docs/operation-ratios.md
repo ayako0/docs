@@ -6,7 +6,7 @@ slug: operation-ratios
 ---
 ## Current Ratio
 
-Current assets / current liabilities
+_Current assets / current liabilities_
 
 Find stocks with highest current ratio.
 
@@ -70,7 +70,7 @@ Find stocks with highest current ratio.
 
 ## Net Income Growth
 
-((Net income current - net income from previous quarter) / net income current) * 100
+_((Net income current - net income from previous quarter) / net income current) * 100_
 
 Find stocks with highest net income growth.
 
@@ -80,7 +80,7 @@ Find stocks with highest net income growth.
 
 ## Net Margin
 
-Net income / revenue
+_Net income / revenue_
 
 Find stocks with highest net margin.
 
@@ -90,7 +90,7 @@ Find stocks with highest net margin.
 
 ## Operation Revenue Growth, Three Month Average
 
-((Operation revenue current - operation revenue from previous quarter) / operation revenue current) * 100
+_((Operation revenue current - operation revenue from previous quarter) / operation revenue current) * 100_
 
 Find stocks with highest operation revenue growth.
 
@@ -100,7 +100,7 @@ Find stocks with highest operation revenue growth.
 
 ## Quick Ratio
 
-Liquidity / liabilities
+_Liquidity / liabilities_
 
 Find stocks with highest quick ratio.
 
@@ -110,7 +110,7 @@ Find stocks with highest quick ratio.
 
 ## Revenue Growth
 
-((Revenue current - revenue from previous quarter) / revenue current) * 100
+_((Revenue current - revenue from previous quarter) / revenue current) * 100_
 
 Find stocks with highest revenue growth.
 
@@ -120,7 +120,7 @@ Find stocks with highest revenue growth.
 
 ## Return on Assets (ROA)
 
-Net income / total assets
+_Net income / total assets_
 
 Find stocks with highest return on assets.
 
@@ -130,7 +130,7 @@ Find stocks with highest return on assets.
 
 ## Return on Equity (ROE)
 
-Net income / total common equity
+_Net income / total common equity_
 
 Find stocks with highest return on equity.
 
@@ -140,7 +140,7 @@ Find stocks with highest return on equity.
 
 ## Return on Invested Capital (ROIC)
 
-Net income / (total equity + total debt and capital lease obligation)
+_Net income / (total equity + total debt and capital lease obligation)_
 
 Find stocks with highest return on invested capital.
 
@@ -150,7 +150,7 @@ Find stocks with highest return on invested capital.
 
 ## Total Debt to Equity Ratio
 
-Common shares outstanding - total debt
+_Common shares outstanding - total debt_
 
 Find stocks with highest** debt to equity ratio.
 
