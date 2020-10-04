@@ -10,11 +10,69 @@ Current assets / current liabilities
 
 current_ratio
 
+    import quantopian.algorithm as algo
+    from quantopian.pipeline import Pipeline
+    from quantopian.pipeline.filters import Q3000US
+    from quantopian.pipeline.data.morningstar import Fundamentals as ms
+    import quantopian.optimize as opt
+    
+    import numpy as np
+    import pandas as pd
+    
+    
+    def initialize(context):
+        context.FINE_FILTER = 5
+        context.stock_weights = pd.Series()
+        algo.attach_pipeline(make_pipeline(context), 'pipeline')
+    
+        schedule_function(
+            stocks_weights,
+            date_rules.week_start(),
+            time_rules.market_open()
+        )
+    
+        schedule_function(
+            trade,
+            date_rules.week_start(),
+            time_rules.market_open()
+        )
+    
+    
+    def make_pipeline(context):
+        univ = Q3000US()
+        factor = ms.free_cash_flow.latest.rank(mask=univ, ascending=False)
+        top = factor.top(context.FINE_FILTER)
+        pipe = Pipeline(
+            columns={'top': top}, screen=univ)
+        return pipe
+    
+    
+    def stocks_weights(context, data):
+        df = algo.pipeline_output('pipeline')
+        rule = 'top'
+        stocks_to_hold = df.query(rule).index
+        stock_weight = 1.0 / context.FINE_FILTER
+        context.stocks_weights = pd.Series(index=stocks_to_hold, data=stock_weight)
+    
+    
+    def trade(context, data):
+        target_weights = opt.MaximizeAlpha(context.stocks_weights)
+    
+        constraints = []
+        constraints.append(opt.MaxGrossExposure(1.0))
+    
+        order_optimal_portfolio(
+            objective=target_weights,
+            constraints=constraints
+        )
+
 ## Net Income Growth
 
 ((Net income current - net income from previous quarter) / net income current) * 100
 
 net_income_growth
+
+    factor = ms.net_income_growth.latest.rank(mask=univ, ascending=False)
 
 ## Net Margin
 
@@ -22,11 +80,15 @@ Net income / revenue
 
 net_margin
 
+    factor = ms.net_margin.latest.rank(mask=univ, ascending=False)
+
 ## Operation Revenue Growth, Three Month Average
 
 ((Operation revenue current - operation revenue from previous quarter) / operation revenue current) * 100
 
 operation_revenue_growth3_month_avg
+
+    factor = ms.operation_revenue_growth3_month_avg.latest.rank(mask=univ, ascending=False)
 
 ## Quick Ratio
 
@@ -34,11 +96,15 @@ Liquidity / liabilities
 
 quick_ratio
 
+    factor = ms.quick_ratio.latest.rank(mask=univ, ascending=False)
+
 ## Revenue Growth
 
 ((Revenue current - revenue from previous quarter) / revenue current) * 100
 
 revenue_growth
+
+    factor = ms.revenue_growth.latest.rank(mask=univ, ascending=False)
 
 ## Return on Assets (ROA)
 
@@ -46,11 +112,15 @@ Net income / total assets
 
 roa
 
+    factor = ms.roa.latest.rank(mask=univ, ascending=False)
+
 ## Return on Equity (ROE)
 
 Net income / total common equity
 
 roe
+
+    factor = ms.roe.latest.rank(mask=univ, ascending=False)
 
 ## Return on Invested Capital (ROIC)
 
@@ -58,8 +128,12 @@ Net income / (total equity + total debt and capital lease obligation)
 
 roic
 
+    factor = ms.roic.latest.rank(mask=univ, ascending=False)
+
 ## Total Debt to Equity Ratio
 
 Common shares outstanding - total debt
 
 total_debt_equity_ratio
+
+    factor = ms.total_debt_equity_ratio.latest.rank(mask=univ, ascending=False)
