@@ -177,3 +177,15 @@ Find stocks with highest sustainable growth rate.
 [sustainable_growth_rate](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#sustainable-growth-rate)
 
     factor = ms.sustainable_growth_rate.latest.rank(mask=univ, ascending=False)
+
+_All fundamental testing algos have the following attributes:_
+
+Start to end: 01/02/2006 - 09/01/2020
+
+Starting capital: $10000
+
+Number of stocks: 5
+
+Max leverage: 1
+
+Universe: Quantopian Q3000 dataset
