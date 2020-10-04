@@ -6,11 +6,11 @@ slug: valuation
 ---
 ## Enterprise Value
 
-Common equity + preferred equity + minority equity + total debt - cash and cash equivalents
+_Common equity + preferred equity + minority equity + total debt - cash and cash equivalents_
 
 Find stocks with highest enterprise value.
 
-enterprise_value
+[enterprise_value](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#enterprise-value)
 
     import quantopian.algorithm as algo
     from quantopian.pipeline import Pipeline
@@ -70,21 +70,21 @@ enterprise_value
 
 ## Market Cap
 
-Common shares outstanding * share price
+_Common shares outstanding * share price_
 
-Find stocks with highest market cap.
+Find stocks with a minimum market cap.
 
-market_cap
+[market_cap](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#market-cap)
 
-    factor = ms.market_cap.latest.rank(mask=univ, ascending=False)
+    #todo
 
 ## Shares Outstanding
 
-shares_outstanding
+[shares_outstanding](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#shares-outstanding)
 
-Find stocks with highest shares outstanding.
+Find stocks with a minimum of shares outstanding.
 
-    factor = ms.shares_outstanding.latest.rank(mask=univ, ascending=False)
+    #todo
 
 _All fundamental testing algos have the following attributes:_
 
