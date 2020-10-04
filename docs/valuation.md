@@ -100,10 +100,10 @@ Find stocks within ranges of shares outstanding.
     def make_pipeline(context):
         univ = Q3000US()
     
-        300_shares = ms.shares_outstanding.latest < 300
-        600_shares = 301 < ms.shares_outstanding.latest < 600
-        900_shares = 601 < ms.shares_outstanding.latest < 900
-        1200_shares = ms.shares_outstanding.latest > 1200
+        300_shares = ms.shares_outstanding.latest < 3e9
+        600_shares = 301 < ms.shares_outstanding.latest < 6e9
+        900_shares = 601 < ms.shares_outstanding.latest < 9e9
+        1200_shares = ms.shares_outstanding.latest > 12e9
     
         factor = ms.300_shares.latest.rank(mask=univ, ascending=False)
         #factor = ms.600_shares.latest.rank(mask=univ, ascending=False)
