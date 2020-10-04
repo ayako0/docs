@@ -152,8 +152,20 @@ Find stocks with highest return on invested capital.
 
 Common shares outstanding - total debt
 
-Find stocks with highest debt to equity ratio.
+Find stocks with highest** debt to equity ratio.
 
 [total_debt_equity_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-debt-equity-ratio)
 
     factor = ms.total_debt_equity_ratio.latest.rank(mask=univ, ascending=False)
+
+_All fundamental testing algos have the following attributes:_
+
+Start to end: 01/02/2006 - 09/01/2020
+
+Starting capital: $10000
+
+Number of stocks: 5
+
+Max leverage: 1
+
+\** See [Total Debt](#asdf).
