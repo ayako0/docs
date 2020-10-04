@@ -6,72 +6,72 @@ slug: valuation-ratios
 ---
 ## Book Value per Share
 
-(Assets - liabilities) / common shares outstanding
+_(Assets - liabilities) / common shares outstanding_
 
 book_value_per_share
 
 ## Book Value Yield
 
-(Assets - liabilities) / close price
+_(Assets - liabilities) / close price_
 
 book_value_yield
 
 ## Cash Return
 
-(Cash flow operations - capital expenditures) / enterprise value
+_(Cash flow operations - capital expenditures) / enterprise value_
 
 cash_return
 
 ## Earning Yield
 
-(Diluted earnings / common shares outstanding) / close price
+_(Diluted earnings / common shares outstanding) / close price_
 
 earning_yield
 
 ## Enterprise Value to EBITDA
 
-(Common equity + preferred equity + minority equity + total debt - cash and cash equivalents) / net income - (interest + tax + deprecation + amortization)
+_(Common equity + preferred equity + minority equity + total debt - cash and cash equivalents) / net income - (interest + tax + deprecation + amortization)_
 
 ev_to_ebitda
 
 ## Free Cash Flow Yield
 
-(Cash flow operations - capital expenditures / common shares outstanding) / close price
+_(Cash flow operations - capital expenditures / common shares outstanding) / close price_
 
 fcf_yield
 
 ## Forward Earning Yield
 
-(Next year's estimate for diluted earnings / common shares outstanding) / close price
+_(Next year's estimate for diluted earnings / common shares outstanding) / close price_
 
 forward_earning_yield
 
 ## Price to Book Ratio
 
-Close price / (assets - liabilities)
+_Close price / (assets - liabilities)_
 
 pb_ratio
 
 ## Price to Earnings Ratio
 
-Close price / (net income / common shares outstanding)
+_Close price / (net income / common shares outstanding)_
 
 pe_ratio
 
 ## Price to Sales Ratio
 
-Close price / (revenue / common shares outstanding)
+_Close price / (revenue / common shares outstanding)_
 
 ps_ratio
 
 ## Sales Yield
 
-(Revenue / common shares outstanding) / close price
+_(Revenue / common shares outstanding) / close price_
 
 sales_yield
 
 ## Sustainable Growth Rate
 
-Net income / total common equity * (1 - dividend per share / diluted earnings per share)
+_Net income / total common equity * (1 - dividend per share / diluted earnings per share)_
 
 sustainable_growth_rate
