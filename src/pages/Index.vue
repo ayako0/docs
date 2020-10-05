@@ -4,23 +4,17 @@
       <div class="flex-item"></div>
       <div class="flex-item">
         <h2>Cash and Cash Equivalents</h2>
-        <p>
-          The liquid or immediately liquefiable assets of a company...
-        </p>
+        <p>The liquid or immediately liquefiable assets of a company...</p>
         <a href="/balance-sheet#cash-and-cash-equivalents">Learn more</a>
       </div>
       <div class="flex-item">
         <h2>Operating Income</h2>
-        <p>
-          Income after operating expenses are calculated...
-        </p>
+        <p>Income after operating expenses are calculated...</p>
         <a href="/income-statement#operating-income">Learn more</a>
       </div>
       <div class="flex-item">
         <h2>Quick Ratio</h2>
-        <p>
-          The balance of liquefiable assets to liability...
-        </p>
+        <p>The balance of liquefiable assets to liability...</p>
         <a href="/operation-ratios#quick-ratio">Learn more</a>
       </div>
     </div>
@@ -38,7 +32,6 @@ query {
 <script>
 import GitLink from "~/components/GitLink.vue";
 import Shortcut from "~/components/Shortcut.vue";
-
 export default {
   components: {
     GitLink,
@@ -69,41 +62,33 @@ export default {
   display: flex;
   flex-direction: column;
 }
-
 h1 {
   text-align: center;
   max-width: 600px;
   margin: 1.5em auto 1.5em;
-
   @include respond-above(md) {
     max-width: 1000px;
   }
 }
-
 h2 {
   font-size: 1.4rem;
   margin: 0;
 }
-
 nav {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-
   @include respond-above(sm) {
     flex-direction: row;
   }
 }
-
 .git {
   margin: 3em 0 0;
   align-self: center;
-
   @include respond-above(md) {
     margin: 5em 0 0;
   }
 }
-
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -112,11 +97,9 @@ nav {
   align-content: stretch;
   height: 100%;
 }
-
 .flex-item {
   color: white;
 }
-
 .flex-item:nth-child(1) {
   order: 0;
   flex: 12 1 auto;
@@ -124,7 +107,6 @@ nav {
   margin-top: auto;
   width: 33.4%;
 }
-
 .flex-item:nth-child(2),
 .flex-item:nth-child(3),
 .flex-item:nth-child(4) {
@@ -138,28 +120,31 @@ nav {
   // font-size: 14px;
   // font-style: italic;
 }
-
 .main .flex-item a {
   text-decoration: none;
 }
-
 @include respond-between(xxs, sm) {
   .flex-container {
     flex-direction: column;
-    height: auto;
+    height: 100%;
     width: 100%;
     padding: 0px 80px;
+    flex-direction: column;
+    justify-content: space-between;
   }
-
   .flex-item:nth-child(1) {
     display: none;
   }
-
   .flex-item:nth-child(2),
   .flex-item:nth-child(3),
   .flex-item:nth-child(4) {
     width: 100%;
     padding-right: 0px;
+    transform: translateY(0);
+    margin-top: 80px;
+  }
+  .flex-item:nth-child(4) {
+    padding-bottom: 100px;
   }
 }
 </style>
