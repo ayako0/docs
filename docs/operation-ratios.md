@@ -12,6 +12,7 @@ Find stocks with highest current ratio.
 
 [current_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#current-ratio)
 
+```python
     import quantopian.algorithm as algo
     from quantopian.pipeline import Pipeline
     from quantopian.pipeline.filters import Q3000US
@@ -67,6 +68,7 @@ Find stocks with highest current ratio.
             objective=target_weights,
             constraints=constraints
         )
+```
 
 ## Net Income Growth
 
@@ -76,7 +78,9 @@ Find stocks with highest net income growth.
 
 [net_income_growth](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#net-income-growth)
 
+```python
     factor = ms.net_income_growth.latest.rank(mask=univ, ascending=False)
+```
 
 ## Net Margin
 
@@ -86,7 +90,9 @@ Find stocks with highest net margin.
 
 [net_margin](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#net-margin)
 
+```python
     factor = ms.net_margin.latest.rank(mask=univ, ascending=False)
+```
 
 ## Operation Revenue Growth, Three Month Average
 
@@ -96,7 +102,9 @@ Find stocks with highest operation revenue growth.
 
 [operation_revenue_growth3_month_avg](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#operation-revenue-growth3-month-avg)
 
+```python
     factor = ms.operation_revenue_growth3_month_avg.latest.rank(mask=univ, ascending=False)
+```
 
 ## Quick Ratio
 
@@ -106,7 +114,9 @@ Find stocks with highest quick ratio.
 
 [quick_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#quick-ratio)
 
+```python
     factor = ms.quick_ratio.latest.rank(mask=univ, ascending=False)
+```
 
 ## Revenue Growth
 
@@ -116,7 +126,9 @@ Find stocks with highest revenue growth.
 
 [revenue_growth](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#revenue-growth)
 
+```python
     factor = ms.revenue_growth.latest.rank(mask=univ, ascending=False)
+```
 
 ## Return on Assets (ROA)
 
@@ -126,7 +138,9 @@ Find stocks with highest return on assets.
 
 [roa](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#roa)
 
+```python
     factor = ms.roa.latest.rank(mask=univ, ascending=False)
+```
 
 ## Return on Equity (ROE)
 
@@ -136,7 +150,9 @@ Find stocks with highest return on equity.
 
 [roe](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#roe)
 
+```python
     factor = ms.roe.latest.rank(mask=univ, ascending=False)
+```
 
 ## Return on Invested Capital (ROIC)
 
@@ -146,7 +162,9 @@ Find stocks with highest return on invested capital.
 
 [roic](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#roic)
 
+```python
     factor = ms.roic.latest.rank(mask=univ, ascending=False)
+```
 
 ## Total Debt to Equity Ratio
 
@@ -158,6 +176,7 @@ Find stocks with highest** debt to equity ratio.
 
 A balance of debt to equity may be optimal.
 
+```python
     def make_pipeline(context):
         univ = Q3000US()
     
@@ -172,6 +191,7 @@ A balance of debt to equity may be optimal.
         pipe = Pipeline(
             columns={'top': top}, screen=univ)
         return pipe
+```
 
 _All fundamental testing algos have the following attributes:_
 
