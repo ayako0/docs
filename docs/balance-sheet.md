@@ -110,6 +110,11 @@ Ideally, we find stocks with low debt.
         pipe = Pipeline(
             columns={'bottom': bottom}, screen=univ)
         return pipe
+      
+    
+    def stocks_weights(context, data):
+        df = algo.pipeline_output('pipeline')
+        rule = 'bottom'
 ```
 
 We can also find stocks with high debt.
