@@ -12,6 +12,7 @@ Find stocks with highest cash and cash equivalents.
 
 [cash_and_cash_equivalents](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#cash-and-cash-equivalents "cash_and_cash_equivalents")
 
+```python
     import quantopian.algorithm as algo
     from quantopian.pipeline import Pipeline
     from quantopian.pipeline.filters import Q3000US
@@ -67,6 +68,7 @@ Find stocks with highest cash and cash equivalents.
             objective=target_weights,
             constraints=constraints
         )
+```
 
 ## Total Assets
 
@@ -76,7 +78,9 @@ Find stocks with highest total assets.
 
 [total_assets](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-assets "total_assets")
 
+```python
     factor = ms.total_assets.latest.rank(mask=univ, ascending=False)
+```
 
 ## Total Equity
 
@@ -86,7 +90,9 @@ Find stocks with highest total equity.
 
 [total_equity](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-equity "total_equity")
 
+```python
     factor = ms.total_assets.latest.rank(mask=univ, ascending=False)
+```
 
 ## Total Debt
 
@@ -96,6 +102,7 @@ Ideally, we find stocks with low debt.
 
 [total_debt](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-debt "total_debt")
 
+```python
     def make_pipeline(context):
         univ = Q3000US()
         factor = ms.total_debt.latest.rank(mask=univ, ascending=True)
@@ -103,9 +110,11 @@ Ideally, we find stocks with low debt.
         pipe = Pipeline(
             columns={'bottom': bottom}, screen=univ)
         return pipe
+```
 
 We can also find stocks with high debt.
 
+```python
     def make_pipeline(context):
         univ = Q3000US()
         factor = ms.total_debt.latest.rank(mask=univ, ascending=True)
@@ -113,6 +122,7 @@ We can also find stocks with high debt.
         pipe = Pipeline(
             columns={'top': top}, screen=univ)
         return pipe
+```
 
 _All fundamental testing algos have the following attributes:_
 
