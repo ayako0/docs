@@ -59,7 +59,7 @@ Find stocks with highest equity per share growth.
     
     
     def trade(context, data):
-        target_weights = opt.MaximizeAlpha(context.stocks_weights)
+        target_weights = opt.TargetWeights(context.stocks_weights)
     
         constraints = []
         constraints.append(opt.MaxGrossExposure(1.0))
