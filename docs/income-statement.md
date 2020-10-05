@@ -59,7 +59,7 @@ Find stocks with lowest depreciation and amortization..
     
     
     def trade(context, data):
-        target_weights = opt.MaximizeAlpha(context.stocks_weights)
+        target_weights = opt.TargetWeights(context.stocks_weights)
     
         constraints = []
         constraints.append(opt.MaxGrossExposure(1.0))
@@ -125,7 +125,7 @@ Find stocks with highest earnings before interest, tax, depreciation and amortiz
     
     
     def trade(context, data):
-        target_weights = opt.MaximizeAlpha(context.stocks_weights)
+        target_weights = opt.TargetWeights(context.stocks_weights)
     
         constraints = []
         constraints.append(opt.MaxGrossExposure(1.0))
@@ -145,7 +145,7 @@ Find stocks with highest net income.
 [net_income_income_statement](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#net-income-income-statement)
 
 ```python
-    factor = ms.net_income_income_statement.latest.rank(mask=univ, ascending=False)
+factor = ms.net_income_income_statement.latest.rank(mask=univ, ascending=False)
 ```
 
 ## Operating Income
@@ -157,7 +157,7 @@ Find stocks with highest operating income.
 [operating_income](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#operating-income)
 
 ```python
-    factor = ms.operating_income.latest.rank(mask=univ, ascending=False)
+factor = ms.operating_income.latest.rank(mask=univ, ascending=False)
 ```
 
 ## Tax Rate Used for Calculations
@@ -173,7 +173,7 @@ Find stocks with highest total revenue.
 [total_revenue](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-revenue)
 
 ```python
-    factor = ms.total_revenue.latest.rank(mask=univ, ascending=False)
+factor = ms.total_revenue.latest.rank(mask=univ, ascending=False)
 ```
 
 _All fundamental testing algos have the following attributes:_
