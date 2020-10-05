@@ -3,23 +3,21 @@
     <div class="flex-container">
       <div class="flex-item"></div>
       <div class="flex-item">
-        <a href="/balance-sheet#cash-and-cash-equivalents">Cash and Cash Equivalents</a>
+        <h2>Cash and Cash Equivalents</h2>
         <p>
           The liquid or immediately liquefiable assets of a company...
         </p>
         <a href="/balance-sheet#cash-and-cash-equivalents">Learn more</a>
       </div>
       <div class="flex-item">
-        <a href="/income-statement#operating-income">Operating Income</a>
+        <h2>Operating Income</h2>
         <p>
           Income after operating expenses are calculated...
         </p>
         <a href="/income-statement#operating-income">Learn more</a>
       </div>
       <div class="flex-item">
-        <h1>Quick Ratio</h1>
         <h2>Quick Ratio</h2>
-        <h3>Quick Ratio</h3>
         <p>
           The balance of liquefiable assets to liability...
         </p>
