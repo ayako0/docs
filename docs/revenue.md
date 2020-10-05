@@ -12,6 +12,7 @@ Find stocks with lowest depreciation and amortization.
 
 [depreciation_and_amortization_income_statement](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#depreciation-and-amortization-income-statement)
 
+```python
     import quantopian.algorithm as algo
     from quantopian.pipeline import Pipeline
     from quantopian.pipeline.filters import Q3000US
@@ -67,6 +68,7 @@ Find stocks with lowest depreciation and amortization.
             objective=target_weights,
             constraints=constraints
         )
+```
 
 ## EBITDA
 
@@ -76,6 +78,7 @@ Find stocks with highest earnings before interest, tax, depreciation and amortiz
 
 [ebitda](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#ebitda)
 
+```python
     import quantopian.algorithm as algo
     from quantopian.pipeline import Pipeline
     from quantopian.pipeline.filters import Q3000US
@@ -131,6 +134,7 @@ Find stocks with highest earnings before interest, tax, depreciation and amortiz
             objective=target_weights,
             constraints=constraints
         )
+```
 
 ## Net Income
 
@@ -140,7 +144,9 @@ Find stocks with highest net income.
 
 [net_income_income_statement](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#net-income-income-statement)
 
+```python
     factor = ms.net_income_income_statement.latest.rank(mask=univ, ascending=False)
+```
 
 ## Operating Income
 
@@ -150,7 +156,9 @@ Find stocks with highest operating income.
 
 [operating_income](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#operating-income)
 
+```python
     factor = ms.operating_income.latest.rank(mask=univ, ascending=False)
+```
 
 ## Tax Rate Used for Calculations
 
@@ -164,7 +172,9 @@ Find stocks with highest total revenue.
 
 [total_revenue](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-revenue)
 
+```python
     factor = ms.total_revenue.latest.rank(mask=univ, ascending=False)
+```
 
 _All fundamental testing algos have the following attributes:_
 
