@@ -12,6 +12,7 @@ Find stocks with highest earnings per share.
 
 [basic_eps_earnings_reports](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#basic-eps-earnings-reports)
 
+```python
     import quantopian.algorithm as algo
     from quantopian.pipeline import Pipeline
     from quantopian.pipeline.filters import Q3000US
@@ -71,6 +72,7 @@ Find stocks with highest earnings per share.
             objective=target_weights,
             constraints=constraints
         )
+```
 
 _All fundamental testing algos have the following attributes:_
 
