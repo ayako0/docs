@@ -5,7 +5,7 @@
       <div class="flex-item">
         <a href="/balance-sheet#cash-and-cash-equivalents">Cash and Cash Equivalents</a>
         <p>
-          The liquid or liquifiable assets of a company...
+          The liquid or immediately liquefiable assets of a company...
         </p>
       </div>
       <div class="flex-item">
@@ -17,7 +17,7 @@
       <div class="flex-item">
         <a href="/operation-ratios#quick-ratio">Quick Ratio</a>
         <p>
-          The balance of liquifiable assets to liability...
+          The balance of liquefiable assets to liability...
         </p>
       </div>
     </div>
