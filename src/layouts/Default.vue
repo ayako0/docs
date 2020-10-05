@@ -63,10 +63,16 @@ export default {
 
   @include respond-between(xxs, xs) {
     padding: 100px 80px 100px 80px;
+    &--no-sidebar {
+      overflow: scroll;
+    }
   }
 
   @include respond-between(xs, sm) {
     padding: 100px 80px 100px 80px;
+    &--no-sidebar {
+      overflow: scroll;
+    }
   }
 
   @include respond-between(sm, md) {
