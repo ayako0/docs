@@ -12,6 +12,7 @@ Find stocks with highest enterprise value.
 
 [enterprise_value](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#enterprise-value)
 
+```python
     import quantopian.algorithm as algo
     from quantopian.pipeline import Pipeline
     from quantopian.pipeline.filters import Q3000US
@@ -67,6 +68,7 @@ Find stocks with highest enterprise value.
             objective=target_weights,
             constraints=constraints
         )
+```
 
 ## Market Cap
 
@@ -76,6 +78,7 @@ Find stocks within market cap ranges.
 
 [market_cap](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#market-cap)
 
+```python
     def make_pipeline(context):
         univ = Q3000US()
     
@@ -90,6 +93,7 @@ Find stocks within market cap ranges.
         pipe = Pipeline(
             columns={'top': top}, screen=univ)
         return pipe
+```
 
 ## Shares Outstanding
 
@@ -97,6 +101,7 @@ Find stocks within market cap ranges.
 
 Find stocks within ranges of shares outstanding.
 
+```python
     def make_pipeline(context):
         univ = Q3000US()
     
@@ -113,6 +118,7 @@ Find stocks within ranges of shares outstanding.
         pipe = Pipeline(
             columns={'top': top}, screen=univ)
         return pipe
+```
 
 _All fundamental testing algos have the following attributes:_
 
