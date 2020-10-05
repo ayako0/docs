@@ -130,7 +130,7 @@ footer {
   color: $textBright;
 }
 
-@include respond-between(xxs, xs) {
+@include respond-between(xxs, md) {
   footer {
     flex-direction: column;
     align-items: center;
