@@ -123,6 +123,7 @@ nav {
 .main .flex-item a {
   text-decoration: none;
 }
+
 @include respond-between(xxs, sm) {
   .flex-container {
     flex-direction: column;
@@ -145,6 +146,16 @@ nav {
   }
   .flex-item:nth-child(4) {
     padding-bottom: 100px;
+  }
+}
+@include respond-between(sm, md) {
+  .flex-item:nth-child(1) {
+    width: 20%;
+  }
+  .flex-item:nth-child(2),
+  .flex-item:nth-child(3),
+  .flex-item:nth-child(4) {
+    width: 26.7%;
   }
 }
 </style>
