@@ -12,8 +12,12 @@
       </div>
       <div class="footer-inner" id="footer-right">
         <ul>
-          <li id="facebook">Twitter</li>
-          <li id="instagram">Email</li>
+          <li id="twitter">
+            <a href="https://twitter.com/numberatomism">@numberatomism</a>
+          </li>
+          <li id="email">
+            <a href="mailto: ayakowenko@gmail.com">ayakowenko@gmail.com</a>
+          </li>
         </ul>
       </div>
     </footer>
