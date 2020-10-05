@@ -8,7 +8,7 @@ slug: income-statement
 
 _(Assets - liabilities) - cost and degradation of assets_
 
-Find stocks with lowest depreciation and amortization.
+Find stocks with lowest depreciation and amortization..
 
 [depreciation_and_amortization_income_statement](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#depreciation-and-amortization-income-statement)
 
