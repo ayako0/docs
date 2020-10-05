@@ -12,6 +12,7 @@ Find stocks with highest equity per share growth.
 
 [equity_per_share_growth](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#equity-per-share-growth)
 
+```python
     import quantopian.algorithm as algo
     from quantopian.pipeline import Pipeline
     from quantopian.pipeline.filters import Q3000US
@@ -67,6 +68,7 @@ Find stocks with highest equity per share growth.
             objective=target_weights,
             constraints=constraints
         )
+```
 
 _All fundamental testing algos have the following attributes:_
 
