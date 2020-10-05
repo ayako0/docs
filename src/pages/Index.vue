@@ -7,18 +7,23 @@
         <p>
           The liquid or immediately liquefiable assets of a company...
         </p>
+        <a href="/balance-sheet#cash-and-cash-equivalents">Learn more</a>
       </div>
       <div class="flex-item">
         <a href="/income-statement#operating-income">Operating Income</a>
         <p>
           Income after operating expenses are calculated...
         </p>
+        <a href="/income-statement#operating-income">Learn more</a>
       </div>
       <div class="flex-item">
-        <a href="/operation-ratios#quick-ratio">Quick Ratio</a>
+        <h1>Quick Ratio</h1>
+        <h2>Quick Ratio</h2>
+        <h3>Quick Ratio</h3>
         <p>
           The balance of liquefiable assets to liability...
         </p>
+        <a href="/operation-ratios#quick-ratio">Learn more</a>
       </div>
     </div>
   </Layout>
