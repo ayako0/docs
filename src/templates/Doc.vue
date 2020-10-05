@@ -134,6 +134,8 @@ footer {
   footer {
     flex-direction: column;
     align-items: center;
+    padding: 0px 10px;
+    font-size: 1rem;
   }
   .footer-inner {
     justify-content: center;
