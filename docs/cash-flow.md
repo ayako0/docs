@@ -12,6 +12,7 @@ Find stocks with highest free cash flow.
 
 [free_cash_flow](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#free-cash-flow "free_cash_flow")
 
+```python
     import quantopian.algorithm as algo
     from quantopian.pipeline import Pipeline
     from quantopian.pipeline.filters import Q3000US
@@ -67,6 +68,7 @@ Find stocks with highest free cash flow.
             objective=target_weights,
             constraints=constraints
         )
+```
 
 _All fundamental testing algos have the following attributes:_
 
