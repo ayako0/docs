@@ -16,10 +16,6 @@ pre[class*="language-"] {
   transition: background 0.15s ease-in-out, color 0.15s ease-in-out;
   border-left: 1px solid $textBright;
   font-weight: 400;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE 10+ */
-  width: 0px;
-  background: transparent; /* Chrome/Safari/Webkit */
 
   * {
     transition: color 0.15s ease-in-out;
