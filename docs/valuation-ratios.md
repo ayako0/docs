@@ -12,6 +12,7 @@ Find stocks with highest book value per share.
 
 [book_value_per_share](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#book-value-per-share)
 
+```python
     import quantopian.algorithm as algo
     from quantopian.pipeline import Pipeline
     from quantopian.pipeline.filters import Q3000US
@@ -67,6 +68,7 @@ Find stocks with highest book value per share.
             objective=target_weights,
             constraints=constraints
         )
+```
 
 ## Book Value Yield
 
@@ -76,7 +78,9 @@ Find stocks with highest book value yield.
 
 [book_value_yield](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#book-value-yield)
 
+```python
     factor = ms.book_value_yield.latest.rank(mask=univ, ascending=False)
+```
 
 ## Cash Return
 
@@ -86,7 +90,9 @@ Find stocks with highest cash return.
 
 [cash_return](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#cash-return)
 
+```python
     factor = ms.cash_return.latest.rank(mask=univ, ascending=False)
+```
 
 ## Earning Yield
 
@@ -96,7 +102,9 @@ Find stocks with highest earning yield.
 
 [earning_yield](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#earning-yield)
 
+```python
     factor = ms.earning_yield.latest.rank(mask=univ, ascending=False)
+```
 
 ## Enterprise Value to EBITDA
 
@@ -106,7 +114,9 @@ Find stocks with highest enterprise value to EBITDA.
 
 [ev_to_ebitda](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#ev-to-ebitda)
 
+```python
     factor = ms.ev_to_ebitda.latest.rank(mask=univ, ascending=False)
+```
 
 ## Free Cash Flow Yield
 
@@ -116,7 +126,9 @@ Find stocks with highest free cash flow yield.
 
 [fcf_yield](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#fcf-yield)
 
+```python
     factor = ms.fcf_yield.latest.rank(mask=univ, ascending=False)
+```
 
 ## Forward Earning Yield
 
@@ -126,7 +138,9 @@ Find stocks with highest forward earning yield.
 
 [forward_earning_yield](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#forward-earning-yield)
 
+```python
     factor = ms.forward_earning_yield.latest.rank(mask=univ, ascending=False)
+```
 
 ## Price to Book Ratio
 
@@ -136,7 +150,9 @@ Find stocks with highest price to book ratio.
 
 [pb_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#pb-ratio)
 
+```python
     factor = ms.pb_ratio.latest.rank(mask=univ, ascending=False)
+```
 
 ## Price to Earnings Ratio
 
@@ -146,7 +162,9 @@ Find stocks with highest price to earnings ratio.
 
 [pe_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#pe-ratio)
 
+```python
     factor = ms.pe_ratio.latest.rank(mask=univ, ascending=False)
+```
 
 ## Price to Sales Ratio
 
@@ -156,7 +174,9 @@ Find stocks with highest price to sales ratio.
 
 [ps_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#ps-ratio)
 
+```python
     factor = ms.ps_ratio.latest.rank(mask=univ, ascending=False)
+```
 
 ## Sales Yield
 
@@ -166,7 +186,9 @@ Find stocks with highest sales yield.
 
 [sales_yield](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#sales-yield)
 
+```python
     factor = ms.sales_yield.latest.rank(mask=univ, ascending=False)
+```
 
 ## Sustainable Growth Rate
 
@@ -176,7 +198,9 @@ Find stocks with highest sustainable growth rate.
 
 [sustainable_growth_rate](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#sustainable-growth-rate)
 
+```python
     factor = ms.sustainable_growth_rate.latest.rank(mask=univ, ascending=False)
+```
 
 _All fundamental testing algos have the following attributes:_
 
