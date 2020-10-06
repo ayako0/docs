@@ -12,6 +12,10 @@ Find stocks with highest current ratio.
 
 [current_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#current-ratio)
 
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+
 ```python
     import quantopian.algorithm as algo
     from quantopian.pipeline import Pipeline
@@ -78,6 +82,10 @@ Find stocks with highest net income growth.
 
 [net_income_growth](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#net-income-growth)
 
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+
 ```python
     factor = ms.net_income_growth.latest.rank(mask=univ, ascending=False)
 ```
@@ -89,6 +97,10 @@ _Net income / revenue_
 Find stocks with highest net margin.
 
 [net_margin](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#net-margin)
+
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
     factor = ms.net_margin.latest.rank(mask=univ, ascending=False)
@@ -102,6 +114,10 @@ Find stocks with highest operation revenue growth.
 
 [operation_revenue_growth3_month_avg](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#operation-revenue-growth3-month-avg)
 
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+
 ```python
     factor = ms.operation_revenue_growth3_month_avg.latest.rank(mask=univ, ascending=False)
 ```
@@ -113,6 +129,10 @@ _Liquidity / liabilities_
 Find stocks with highest quick ratio.
 
 [quick_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#quick-ratio)
+
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
     factor = ms.quick_ratio.latest.rank(mask=univ, ascending=False)
@@ -126,6 +146,10 @@ Find stocks with highest revenue growth.
 
 [revenue_growth](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#revenue-growth)
 
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+
 ```python
     factor = ms.revenue_growth.latest.rank(mask=univ, ascending=False)
 ```
@@ -137,6 +161,10 @@ _Net income / total assets_
 Find stocks with highest return on assets.
 
 [roa](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#roa)
+
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
     factor = ms.roa.latest.rank(mask=univ, ascending=False)
@@ -150,6 +178,10 @@ Find stocks with highest return on equity.
 
 [roe](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#roe)
 
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+
 ```python
     factor = ms.roe.latest.rank(mask=univ, ascending=False)
 ```
@@ -161,6 +193,10 @@ _Net income / (total equity + total debt and capital lease obligation)_
 Find stocks with highest return on invested capital.
 
 [roic](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#roic)
+
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
     factor = ms.roic.latest.rank(mask=univ, ascending=False)
@@ -175,6 +211,10 @@ Find stocks with highest** debt to equity ratio.
 [total_debt_equity_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-debt-equity-ratio)
 
 A balance of debt to equity may be optimal.
+
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
     def make_pipeline(context):
