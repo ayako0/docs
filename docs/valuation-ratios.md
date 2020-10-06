@@ -12,6 +12,10 @@ Find stocks with highest book value per share.
 
 [book_value_per_share](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#book-value-per-share)
 
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+
 ```python
     import quantopian.algorithm as algo
     from quantopian.pipeline import Pipeline
@@ -78,6 +82,10 @@ Find stocks with highest book value yield.
 
 [book_value_yield](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#book-value-yield)
 
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+
 ```python
     factor = ms.book_value_yield.latest.rank(mask=univ, ascending=False)
 ```
@@ -89,6 +97,10 @@ _(Cash flow operations - capital expenditures) / enterprise value_
 Find stocks with highest cash return.
 
 [cash_return](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#cash-return)
+
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
     factor = ms.cash_return.latest.rank(mask=univ, ascending=False)
@@ -102,6 +114,10 @@ Find stocks with highest earning yield.
 
 [earning_yield](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#earning-yield)
 
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+
 ```python
     factor = ms.earning_yield.latest.rank(mask=univ, ascending=False)
 ```
@@ -113,6 +129,10 @@ _(Common equity + preferred equity + minority equity + total debt - cash and cas
 Find stocks with highest enterprise value to EBITDA.
 
 [ev_to_ebitda](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#ev-to-ebitda)
+
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
     factor = ms.ev_to_ebitda.latest.rank(mask=univ, ascending=False)
@@ -126,6 +146,10 @@ Find stocks with highest free cash flow yield.
 
 [fcf_yield](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#fcf-yield)
 
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+
 ```python
     factor = ms.fcf_yield.latest.rank(mask=univ, ascending=False)
 ```
@@ -137,6 +161,10 @@ _(Next year's estimate for diluted earnings / common shares outstanding) / close
 Find stocks with highest forward earning yield.
 
 [forward_earning_yield](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#forward-earning-yield)
+
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
     factor = ms.forward_earning_yield.latest.rank(mask=univ, ascending=False)
@@ -150,6 +178,10 @@ Find stocks with highest price to book ratio.
 
 [pb_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#pb-ratio)
 
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+
 ```python
     factor = ms.pb_ratio.latest.rank(mask=univ, ascending=False)
 ```
@@ -161,6 +193,10 @@ _Close price / (net income / common shares outstanding)_
 Find stocks with highest price to earnings ratio.
 
 [pe_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#pe-ratio)
+
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
     factor = ms.pe_ratio.latest.rank(mask=univ, ascending=False)
@@ -174,6 +210,10 @@ Find stocks with highest price to sales ratio.
 
 [ps_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#ps-ratio)
 
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+
 ```python
     factor = ms.ps_ratio.latest.rank(mask=univ, ascending=False)
 ```
@@ -186,6 +226,10 @@ Find stocks with highest sales yield.
 
 [sales_yield](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#sales-yield)
 
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+
 ```python
     factor = ms.sales_yield.latest.rank(mask=univ, ascending=False)
 ```
@@ -197,6 +241,10 @@ _Net income / total common equity * (1 - dividend per share / diluted earnings p
 Find stocks with highest sustainable growth rate.
 
 [sustainable_growth_rate](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#sustainable-growth-rate)
+
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
     factor = ms.sustainable_growth_rate.latest.rank(mask=univ, ascending=False)
