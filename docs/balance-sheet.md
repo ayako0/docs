@@ -84,7 +84,7 @@ Find stocks with highest total assets.
 
 Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
     factor = ms.total_assets.latest.rank(mask=univ, ascending=False)
@@ -100,7 +100,7 @@ Find stocks with highest total equity.
 
 Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
     factor = ms.total_assets.latest.rank(mask=univ, ascending=False)
@@ -116,7 +116,7 @@ Ideally, we find stocks with low debt.
 
 Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
     def make_pipeline(context):
@@ -137,7 +137,7 @@ We can also find stocks with high debt.
 
 Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
     def make_pipeline(context):
