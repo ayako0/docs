@@ -12,6 +12,8 @@ Find stocks with highest cash and cash equivalents.
 
 [cash_and_cash_equivalents](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#cash-and-cash-equivalents "cash_and_cash_equivalents")
 
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/~ayako0/5.embed"></iframe>
+
 ```python
     import quantopian.algorithm as algo
     from quantopian.pipeline import Pipeline
@@ -78,6 +80,8 @@ Find stocks with highest total assets.
 
 [total_assets](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-assets "total_assets")
 
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/~ayako0/5.embed"></iframe>
+
 ```python
     factor = ms.total_assets.latest.rank(mask=univ, ascending=False)
 ```
@@ -90,6 +94,8 @@ Find stocks with highest total equity.
 
 [total_equity](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-equity "total_equity")
 
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/~ayako0/5.embed"></iframe>
+
 ```python
     factor = ms.total_assets.latest.rank(mask=univ, ascending=False)
 ```
@@ -101,6 +107,8 @@ _Current and long-term debts owed_
 Ideally, we find stocks with low debt.
 
 [total_debt](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-debt "total_debt")
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/~ayako0/5.embed"></iframe>
 
 ```python
     def make_pipeline(context):
@@ -118,6 +126,8 @@ Ideally, we find stocks with low debt.
 ```
 
 We can also find stocks with high debt.
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/~ayako0/5.embed"></iframe>
 
 ```python
     def make_pipeline(context):
