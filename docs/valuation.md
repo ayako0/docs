@@ -12,6 +12,10 @@ Find stocks with highest enterprise value.
 
 [enterprise_value](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#enterprise-value)
 
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+
 ```python
     import quantopian.algorithm as algo
     from quantopian.pipeline import Pipeline
@@ -78,6 +82,10 @@ Find stocks within market cap ranges.
 
 [market_cap](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#market-cap)
 
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+
 ```python
     def make_pipeline(context):
         univ = Q3000US()
@@ -97,9 +105,13 @@ Find stocks within market cap ranges.
 
 ## Shares Outstanding
 
+Find stocks within ranges of shares outstanding.
+
 [shares_outstanding](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#shares-outstanding)
 
-Find stocks within ranges of shares outstanding.
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
     def make_pipeline(context):
