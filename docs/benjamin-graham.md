@@ -4,6 +4,8 @@ date: ''
 slug: benjamin-graham
 
 ---
+<iframe width="100%" height="50%" frameborder="0" scrolling="no" src="//plotly.com/~ayako0/5.embed"></iframe>
+
 Original:
 
 V = (EPS * (8.5 + 2g) * 4.4) / Y
@@ -37,5 +39,3 @@ Value 2 = Value 1 * Current bond rate
 Final = Value 1 + Value 2
 
 Try different weightings.
-
-<iframe width="100%" height="400" frameborder="0" scrolling="no" src="//plotly.com/~ayako0/5.embed"></iframe>
