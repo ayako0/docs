@@ -14,7 +14,7 @@ Find stocks with highest cash and cash equivalents.
 
 Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
     import quantopian.algorithm as algo
@@ -84,7 +84,7 @@ Find stocks with highest total assets.
 
 Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&logo=false"></iframe>
 
 ```python
     factor = ms.total_assets.latest.rank(mask=univ, ascending=False)
