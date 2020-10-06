@@ -17,61 +17,61 @@ Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
-    import quantopian.algorithm as algo
-    from quantopian.pipeline import Pipeline
-    from quantopian.pipeline.filters import Q3000US
-    from quantopian.pipeline.data.morningstar import Fundamentals as ms
-    import quantopian.optimize as opt
-    
-    import numpy as np
-    import pandas as pd
-    
-    
-    def initialize(context):
-        context.FINE_FILTER = 5
-        context.stock_weights = pd.Series()
-        algo.attach_pipeline(make_pipeline(context), 'pipeline')
-    
-        schedule_function(
-            stocks_weights,
-            date_rules.week_start(),
-            time_rules.market_open()
-        )
-    
-        schedule_function(
-            trade,
-            date_rules.week_start(),
-            time_rules.market_open()
-        )
-    
-    
-    def make_pipeline(context):
-        univ = Q3000US()
-        factor = ms.book_value_per_share.latest.rank(mask=univ, ascending=False)
-        top = factor.top(context.FINE_FILTER)
-        pipe = Pipeline(
-            columns={'top': top}, screen=univ)
-        return pipe
-    
-    
-    def stocks_weights(context, data):
-        df = algo.pipeline_output('pipeline')
-        rule = 'top'
-        stocks_to_hold = df.query(rule).index
-        stock_weight = 1.0 / context.FINE_FILTER
-        context.stocks_weights = pd.Series(index=stocks_to_hold, data=stock_weight)
-    
-    
-    def trade(context, data):
-        target_weights = opt.TargetWeights(context.stocks_weights)
-    
-        constraints = []
-        constraints.append(opt.MaxGrossExposure(1.0))
-    
-        order_optimal_portfolio(
-            objective=target_weights,
-            constraints=constraints
-        )
+import quantopian.algorithm as algo
+from quantopian.pipeline import Pipeline
+from quantopian.pipeline.filters import Q3000US
+from quantopian.pipeline.data.morningstar import Fundamentals as ms
+import quantopian.optimize as opt
+
+import numpy as np
+import pandas as pd
+
+
+def initialize(context):
+    context.FINE_FILTER = 5
+    context.stock_weights = pd.Series()
+    algo.attach_pipeline(make_pipeline(context), 'pipeline')
+
+    schedule_function(
+        stocks_weights,
+        date_rules.week_start(),
+        time_rules.market_open()
+    )
+
+    schedule_function(
+        trade,
+        date_rules.week_start(),
+        time_rules.market_open()
+    )
+
+
+def make_pipeline(context):
+    univ = Q3000US()
+    factor = ms.book_value_per_share.latest.rank(mask=univ, ascending=False)
+    top = factor.top(context.FINE_FILTER)
+    pipe = Pipeline(
+        columns={'top': top}, screen=univ)
+    return pipe
+
+
+def stocks_weights(context, data):
+    df = algo.pipeline_output('pipeline')
+    rule = 'top'
+    stocks_to_hold = df.query(rule).index
+    stock_weight = 1.0 / context.FINE_FILTER
+    context.stocks_weights = pd.Series(index=stocks_to_hold, data=stock_weight)
+
+
+def trade(context, data):
+    target_weights = opt.TargetWeights(context.stocks_weights)
+
+    constraints = []
+    constraints.append(opt.MaxGrossExposure(1.0))
+
+    order_optimal_portfolio(
+        objective=target_weights,
+        constraints=constraints
+    )
 ```
 
 ## Book Value Yield
@@ -87,7 +87,7 @@ Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
-    factor = ms.book_value_yield.latest.rank(mask=univ, ascending=False)
+factor = ms.book_value_yield.latest.rank(mask=univ, ascending=False)
 ```
 
 ## Cash Return
@@ -103,7 +103,7 @@ Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
-    factor = ms.cash_return.latest.rank(mask=univ, ascending=False)
+factor = ms.cash_return.latest.rank(mask=univ, ascending=False)
 ```
 
 ## Earning Yield
@@ -119,7 +119,7 @@ Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
-    factor = ms.earning_yield.latest.rank(mask=univ, ascending=False)
+factor = ms.earning_yield.latest.rank(mask=univ, ascending=False)
 ```
 
 ## Enterprise Value to EBITDA
@@ -135,7 +135,7 @@ Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
-    factor = ms.ev_to_ebitda.latest.rank(mask=univ, ascending=False)
+factor = ms.ev_to_ebitda.latest.rank(mask=univ, ascending=False)
 ```
 
 ## Free Cash Flow Yield
@@ -151,7 +151,7 @@ Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
-    factor = ms.fcf_yield.latest.rank(mask=univ, ascending=False)
+factor = ms.fcf_yield.latest.rank(mask=univ, ascending=False)
 ```
 
 ## Forward Earning Yield
@@ -167,7 +167,7 @@ Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
-    factor = ms.forward_earning_yield.latest.rank(mask=univ, ascending=False)
+factor = ms.forward_earning_yield.latest.rank(mask=univ, ascending=False)
 ```
 
 ## Price to Book Ratio
@@ -183,7 +183,7 @@ Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
-    factor = ms.pb_ratio.latest.rank(mask=univ, ascending=False)
+factor = ms.pb_ratio.latest.rank(mask=univ, ascending=False)
 ```
 
 ## Price to Earnings Ratio
@@ -199,7 +199,7 @@ Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
-    factor = ms.pe_ratio.latest.rank(mask=univ, ascending=False)
+factor = ms.pe_ratio.latest.rank(mask=univ, ascending=False)
 ```
 
 ## Price to Sales Ratio
@@ -215,7 +215,7 @@ Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
-    factor = ms.ps_ratio.latest.rank(mask=univ, ascending=False)
+factor = ms.ps_ratio.latest.rank(mask=univ, ascending=False)
 ```
 
 ## Sales Yield
@@ -231,7 +231,7 @@ Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
-    factor = ms.sales_yield.latest.rank(mask=univ, ascending=False)
+factor = ms.sales_yield.latest.rank(mask=univ, ascending=False)
 ```
 
 ## Sustainable Growth Rate
@@ -247,7 +247,7 @@ Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
-    factor = ms.sustainable_growth_rate.latest.rank(mask=univ, ascending=False)
+factor = ms.sustainable_growth_rate.latest.rank(mask=univ, ascending=False)
 ```
 
 _All fundamental testing algos have the following attributes:_
