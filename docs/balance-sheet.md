@@ -12,7 +12,7 @@ Find stocks with highest cash and cash equivalents.
 
 [cash_and_cash_equivalents](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#cash-and-cash-equivalents "cash_and_cash_equivalents")
 
-Returns: 33%, Drawdown: -55%, Benchmark (S&P 500): 250%
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
@@ -82,7 +82,7 @@ Find stocks with highest total assets.
 
 [total_assets](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-assets "total_assets")
 
-Returns: 33%, Drawdown: -55%, Benchmark (S&P 500): 250%
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
@@ -98,7 +98,7 @@ Find stocks with highest total equity.
 
 [total_equity](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-equity "total_equity")
 
-Returns: 33%, Drawdown: -55%, Benchmark (S&P 500): 250%
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
@@ -114,7 +114,7 @@ Ideally, we find stocks with low debt.
 
 [total_debt](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-debt "total_debt")
 
-Returns: 33%, Drawdown: -55%, Benchmark (S&P 500): 250%
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
@@ -135,7 +135,7 @@ Returns: 33%, Drawdown: -55%, Benchmark (S&P 500): 250%
 
 We can also find stocks with high debt.
 
-Returns: 33%, Drawdown: -55%, Benchmark (S&P 500): 250%
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
