@@ -14,7 +14,7 @@ Find stocks with lowest depreciation and amortization..
 
 Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 import quantopian.algorithm as algo
@@ -84,7 +84,7 @@ Find stocks with highest earnings before interest, tax, depreciation and amortiz
 
 Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 import quantopian.algorithm as algo
@@ -154,7 +154,7 @@ Find stocks with highest net income.
 
 Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 factor = ms.net_income_income_statement.latest.rank(mask=univ, ascending=False)
@@ -170,7 +170,7 @@ Find stocks with highest operating income.
 
 Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 factor = ms.operating_income.latest.rank(mask=univ, ascending=False)
@@ -190,7 +190,7 @@ Find stocks with highest total revenue.
 
 Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 factor = ms.total_revenue.latest.rank(mask=univ, ascending=False)
