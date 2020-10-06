@@ -138,7 +138,7 @@ Start to end: 01/02/2006 - 09/01/2020
 
 Starting capital: $10000
 
-Number of stocks: 5
+Number of stocks: 5, equally weighted
 
 Max leverage: 1
 
