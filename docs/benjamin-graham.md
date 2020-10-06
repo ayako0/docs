@@ -4,6 +4,7 @@ date: ''
 slug: benjamin-graham
 
 ---
+
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/~ayako0/5.embed"></iframe>
 
 Original:
