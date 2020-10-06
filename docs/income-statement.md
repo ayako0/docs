@@ -12,6 +12,10 @@ Find stocks with lowest depreciation and amortization..
 
 [depreciation_and_amortization_income_statement](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#depreciation-and-amortization-income-statement)
 
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+
 ```python
     import quantopian.algorithm as algo
     from quantopian.pipeline import Pipeline
@@ -77,6 +81,10 @@ _Net income - (interest + tax + deprecation + amortization)_
 Find stocks with highest earnings before interest, tax, depreciation and amortization.
 
 [ebitda](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#ebitda)
+
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
     import quantopian.algorithm as algo
@@ -144,6 +152,10 @@ Find stocks with highest net income.
 
 [net_income_income_statement](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#net-income-income-statement)
 
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
+
 ```python
 factor = ms.net_income_income_statement.latest.rank(mask=univ, ascending=False)
 ```
@@ -155,6 +167,10 @@ _Revenue - expenses - income from investing activities_
 Find stocks with highest operating income.
 
 [operating_income](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#operating-income)
+
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
 factor = ms.operating_income.latest.rank(mask=univ, ascending=False)
@@ -171,6 +187,10 @@ _Income as produced by sales_
 Find stocks with highest total revenue.
 
 [total_revenue](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-revenue)
+
+Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed"></iframe>
 
 ```python
 factor = ms.total_revenue.latest.rank(mask=univ, ascending=False)
