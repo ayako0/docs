@@ -103,7 +103,7 @@ Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
-factor = ms.total_assets.latest.rank(mask=univ, ascending=False)
+factor = ms.total_equity.latest.rank(mask=univ, ascending=False)
 ```
 
 ## Total Debt
@@ -121,7 +121,7 @@ Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 ```python
 def make_pipeline(context):
     univ = Q3000US()
-    factor = ms.free_cash_flow.latest.rank(mask=univ, ascending=True)
+    factor = ms.total_debt.latest.rank(mask=univ, ascending=True)
     bottom = factor.bottom(context.FINE_FILTER)
     pipe = Pipeline(
         columns={'bottom': bottom}, screen=univ)
