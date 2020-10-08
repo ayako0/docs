@@ -6,7 +6,7 @@ slug: income-statement
 ---
 ## Depreciation and Amortization
 
-_(Assets - liabilities) - cost and degradation of assets_
+_Reduction of book value in the degradation of assets_
 
 Find stocks with lowest depreciation and amortization..
 
