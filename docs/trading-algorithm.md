@@ -5,4 +5,4 @@ slug: trading-algorithm
 ---
 ## Personal Chart
 
-A quantamental approach blending Modern Portfolio Theory + revenue growth.
+A long-only, quantamental approach blending Modern Portfolio Theory + revenue growth.
