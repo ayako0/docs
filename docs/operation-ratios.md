@@ -224,9 +224,9 @@ def make_pipeline(context):
     debt_eq_med = 0.5 < ms.total_debt_equity_ratio.latest < 2
     debt_eq_hi = ms.total_debt_equity_ratio.latest > 2
 
-    factor = ms.debt_eq_low.latest.rank(mask=univ, ascending=False)
-    #factor = ms.debt_eq_med.latest.rank(mask=univ, ascending=False)
-    #factor = ms.debt_eq_hi.latest.rank(mask=univ, ascending=False)
+    factor = ms.total_debt_equity_ratio.latest.rank(mask=debt_eq_low, ascending=False)
+    #factor = ms.total_debt_equity_ratio.latest.rank(mask=debt_eq_med, ascending=False)
+    #factor = ms.total_debt_equity_ratio.latest.rank(mask=debt_eq_hi, ascending=False)
     top = factor.top(context.FINE_FILTER)
     pipe = Pipeline(
         columns={'top': top}, screen=univ)
