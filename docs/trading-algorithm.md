@@ -5,4 +5,4 @@ slug: trading-algorithm
 ---
 ## Personal Chart
 
-_In short order_
+A quantamental approach blending modern portfolio theory + revenue growth.
