@@ -204,7 +204,7 @@ factor = ms.roic.latest.rank(mask=univ, ascending=False)
 
 ## Total Debt to Equity Ratio
 
-_Common shares outstanding - total debt_
+_Total debt / common equity_
 
 Find stocks with highest** debt to equity ratio.
 
