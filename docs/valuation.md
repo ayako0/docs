@@ -78,30 +78,7 @@ def trade(context, data):
 
 _Common shares outstanding * share price_
 
-Find stocks within market cap ranges.
-
 [market_cap](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#market-cap)
-
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
-
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
-
-```python
-def make_pipeline(context):
-    univ = Q3000US()
-
-    mkt_cap_low = ms.market_cap.latest < 2e9
-    mkt_cap_med = 2e9 < ms.market_cap.latest < 10e9
-    mkt_cap_hi = ms.market_cap.latest > 10e9
-
-    factor = ms.mkt_cap_low.latest.rank(mask=univ, ascending=False)
-    #factor = ms.mkt_cap_med.latest.rank(mask=univ, ascending=False)
-    #factor = ms.mkt_cap_hi.latest.rank(mask=univ, ascending=False)
-    top = factor.top(context.FINE_FILTER)
-    pipe = Pipeline(
-        columns={'top': top}, screen=univ)
-    return pipe
-```
 
 ## Shares Outstanding
 
@@ -110,29 +87,6 @@ _Number of common shares issued_
 Find stocks within ranges of shares outstanding.
 
 [shares_outstanding](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#shares-outstanding)
-
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
-
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
-
-```python
-def make_pipeline(context):
-    univ = Q3000US()
-
-    300_shares = ms.shares_outstanding.latest < 3e9
-    600_shares = 301 < ms.shares_outstanding.latest < 6e9
-    900_shares = 601 < ms.shares_outstanding.latest < 9e9
-    1200_shares = ms.shares_outstanding.latest > 12e9
-
-    factor = ms.300_shares.latest.rank(mask=univ, ascending=False)
-    #factor = ms.600_shares.latest.rank(mask=univ, ascending=False)
-    #factor = ms.900_shares.latest.rank(mask=univ, ascending=False)
-    #factor = ms.1200_shares.latest.rank(mask=univ, ascending=False)
-    top = factor.top(context.FINE_FILTER)
-    pipe = Pipeline(
-        columns={'top': top}, screen=univ)
-    return pipe
-```
 
 _All fundamental testing algos have the following attributes:_
 
