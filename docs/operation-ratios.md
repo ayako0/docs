@@ -226,11 +226,8 @@ def make_pipeline(context):
     factor = ms.total_debt_equity_ratio.latest.rank(mask=debt_eq_low, ascending=True)
     #factor = ms.total_debt_equity_ratio.latest.rank(mask=debt_eq_hi, ascending=False)
     top = factor.top(context.FINE_FILTER)
-    #bottom = factor.bottom(context.FINE_FILTER)
     pipe = Pipeline(
         columns={'top': top}, screen=univ)
-    #pipe = Pipeline(
-        columns={'bottom': bottom}, screen=univ)
     return pipe
 ```
 
