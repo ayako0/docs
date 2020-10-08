@@ -12,7 +12,7 @@ Find stocks with highest current ratio.
 
 [current_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#current-ratio)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+Returns: **78.55%**, Drawdown: **-70.61%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
@@ -82,7 +82,7 @@ Find stocks with highest net income growth.
 
 [net_income_growth](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#net-income-growth)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+Returns: **61.41%**, Drawdown: **-72.47%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
@@ -98,7 +98,7 @@ Find stocks with highest net margin.
 
 [net_margin](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#net-margin)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+Returns: **16.2%**, Drawdown: **-84.68%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
@@ -114,7 +114,7 @@ Find stocks with highest operation revenue growth.
 
 [operation_revenue_growth3_month_avg](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#operation-revenue-growth3-month-avg)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+Returns: **358.41%**, Drawdown: **-86.73%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
@@ -130,7 +130,7 @@ Find stocks with highest quick ratio.
 
 [quick_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#quick-ratio)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+Returns: **317.22%**, Drawdown: **-58.24%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
@@ -146,7 +146,7 @@ Find stocks with highest revenue growth.
 
 [revenue_growth](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#revenue-growth)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+Returns: **211.05%**, Drawdown: **-87.44%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
@@ -162,7 +162,7 @@ Find stocks with highest return on assets.
 
 [roa](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#roa)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+Returns: -**62.16%**, Drawdown: **-85.02%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
@@ -178,7 +178,7 @@ Find stocks with highest return on equity.
 
 [roe](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#roe)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+Returns: **24.3%**, Drawdown: **-87.77%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
@@ -194,7 +194,7 @@ Find stocks with highest return on invested capital.
 
 [roic](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#roic)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+Returns: **36.25%**, Drawdown: **-72.09%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
@@ -210,7 +210,7 @@ Find stocks with lowest** debt to equity ratio.
 
 [total_debt_equity_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-debt-equity-ratio)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+Returns: **100.86%**, Drawdown: **-31.12%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
