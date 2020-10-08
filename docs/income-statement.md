@@ -12,7 +12,7 @@ Find stocks with lowest depreciation and amortization..
 
 [depreciation_and_amortization_income_statement](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#depreciation-and-amortization-income-statement)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+Returns: **224.14%**, Drawdown: **-51.22%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
@@ -82,7 +82,7 @@ Find stocks with highest earnings before interest, tax, depreciation and amortiz
 
 [ebitda](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#ebitda)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+Returns: **-72.07%**, Drawdown: **-90.2%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
@@ -152,7 +152,7 @@ Find stocks with highest net income.
 
 [net_income_income_statement](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#net-income-income-statement)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+Returns: **-62.58%**, Drawdown: **-88.95%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
@@ -168,7 +168,7 @@ Find stocks with highest operating income.
 
 [operating_income](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#operating-income)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+Returns: **-59.4%**, Drawdown: **-90.75%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
@@ -188,7 +188,7 @@ Find stocks with highest total revenue.
 
 [total_revenue](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-revenue)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+Returns: **95.16%**, Drawdown: **-76.52%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
