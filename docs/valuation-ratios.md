@@ -154,22 +154,6 @@ Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 factor = ms.fcf_yield.latest.rank(mask=univ, ascending=False)
 ```
 
-## Forward Earning Yield
-
-_(Next year's estimate for diluted earnings / common shares outstanding) / close price_
-
-Find stocks with highest forward earning yield.
-
-[forward_earning_yield](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#forward-earning-yield)
-
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
-
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
-
-```python
-factor = ms.forward_earning_yield.latest.rank(mask=univ, ascending=False)
-```
-
 ## Price to Book Ratio
 
 _Close price / (assets - liabilities)_
