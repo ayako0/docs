@@ -12,7 +12,7 @@ Find stocks with highest book value per share.
 
 [book_value_per_share](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#book-value-per-share)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **276.95%**
+Returns: **50.6%**, Drawdown: **-66.95%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
@@ -82,7 +82,7 @@ Find stocks with highest book value yield.
 
 [book_value_yield](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#book-value-yield)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **276.95%**
+Returns: **99.36%**, Drawdown: **-81.77%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
@@ -98,7 +98,7 @@ Find stocks with highest cash return.
 
 [cash_return](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#cash-return)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **276.95%**
+Returns: **66.02%**, Drawdown: **-90.42%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
@@ -114,7 +114,7 @@ Find stocks with highest earning yield.
 
 [earning_yield](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#earning-yield)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **276.95%**
+Returns: **-92.55%**, Drawdown: **-98.6%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
@@ -130,7 +130,7 @@ Find stocks with highest enterprise value to EBITDA.
 
 [ev_to_ebitda](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#ev-to-ebitda)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **276.95%**
+Returns: -**33.7%**, Drawdown: **-74.49%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
@@ -146,7 +146,7 @@ Find stocks with highest free cash flow yield.
 
 [fcf_yield](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#fcf-yield)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **276.95%**
+Returns: **-71.49%**, Drawdown: **-92.66%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
@@ -162,7 +162,7 @@ Find stocks with highest price to book ratio.
 
 [pb_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#pb-ratio)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **276.95%**
+Returns: **-24.46%**, Drawdown: **-96.45%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
@@ -178,7 +178,7 @@ Find stocks with highest price to earnings ratio.
 
 [pe_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#pe-ratio)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **276.95%**
+Returns: **117.09%**, Drawdown: **-86.27%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
@@ -194,7 +194,7 @@ Find stocks with highest price to sales ratio.
 
 [ps_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#ps-ratio)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **276.95%**
+Returns: **1270.05%**, Drawdown: **-58.17%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
@@ -210,7 +210,7 @@ Find stocks with highest sales yield.
 
 [sales_yield](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#sales-yield)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **276.95%**
+Returns: **-15.34%**, Drawdown: **-75.64%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
@@ -226,7 +226,7 @@ Find stocks with highest sustainable growth rate.
 
 [sustainable_growth_rate](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#sustainable-growth-rate)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **276.95%**
+Returns: **191.16%**, Drawdown: **-64.75%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
