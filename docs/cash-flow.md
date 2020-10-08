@@ -12,7 +12,7 @@ Find stocks with highest free cash flow.
 
 [free_cash_flow](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#free-cash-flow "free_cash_flow")
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+Returns: **42.48%**, Drawdown: **-81.96%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
