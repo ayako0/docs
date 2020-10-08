@@ -206,11 +206,9 @@ factor = ms.roic.latest.rank(mask=univ, ascending=False)
 
 _Total debt / common equity_
 
-Find stocks with highest** debt to equity ratio.
+Find stocks with lowest** debt to equity ratio.
 
 [total_debt_equity_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-debt-equity-ratio)
-
-A balance of debt to equity may be optimal.
 
 Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
 
