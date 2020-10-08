@@ -105,6 +105,8 @@ def make_pipeline(context):
 
 ## Shares Outstanding
 
+_Number of common shares issued_
+
 Find stocks within ranges of shares outstanding.
 
 [shares_outstanding](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#shares-outstanding)
