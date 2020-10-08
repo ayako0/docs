@@ -12,7 +12,7 @@ Find stocks with highest equity per share growth.
 
 [equity_per_share_growth](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#equity-per-share-growth)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+Returns: **946.69%**, Drawdown: **-65.15%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
