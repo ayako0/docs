@@ -12,7 +12,7 @@ Find stocks with highest enterprise value.
 
 [enterprise_value](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#enterprise-value)
 
-Returns: **33%**, Drawdown: **-55%**, Benchmark (S&P 500): **250%**
+Returns: **325.52%**, Drawdown: **-71.93%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
 
