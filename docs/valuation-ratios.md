@@ -14,7 +14,7 @@ Find stocks with highest book value per share.
 
 Returns: **50.6%**, Drawdown: **-66.95%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/61.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 import quantopian.algorithm as algo
@@ -84,7 +84,7 @@ Find stocks with highest book value yield.
 
 Returns: **99.36%**, Drawdown: **-81.77%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/63.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 factor = ms.book_value_yield.latest.rank(mask=univ, ascending=False)
@@ -100,7 +100,7 @@ Find stocks with highest cash return.
 
 Returns: **66.02%**, Drawdown: **-90.42%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/65.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 factor = ms.cash_return.latest.rank(mask=univ, ascending=False)
@@ -116,7 +116,7 @@ Find stocks with highest earning yield.
 
 Returns: **-92.55%**, Drawdown: **-98.6%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/67.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 factor = ms.earning_yield.latest.rank(mask=univ, ascending=False)
@@ -132,7 +132,7 @@ Find stocks with highest enterprise value to EBITDA.
 
 Returns: -**33.7%**, Drawdown: **-74.49%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/69.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 factor = ms.ev_to_ebitda.latest.rank(mask=univ, ascending=False)
@@ -148,7 +148,7 @@ Find stocks with highest free cash flow yield.
 
 Returns: **-71.49%**, Drawdown: **-92.66%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/71.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 factor = ms.fcf_yield.latest.rank(mask=univ, ascending=False)
@@ -164,7 +164,7 @@ Find stocks with highest price to book ratio.
 
 Returns: **-24.46%**, Drawdown: **-96.45%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/73.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 factor = ms.pb_ratio.latest.rank(mask=univ, ascending=False)
@@ -180,7 +180,7 @@ Find stocks with highest price to earnings ratio.
 
 Returns: **117.09%**, Drawdown: **-86.27%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/75.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 factor = ms.pe_ratio.latest.rank(mask=univ, ascending=False)
@@ -196,7 +196,7 @@ Find stocks with highest price to sales ratio.
 
 Returns: **1270.05%**, Drawdown: **-58.17%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/77.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 factor = ms.ps_ratio.latest.rank(mask=univ, ascending=False)
@@ -212,7 +212,7 @@ Find stocks with highest sales yield.
 
 Returns: **-15.34%**, Drawdown: **-75.64%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/79.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 factor = ms.sales_yield.latest.rank(mask=univ, ascending=False)
@@ -228,7 +228,7 @@ Find stocks with highest sustainable growth rate.
 
 Returns: **191.16%**, Drawdown: **-64.75%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/81.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 factor = ms.sustainable_growth_rate.latest.rank(mask=univ, ascending=False)
