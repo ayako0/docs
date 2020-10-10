@@ -14,7 +14,7 @@ Find stocks with highest earnings per share.
 
 Returns: **-91.3%**, Drawdown: **-95.77%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/23.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 import quantopian.algorithm as algo
