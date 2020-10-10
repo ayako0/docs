@@ -14,7 +14,7 @@ Find stocks with highest current ratio.
 
 Returns: **78.55%**, Drawdown: **-70.61%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/37.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 import quantopian.algorithm as algo
@@ -84,7 +84,7 @@ Find stocks with highest net income growth.
 
 Returns: **61.41%**, Drawdown: **-72.47%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/39.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 factor = ms.net_income_growth.latest.rank(mask=univ, ascending=False)
@@ -100,7 +100,7 @@ Find stocks with highest net margin.
 
 Returns: **16.2%**, Drawdown: **-84.68%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/41.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 factor = ms.net_margin.latest.rank(mask=univ, ascending=False)
@@ -116,7 +116,7 @@ Find stocks with highest operation revenue growth.
 
 Returns: **358.41%**, Drawdown: **-86.73%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/43.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 factor = ms.operation_revenue_growth3_month_avg.latest.rank(mask=univ, ascending=False)
@@ -132,7 +132,7 @@ Find stocks with highest quick ratio.
 
 Returns: **317.22%**, Drawdown: **-58.24%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/45.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 factor = ms.quick_ratio.latest.rank(mask=univ, ascending=False)
@@ -148,7 +148,7 @@ Find stocks with highest revenue growth.
 
 Returns: **211.05%**, Drawdown: **-87.44%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/47.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 factor = ms.revenue_growth.latest.rank(mask=univ, ascending=False)
@@ -164,7 +164,7 @@ Find stocks with highest return on assets.
 
 Returns: -**62.16%**, Drawdown: **-85.02%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/49.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 factor = ms.roa.latest.rank(mask=univ, ascending=False)
@@ -180,7 +180,7 @@ Find stocks with highest return on equity.
 
 Returns: **24.3%**, Drawdown: **-87.77%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/51.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 factor = ms.roe.latest.rank(mask=univ, ascending=False)
@@ -196,7 +196,7 @@ Find stocks with highest return on invested capital.
 
 Returns: **36.25%**, Drawdown: **-72.09%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/53.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 factor = ms.roic.latest.rank(mask=univ, ascending=False)
@@ -212,7 +212,7 @@ Find stocks with lowest** debt to equity ratio.
 
 Returns: **100.86%**, Drawdown: **-31.12%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/55.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 def make_pipeline(context):
