@@ -116,7 +116,7 @@ Ideally, we find stocks with low debt.
 
 Returns: **52.21%**, Drawdown: **-53.81%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/17.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 def make_pipeline(context):
@@ -137,7 +137,7 @@ We can also find stocks with high debt.
 
 Returns: **-21.78%**, Drawdown: **-75.52%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/19.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 def make_pipeline(context):
