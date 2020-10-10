@@ -14,7 +14,7 @@ Find stocks with highest cash and cash equivalents.
 
 Returns: **-51.42%**, Drawdown: **-77.4%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/11.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 import quantopian.algorithm as algo
@@ -84,7 +84,7 @@ Find stocks with highest total assets.
 
 Returns: **-51.27%**, Drawdown: **-83.72%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/13.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 factor = ms.total_assets.latest.rank(mask=univ, ascending=False)
@@ -100,7 +100,7 @@ Find stocks with highest total equity.
 
 Returns: **185.64%**, Drawdown: **-78.54%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/15.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 factor = ms.total_equity.latest.rank(mask=univ, ascending=False)
