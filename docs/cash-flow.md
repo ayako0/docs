@@ -14,7 +14,7 @@ Find stocks with highest free cash flow.
 
 Returns: **42.48%**, Drawdown: **-81.96%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/21.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 import quantopian.algorithm as algo
