@@ -14,7 +14,7 @@ Find stocks with highest enterprise value.
 
 Returns: **325.52%**, Drawdown: **-71.93%**, Benchmark (S&P 500): **276.95%**
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/5.embed?link=false&modebar=false&logo=false"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/59.embed?link=false&modebar=false&logo=false"></iframe>
 
 ```python
 import quantopian.algorithm as algo
