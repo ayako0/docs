@@ -21,6 +21,6 @@ See that stocks selected by the Benjamin Graham formula can follow or outperform
 9.  Earnings growth of prior ten years at least 7 percent on an annual basis.
 10.  Stability of growth of earnings in that no more than two declines of 5 percent or more in the prior 10 years.
 
-The equation out / underperformed the S&P 500 over a timeframe of __ years by __%. All stocks are weighted equally and were chosen on a monthly basis.
+The equation out / underperformed the S&P 500 over a timeframe of ## years by ##%. All stocks are weighted equally and were chosen on a monthly basis.
 
 <a href="https://google.com">Notebook</a>
