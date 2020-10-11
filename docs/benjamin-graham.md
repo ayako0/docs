@@ -22,6 +22,6 @@ See that stocks selected by the Benjamin Graham formula can follow or outperform
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/11.embed?link=false&modebar=false&logo=false"></iframe>
 
-The equation out / underperformed the S&P 500 over a timeframe of ## years by ##%. All stocks are weighted equally and were chosen on a monthly basis.
+The equation out / underperforms the S&P 500 over a timeframe of ## years by ##%. All stocks are weighted equally and were chosen on a monthly basis.
 
 <a href="https://google.com">Notebook</a>
