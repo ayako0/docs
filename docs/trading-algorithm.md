@@ -7,7 +7,7 @@ slug: trading-algorithm
 
 A quantamental approach blending Modern Portfolio Theory + revenue growth.
 
-Returns: **29923.07%**, Drawdown: **-39.77%**, Benchmark (S&P 500): **300%**
+Returns: **29923.07%**, Drawdown: **-39.77%**, Benchmark (S&P 500): **290%**
 
 Start to end: 09/01/2002 - 10/05/2020
 
