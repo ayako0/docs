@@ -5,7 +5,7 @@ slug: benjamin-graham
 
 ---
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/~ayako0/15.embed"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/11.embed?link=false&modebar=false&logo=false"></iframe>
 
 See that stocks selected by the Benjamin Graham formula can follow or outperform the S&P 500.
 
