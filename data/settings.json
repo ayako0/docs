@@ -1,15 +1,6 @@
 {
   "sidebar": [
     {
-      "section": "test",
-      "topics": [
-        {
-          "title": "test",
-          "slug": "test"
-        }
-      ]
-    },
-    {
       "section": "Formulas",
       "topics": [
         {
