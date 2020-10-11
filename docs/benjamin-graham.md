@@ -27,11 +27,6 @@ The equation out / underperforms the S&P 500 over a timeframe of **##** years by
 
 <h2>Code</h2>
 
-    def stocks_weights(context, data):
-        df = algo.pipeline_output('pipeline')
-        rule = 'top'
-        stocks_to_hold = df.query(rule).index
-        stock_weight = 1.0 / context.FINE_FILTER
-        context.stocks_weights = pd.Series(index=stocks_to_hold, data=stock_weight)
+    factor = ms.total_assets.latest.rank(mask=univ, ascending=False)
 
 <a href="https://google.com">Notebook</a>
