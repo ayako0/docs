@@ -8,6 +8,7 @@ slug: benjamin-graham
 See that stocks selected by the Benjamin Graham formula can follow or outperform the S&P 500.
 
 <h2>Selection criteria</h2>
+
 1.  An earnings-to-price yield at least twice the AAA bond yield.<br/>
 2.  A price-earnings ratio less than 40 percent of the highest price-earnings ratio the stock had over the past five years.<br/>
 3.  A dividend yield of at least two-thirds the AAA bond yield.<br/>
