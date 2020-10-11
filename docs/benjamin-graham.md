@@ -6,7 +6,7 @@ slug: benjamin-graham
 ---
 See that stocks selected by the Benjamin Graham formula can follow or outperform the S&P 500.
 
-<h2>Selection criteria</h2>
+## Selection criteria
 
  1. An earnings-to-price yield at least twice the AAA bond yield.
  2. A price-earnings ratio less than 40 percent of the highest price-earnings ratio the stock had over the past five years.
@@ -25,10 +25,10 @@ Returns: **##.##%**, Drawdown: **-##.##%**, Benchmark (S&P 500): **###.##%**
 
 The equation out / underperforms the S&P 500 over a timeframe of **##** years by **##**%. All stocks are weighted equally and are chosen on a monthly basis.
 
-<h2>Code</h2>
+## Code
 
 ```python
     factor = ms.total_assets.latest.rank(mask=univ, ascending=False)
 ```
 
-<a href="https://google.com">Notebook</a>
+[Notebook](https://goggle.com)
