@@ -25,12 +25,14 @@ pre[class*="language-"] {
 pre[class*="language-"] {
   padding: 0px 20px;
   margin: 0 0 4em 0;
-  overflow: hidden;
+  // overflow: hidden;
   font-size: 14px;
   color: $textBright;
   opacity: 1;
   font-weight: 400;
   margin-top: 20px;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
 }
 
 :not(pre) > code[class*="language-"] {
