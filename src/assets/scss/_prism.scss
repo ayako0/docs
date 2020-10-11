@@ -16,7 +16,7 @@ pre[class*="language-"] {
   transition: background 0.15s ease-in-out, color 0.15s ease-in-out;
   border-left: 1px solid $textBright;
   font-weight: 400;
-
+  
   * {
     transition: color 0.15s ease-in-out;
   }
@@ -30,6 +30,7 @@ pre[class*="language-"] {
   color: $textBright;
   opacity: 1;
   font-weight: 400;
+  margin-top: 20px;
 }
 
 :not(pre) > code[class*="language-"] {
