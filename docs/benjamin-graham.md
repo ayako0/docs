@@ -5,38 +5,22 @@ slug: benjamin-graham
 
 ---
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/~ayako0/5.embed"></iframe>
+<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/~ayako0/15.embed"></iframe>
 
-Original:
+See that stocks selected by the Benjamin Graham formula can follow or outperform the S&P 500.
 
-V = (EPS * (8.5 + 2g) * 4.4) / Y
+<h2>Selection criteria</h2>
+1.  An earnings-to-price yield at least twice the AAA bond yield.
+2.  A price-earnings ratio less than 40 percent of the highest price-earnings ratio the stock had over the past five years.
+3.  A dividend yield of at least two-thirds the AAA bond yield.
+4.  Stock price below two-thirds of tangible book value per share.
+5.  Stock price two-thirds “net current asset value.”
+6.  Total debt less than book value.
+7.  Current ratio greater than two.
+8.  Total debt less than twice “net current asset value.”
+9.  Earnings growth of prior ten years at least 7 percent on an annual basis.
+10.  Stability of growth of earnings in that no more than two declines of 5 percent or more in the prior 10 years.
 
-V: Intrinsic value
+The equation out / underperformed the S&P 500 over a timeframe of __ years by __%. All stocks are weighted equally and were chosen on a monthly basis.
 
-8\.5: Price to earnings ratio for a company with 0% growth
-
-EPS: Current earnings per share
-
-g: (Return on equity, 10 years ago / current return on equity)^(1/10))-1
-
-4\.4: Bond rate at the time the equation was written
-
-Y: Current 20 year corporate bond rate
-
-Original equation is using outdated bond rates. The static weightings (8.5 and 2) may need to be re-figured to optimize for a weekly or monthly time series analysis.
-
-Baseline:
-
-See if equation for several picked stocks can follow SPX baseline.
-
-Try:
-
-Value 1 = (EPS * ((PE ratio > 8.5) + (ROE growth rate * .01))
-
-Current bond rate = (current bond rate * .01)
-
-Value 2 = Value 1 * Current bond rate
-
-Final = Value 1 + Value 2
-
-Try different weightings.
+<a href="https://google.com">Notebook</a>
