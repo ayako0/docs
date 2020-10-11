@@ -27,6 +27,8 @@ The equation out / underperforms the S&P 500 over a timeframe of **##** years by
 
 <h2>Code</h2>
 
+```python
     factor = ms.total_assets.latest.rank(mask=univ, ascending=False)
+```
 
 <a href="https://google.com">Notebook</a>
