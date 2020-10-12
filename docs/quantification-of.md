@@ -1,5 +1,5 @@
 ---
-title: Quantification of
+title: Quantification of Natural Disasters on Physical Assets
 slug: disasters-assets
 
 ---
