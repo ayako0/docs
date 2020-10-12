@@ -4,6 +4,10 @@
       "section": "Formulas",
       "topics": [
         {
+          "title": "Quantification of Natural Disasters on Physical Assets",
+          "slug": "disasters-assets"
+        },
+        {
           "title": "Benjamin Graham",
           "slug": "benjamin-graham"
         },
