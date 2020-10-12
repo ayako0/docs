@@ -1,5 +1,5 @@
 ---
-title: Quantifying Natural Disasters on Physical Assets
+title: Quantifying Natural Disaster Impacts on Physical Assets
 slug: disasters-assets
 
 ---
