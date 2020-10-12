@@ -9,7 +9,7 @@
       </div>
       <div class="flex-item">
         <h2>Equity per Share Growth</h2>
-        <p>One of the key factors defining market performance.</p>
+        <p>One of the leading factors in correlation to the S&P 500.</p>
         <a href="/earnings-ratios#equity-per-share-growth">Learn more</a>
       </div>
       <div class="flex-item">
