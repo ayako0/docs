@@ -3,18 +3,18 @@
     <div class="flex-container">
       <div class="flex-item"></div>
       <div class="flex-item">
-        <h2>Cash and Cash Equivalents</h2>
-        <p>The liquid or immediately liquefiable assets of a company...</p>
-        <a href="/balance-sheet#cash-and-cash-equivalents">Learn more</a>
+        <h2>Benjamin Graham Equation</h2>
+        <p>Does Benjamin Graham's equation outperform the market?</p>
+        <a href="/benjamin-graham">Learn more</a>
       </div>
       <div class="flex-item">
-        <h2>Operating Income</h2>
-        <p>Income after operating expenses are calculated...</p>
-        <a href="/income-statement#operating-income">Learn more</a>
+        <h2>Equity per Share Growth</h2>
+        <p>One of the key factors defining market performance.</p>
+        <a href="/earnings-ratios#equity-per-share-growth">Learn more</a>
       </div>
       <div class="flex-item">
         <h2>Quick Ratio</h2>
-        <p>The balance of liquefiable assets to liability...</p>
+        <p>A factor that performs in consistency with the S&P 500.</p>
         <a href="/operation-ratios#quick-ratio">Learn more</a>
       </div>
     </div>
