@@ -73,6 +73,7 @@ h1 {
 h2 {
   font-size: 1.4rem;
   margin: 0;
+  line-height: 1.4;
 }
 nav {
   display: flex;
