@@ -16,7 +16,7 @@
             <a href="https://twitter.com/numberatomism">@numberatomism</a>
           </li>
           <li id="email">
-            <a href="mailto: ayakowenko@gmail.com">ayakowenko@protonmail.com</a>
+            <a href="mailto: ayakowenko@protonmail.com">ayakowenko@protonmail.com</a>
           </li>
         </ul>
       </div>
