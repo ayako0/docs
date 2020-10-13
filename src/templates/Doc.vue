@@ -13,10 +13,13 @@
       <div class="footer-inner" id="footer-right">
         <ul>
           <li id="twitter">
-            <a href="https://twitter.com/numberatomism">@numberatomism</a>
+            <a href="https://twitter.com/numberatomism">Twitter</a>
           </li>
           <li id="email">
-            <a href="mailto: ayakowenko@protonmail.com">ayakowenko@protonmail.com</a>
+            <a href="mailto: ayakowenko@protonmail.com">Email</a>
+          </li>
+          <li id="github">
+            <a href="https://github.com/ayako0">Github</a>
           </li>
         </ul>
       </div>
