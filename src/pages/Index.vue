@@ -130,7 +130,7 @@ nav {
     flex-direction: column;
     height: 100%;
     width: 100%;
-    padding: 0px 80px;
+    padding: 0px 160px;
     flex-direction: column;
     justify-content: space-between;
   }
