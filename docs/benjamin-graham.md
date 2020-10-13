@@ -19,7 +19,7 @@ See that stocks selected by the Benjamin Graham formula can follow or outperform
  9. Earnings growth of prior ten years at least 7 percent on an annual basis.
 10. Stability of growth of earnings in that no more than two declines of 5 percent or more in the prior 10 years.
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/11.embed?link=false&modebar=false&logo=false"></iframe>
+<i>Chart in development</i>
 
 Returns: **##.##%**, Drawdown: **-##.##%**, Benchmark (S&P 500): **###.##%**
 
@@ -30,5 +30,3 @@ The equation out / underperforms the S&P 500 over a timeframe of **##** years by
 ```python
     factor = ms.total_assets.latest.rank(mask=univ, ascending=False)
 ```
-
-[Notebook](https://goggle.com)
