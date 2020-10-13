@@ -125,7 +125,7 @@ nav {
   text-decoration: none;
 }
 
-@include respond-below(xxs) {
+@include respond-below(sm) {
   .flex-container {
     padding: 0px 80px;
   }
