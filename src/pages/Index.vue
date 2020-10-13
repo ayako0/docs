@@ -129,6 +129,7 @@ nav {
   .flex-container {
     padding: 0px 80px;
   }
+}
 
 @include respond-between(xxs, sm) {
   .flex-container {
