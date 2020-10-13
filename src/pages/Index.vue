@@ -125,18 +125,12 @@ nav {
   text-decoration: none;
 }
 
-@include respond-below(sm) {
-  .flex-container {
-    padding: 0px 80px;
-  }
-}
-
 @include respond-between(xxs, sm) {
   .flex-container {
     flex-direction: column;
     height: 100%;
     width: 100%;
-    padding: 0px 160px;
+    padding: 0px 120px;
     flex-direction: column;
     justify-content: space-between;
   }
