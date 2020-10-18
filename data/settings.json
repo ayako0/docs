@@ -83,6 +83,15 @@
           "slug": "trading-algorithm"
         }
       ]
+    },
+    {
+      "section": "Data Science",
+      "topics": [
+        {
+          "title": "Localized Sentiment Analysis",
+          "slug": "sentiment-analysis"
+        }
+      ]
     }
   ]
 }
