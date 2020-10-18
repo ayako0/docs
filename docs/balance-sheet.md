@@ -8,7 +8,7 @@ slug: balance-sheet
 
 _Cash + immediately liquid instruments_
 
-Find stocks with highest cash and cash equivalents.
+Find stocks with the highest cash and cash equivalents.
 
 [cash_and_cash_equivalents](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#cash-and-cash-equivalents "cash_and_cash_equivalents")
 
@@ -78,7 +78,7 @@ def trade(context, data):
 
 _Tangible and intangible value_
 
-Find stocks with highest total assets.
+Find stocks with the highest total assets.
 
 [total_assets](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-assets "total_assets")
 
@@ -94,7 +94,7 @@ factor = ms.total_assets.latest.rank(mask=univ, ascending=False)
 
 _Assets - liabilities_
 
-Find stocks with highest total equity.
+Find stocks with the highest total equity.
 
 [total_equity](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-equity "total_equity")
 
