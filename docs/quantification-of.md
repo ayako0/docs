@@ -5,4 +5,4 @@ slug: disasters-assets
 ---
 Reference:
 
-[https://www.nature.com/articles/s41893-020-0508-7](https://www.nature.com/articles/s41893-020-0508-7 "https://www.nature.com/articles/s41893-020-0508-7")
+[Quantification of disaster impacts through household well-being losses](https://www.nature.com/articles/s41893-020-0508-7). Nature.org, 2020.
