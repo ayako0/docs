@@ -16,7 +16,7 @@ _In development_
 
 _(Assets - liabilities) / common shares outstanding_
 
-Find stocks with highest book value per share.
+Find stocks with the highest book value per share.
 
 [book_value_per_share](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#book-value-per-share)
 
@@ -86,7 +86,7 @@ def trade(context, data):
 
 _(Assets - liabilities) / close price_
 
-Find stocks with highest book value yield.
+Find stocks with the highest book value yield.
 
 [book_value_yield](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#book-value-yield)
 
@@ -102,7 +102,7 @@ factor = ms.book_value_yield.latest.rank(mask=univ, ascending=False)
 
 _(Cash flow operations - capital expenditures) / enterprise value_
 
-Find stocks with highest cash return.
+Find stocks with the highest cash return.
 
 [cash_return](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#cash-return)
 
@@ -118,7 +118,7 @@ factor = ms.cash_return.latest.rank(mask=univ, ascending=False)
 
 _(Diluted earnings / common shares outstanding) / close price_
 
-Find stocks with highest earning yield.
+Find stocks with the highest earning yield.
 
 [earning_yield](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#earning-yield)
 
@@ -134,7 +134,7 @@ factor = ms.earning_yield.latest.rank(mask=univ, ascending=False)
 
 _(Common equity + preferred equity + minority equity + total debt - cash and cash equivalents) / net income - (interest + tax + deprecation + amortization)_
 
-Find stocks with highest enterprise value to EBITDA.
+Find stocks with the highest enterprise value to EBITDA.
 
 [ev_to_ebitda](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#ev-to-ebitda)
 
@@ -150,7 +150,7 @@ factor = ms.ev_to_ebitda.latest.rank(mask=univ, ascending=False)
 
 _(Cash flow operations - capital expenditures / common shares outstanding) / close price_
 
-Find stocks with highest free cash flow yield.
+Find stocks with the highest free cash flow yield.
 
 [fcf_yield](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#fcf-yield)
 
@@ -166,7 +166,7 @@ factor = ms.fcf_yield.latest.rank(mask=univ, ascending=False)
 
 _Close price / (assets - liabilities)_
 
-Find stocks with highest price to book ratio.
+Find stocks with the highest price to book ratio.
 
 [pb_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#pb-ratio)
 
@@ -182,7 +182,7 @@ factor = ms.pb_ratio.latest.rank(mask=univ, ascending=False)
 
 _Close price / (net income / common shares outstanding)_
 
-Find stocks with highest price to earnings ratio.
+Find stocks with the highest price to earnings ratio.
 
 [pe_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#pe-ratio)
 
@@ -198,7 +198,7 @@ factor = ms.pe_ratio.latest.rank(mask=univ, ascending=False)
 
 _Close price / (revenue / common shares outstanding)_
 
-Find stocks with highest price to sales ratio.
+Find stocks with the highest price to sales ratio.
 
 [ps_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#ps-ratio)
 
@@ -214,7 +214,7 @@ factor = ms.ps_ratio.latest.rank(mask=univ, ascending=False)
 
 _(Revenue / common shares outstanding) / close price_
 
-Find stocks with highest sales yield.
+Find stocks with the highest sales yield.
 
 [sales_yield](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#sales-yield)
 
@@ -230,7 +230,7 @@ factor = ms.sales_yield.latest.rank(mask=univ, ascending=False)
 
 _Net income / total common equity * (1 - dividend per share / diluted earnings per share)_
 
-Find stocks with highest sustainable growth rate.
+Find stocks with the highest sustainable growth rate.
 
 [sustainable_growth_rate](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#sustainable-growth-rate)
 
