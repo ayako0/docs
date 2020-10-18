@@ -8,7 +8,7 @@ slug: operation-ratios
 
 _Current assets / current liabilities_
 
-Find stocks with highest current ratio.
+Find stocks with the highest current ratio.
 
 [current_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#current-ratio)
 
@@ -78,7 +78,7 @@ def trade(context, data):
 
 _((Net income current - net income from previous quarter) / net income current) * 100_
 
-Find stocks with highest net income growth.
+Find stocks with the highest net income growth.
 
 [net_income_growth](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#net-income-growth)
 
@@ -94,7 +94,7 @@ factor = ms.net_income_growth.latest.rank(mask=univ, ascending=False)
 
 _Net income / revenue_
 
-Find stocks with highest net margin.
+Find stocks with the highest net margin.
 
 [net_margin](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#net-margin)
 
@@ -110,7 +110,7 @@ factor = ms.net_margin.latest.rank(mask=univ, ascending=False)
 
 _((Operation revenue current - operation revenue from previous quarter) / operation revenue current) * 100_
 
-Find stocks with highest operation revenue growth.
+Find stocks with the highest operation revenue growth.
 
 [operation_revenue_growth3_month_avg](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#operation-revenue-growth3-month-avg)
 
@@ -126,7 +126,7 @@ factor = ms.operation_revenue_growth3_month_avg.latest.rank(mask=univ, ascending
 
 _Liquidity / liabilities_
 
-Find stocks with highest quick ratio.
+Find stocks with the highest quick ratio.
 
 [quick_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#quick-ratio)
 
@@ -142,7 +142,7 @@ factor = ms.quick_ratio.latest.rank(mask=univ, ascending=False)
 
 _((Revenue current - revenue from previous quarter) / revenue current) * 100_
 
-Find stocks with highest revenue growth.
+Find stocks with the highest revenue growth.
 
 [revenue_growth](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#revenue-growth)
 
@@ -158,7 +158,7 @@ factor = ms.revenue_growth.latest.rank(mask=univ, ascending=False)
 
 _Net income / total assets_
 
-Find stocks with highest return on assets.
+Find stocks with the highest return on assets.
 
 [roa](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#roa)
 
@@ -174,7 +174,7 @@ factor = ms.roa.latest.rank(mask=univ, ascending=False)
 
 _Net income / total common equity_
 
-Find stocks with highest return on equity.
+Find stocks with the highest return on equity.
 
 [roe](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#roe)
 
@@ -190,7 +190,7 @@ factor = ms.roe.latest.rank(mask=univ, ascending=False)
 
 _Net income / (total equity + total debt and capital lease obligation)_
 
-Find stocks with highest return on invested capital.
+Find stocks with the highest return on invested capital.
 
 [roic](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#roic)
 
@@ -206,7 +206,7 @@ factor = ms.roic.latest.rank(mask=univ, ascending=False)
 
 _Total debt / common equity_
 
-Find stocks with lowest** debt to equity ratio.
+Find stocks with the lowest** debt to equity ratio.
 
 [total_debt_equity_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-debt-equity-ratio)
 
