@@ -5,4 +5,4 @@ slug: housing-genetics
 ---
 Reference:
 
-[https://www.sciencedirect.com/science/article/abs/pii/S0957417410009310](https://www.sciencedirect.com/science/article/abs/pii/S0957417410009310 "Housing price forecasting based on genetic algorithm and support vector machine")
+[Housing price forecasting based on genetic algorithm and support vector machine](https://www.sciencedirect.com/science/article/abs/pii/S0957417410009310). ScienceDirect, 2011.
