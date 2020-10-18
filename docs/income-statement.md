@@ -8,7 +8,7 @@ slug: income-statement
 
 _Reduction of book value in the degradation of assets_
 
-Find stocks with lowest depreciation and amortization..
+Find stocks with the lowest depreciation and amortization..
 
 [depreciation_and_amortization_income_statement](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#depreciation-and-amortization-income-statement)
 
@@ -78,7 +78,7 @@ def trade(context, data):
 
 _Net income - (interest + tax + deprecation + amortization)_
 
-Find stocks with highest earnings before interest, tax, depreciation and amortization.
+Find stocks with the highest earnings before interest, tax, depreciation and amortization.
 
 [ebitda](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#ebitda)
 
@@ -148,7 +148,7 @@ def trade(context, data):
 
 _Revenue - expenses_
 
-Find stocks with highest net income.
+Find stocks with the highest net income.
 
 [net_income_income_statement](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#net-income-income-statement)
 
@@ -164,7 +164,7 @@ factor = ms.net_income_income_statement.latest.rank(mask=univ, ascending=False)
 
 _Revenue - expenses - income from investing activities_
 
-Find stocks with highest operating income.
+Find stocks with the highest operating income.
 
 [operating_income](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#operating-income)
 
@@ -184,7 +184,7 @@ factor = ms.operating_income.latest.rank(mask=univ, ascending=False)
 
 _Income as produced by sales_
 
-Find stocks with highest total revenue.
+Find stocks with the highest total revenue.
 
 [total_revenue](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-revenue)
 
