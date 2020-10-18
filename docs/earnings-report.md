@@ -8,7 +8,7 @@ slug: earnings-report
 
 _Net income / common shares outstanding_
 
-Find stocks with highest earnings per share.
+Find stocks with the highest earnings per share.
 
 [basic_eps_earnings_reports](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#basic-eps-earnings-reports)
 
