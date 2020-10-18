@@ -8,7 +8,7 @@ slug: valuation
 
 _Common equity + preferred equity + minority equity + total debt - cash and cash equivalents_
 
-Find stocks with highest enterprise value.
+Find stocks with the highest enterprise value.
 
 [enterprise_value](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#enterprise-value)
 
