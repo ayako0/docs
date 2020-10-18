@@ -14,3 +14,7 @@ Start to end: 09/01/2002 - 10/05/2020
 Leverage: 1
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/83.embed?link=false&modebar=false&logo=false"></iframe>
+
+## Live Trading
+
+_In development_
