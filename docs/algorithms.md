@@ -12,17 +12,21 @@ _In short order_
 
 _In short order_
 
-## Parabolic SAR
+## Inertia
 
 _In short order_
 
-## Inertia
+## Parabolic SAR
 
 _In short order_
 
 ## Linear Regression
 
 _In short order_
+
+## Slope
+
+_In development_
 
 ## Capital Asset Pricing Model (CAPM)
 
