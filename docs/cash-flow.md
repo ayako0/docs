@@ -8,7 +8,7 @@ slug: cash-flow
 
 _Cash flow operations - capital expenditures_
 
-Find stocks with highest free cash flow.
+Find stocks with the highest free cash flow.
 
 [free_cash_flow](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#free-cash-flow "free_cash_flow")
 
