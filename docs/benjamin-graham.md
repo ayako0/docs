@@ -27,4 +27,14 @@ The equation out / underperforms the S&P 500 over a timeframe of **##** years by
 
 ## Code
 
-<i>Code in development</i>
+_Code in development_
+
+## Comparison of Corporate Bond Yields on Performance
+
+Understanding the effects of increasing and decreasing bond yields on performance.
+
+Reference:
+
+[ICE BofA AA US Corporate Index Effective Yield](https://fred.stlouisfed.org/series/BAMLC0A2CAAEY)
+
+[ICE BofA AAA US Corporate Index Effective Yield](https://fred.stlouisfed.org/series/BAMLC0A1CAAAEY)
