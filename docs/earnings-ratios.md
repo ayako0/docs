@@ -8,7 +8,7 @@ slug: earnings-ratios
 
 _(Assets - liabilities) / common shares outstanding_
 
-Find stocks with highest equity per share growth.
+Find stocks with the highest equity per share growth.
 
 [equity_per_share_growth](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#equity-per-share-growth)
 
