@@ -4,6 +4,14 @@ date: ''
 slug: valuation-ratios
 
 ---
+## Tangible Book Value per Share
+
+_(Assets - liabilities - intangible assets) / common shares outstanding_
+
+[tangible_book_value_per_share](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#tangible-book-value-per-share)
+
+_In development_
+
 ## Book Value per Share
 
 _(Assets - liabilities) / common shares outstanding_
