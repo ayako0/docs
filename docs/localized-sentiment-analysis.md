@@ -3,7 +3,7 @@ title: Localized Analysis
 slug: localized-analysis
 
 ---
-## Gradient Mood Chart Based on Localized Sentiment Analysis
+## Gradient Mood Chart Based on Regional Sentiment Analysis
 
 _In development_
 
