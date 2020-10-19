@@ -9,4 +9,4 @@ _In development_
 
 Reference:
 
-[Activity Recognitiion API](https://developers.google.com/location-context/activity-recognition)
+[Activity Recognition API](https://developers.google.com/location-context/activity-recognition)
