@@ -88,8 +88,8 @@
       "section": "Data Science",
       "topics": [
         {
-          "title": "Localized Sentiment Analysis",
-          "slug": "sentiment-analysis"
+          "title": "Localized Analysis",
+          "slug": "localized-analysis"
         }
       ]
     }
