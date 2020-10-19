@@ -1,6 +1,6 @@
 ---
-title: Localized Sentiment Analysis
-slug: sentiment-analysis
+title: Localized Analysis
+slug: localized-analysis
 
 ---
 ## Gradient Mood Chart Based on Localized Sentiment Analysis
