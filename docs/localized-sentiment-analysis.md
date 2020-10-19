@@ -7,7 +7,7 @@ slug: sentiment-analysis
 
 _In development_
 
-## Music Selection Based on Activity Recognition API
+## Music Selection Using Activity Recognition API
 
 _In development_
 
