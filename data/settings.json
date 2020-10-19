@@ -90,10 +90,6 @@
         {
           "title": "Localized Sentiment Analysis",
           "slug": "sentiment-analysis"
-        },
-        {
-          "title": "Music Selection Based on Activity Recognition API",
-          "slug": "activity-recognition"
         }
       ]
     }
