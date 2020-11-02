@@ -101,7 +101,7 @@ export default {
     max-width: 100%;
     height: 100vh;
     padding: 20px;
-    background: linear-gradient(301deg, rgba(44, 34, 150, 0), #229623),linear-gradient(rgba(0,82,154,0.95),rgba(0,82,154,0.95)),linear-gradient(121deg,#3fcc6f,#3fcc6f),linear-gradient(238deg,rgba(173,32,142,0),#ad208e),linear-gradient(42deg,rgba(0,190,213,0),rgba(0,190,213,0.85) 85%,rgba(0,190,213,0.87) 87%,#00bed5),linear-gradient(126deg,rgba(0,190,213,0),#00bed5),linear-gradient(#569940, #409988);
+    background: linear-gradient(301deg,rgba(44,34,150,0),#229623),linear-gradient(rgba(94, 217, 146, 0.95), rgba(47, 225, 123, 0.95)),linear-gradient(121deg,#3fcc6f,#3fcc6f),linear-gradient(238deg,rgba(173,32,142,0),#ad208e),linear-gradient(42deg,rgba(0,190,213,0),rgba(0,190,213,.85) 85%,rgba(0,190,213,.87) 87%,#00bed5),linear-gradient(126deg,rgba(0,190,213,0),#00bed5),linear-gradient(#69dd43, #02f3c5);
   }
   
 
