@@ -74,6 +74,7 @@ h2 {
   font-size: 1.4rem;
   margin: 0;
   line-height: 1.4;
+  padding-bottom: 0;
 }
 nav {
   display: flex;
