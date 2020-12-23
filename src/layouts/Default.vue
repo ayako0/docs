@@ -41,7 +41,7 @@ export default {
     this.$store.commit("closeSidebar");
     if (process.isClient) {
       if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("/sw.js").then(function () {
+        navigator.serviceWorker.register("/sw.js").then(function() {
           console.log("Service Worker Registered");
         });
       }
@@ -101,23 +101,22 @@ export default {
     max-width: 100%;
     height: 100vh;
     padding: 20px;
-    background: linear-gradient(301deg, rgba(44, 34, 150, 0), #43F04B),linear-gradient(rgba(94,217,146,.95),rgba(47,225,123,.95)),linear-gradient(121deg,#3fcc6f,#3fcc6f),linear-gradient(238deg,rgba(173,32,142,0),#ad208e),linear-gradient(42deg,rgba(0,190,213,0),rgba(0,190,213,.85) 85%,rgba(0,190,213,.87) 87%,#00bed5),linear-gradient(126deg,rgba(0,190,213,0),#00bed5),linear-gradient(#69dd43,#02f3c5);
-}
-  
+    background: #f1f1f1;
+  }
 
   &--sidebar-is-open {
     transform: translate(280px);
   }
 
-  .flex-item a {
-    background: white;
-    -webkit-background-clip: content-box;
-    background-clip: content-box;
-    -webkit-text-fill-color: white;
-    -webkit-box-decoration-break: clone;
-    box-decoration-break: clone;
-    background-color: transparent;
-    font-weight: 600;
-  }
+  //.flex-item a {
+  //  background: white;
+  //  -webkit-background-clip: content-box;
+  //  background-clip: content-box;
+  //  -webkit-text-fill-color: white;
+  //  -webkit-box-decoration-break: clone;
+  //  box-decoration-break: clone;
+  //  background-color: transparent;
+  //  font-weight: 600;
+  //}
 }
 </style>
