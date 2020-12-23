@@ -8,9 +8,7 @@ slug: income-statement
 
 _Reduction of book value in the degradation of assets_
 
-Find stocks with the lowest depreciation and amortization..
-
-[depreciation_and_amortization_income_statement](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#depreciation-and-amortization-income-statement)
+Find stocks with the lowest depreciation and amortization.
 
 Returns: **224.14%**, Drawdown: **-51.22%**, Benchmark (S&P 500): **276.95%**
 
@@ -80,8 +78,6 @@ _Net income - (interest + tax + deprecation + amortization)_
 
 Find stocks with the highest earnings before interest, tax, depreciation and amortization.
 
-[ebitda](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#ebitda)
-
 Returns: **-72.07%**, Drawdown: **-90.2%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/29.embed?link=false&modebar=false&logo=false"></iframe>
@@ -150,8 +146,6 @@ _Revenue - expenses_
 
 Find stocks with the highest net income.
 
-[net_income_income_statement](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#net-income-income-statement)
-
 Returns: **-62.58%**, Drawdown: **-88.95%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/31.embed?link=false&modebar=false&logo=false"></iframe>
@@ -166,8 +160,6 @@ _Revenue - expenses - income from investing activities_
 
 Find stocks with the highest operating income.
 
-[operating_income](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#operating-income)
-
 Returns: **-59.4%**, Drawdown: **-90.75%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/33.embed?link=false&modebar=false&logo=false"></iframe>
@@ -178,15 +170,11 @@ factor = ms.operating_income.latest.rank(mask=univ, ascending=False)
 
 ## Tax Rate Used for Calculations
 
-[tax_rate_for_calcs](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#tax-rate-for-calcs)
-
 ## Total Revenue
 
 _Income as produced by sales_
 
 Find stocks with the highest total revenue.
-
-[total_revenue](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-revenue)
 
 Returns: **95.16%**, Drawdown: **-76.52%**, Benchmark (S&P 500): **276.95%**
 
