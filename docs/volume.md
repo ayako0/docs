@@ -6,8 +6,8 @@ slug: algorithms-volume
 ---
 ## Money Flow Index
 
-_In short order_
+_In development_
 
 ## Force
 
-_In short order_
+_In development_
