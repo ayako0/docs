@@ -218,7 +218,7 @@ Returns: **191.16%**, Drawdown: **-64.75%**, Benchmark (S&P 500): **276.95%**
 factor = ms.sustainable_growth_rate.latest.rank(mask=univ, ascending=False)
 ```
 
-_All fundamental testing algos have the following attributes:_
+_Historical fundamental data:_
 
 Start to end: 01/02/2006 - 09/01/2020
 
