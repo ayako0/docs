@@ -10,8 +10,6 @@ _Common equity + preferred equity + minority equity + total debt - cash and cash
 
 Find stocks with the highest enterprise value.
 
-[enterprise_value](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#enterprise-value)
-
 Returns: **325.52%**, Drawdown: **-71.93%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/59.embed?link=false&modebar=false&logo=false"></iframe>
@@ -78,13 +76,9 @@ def trade(context, data):
 
 _Common shares outstanding * share price_
 
-[market_cap](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#market-cap)
-
 ## Shares Outstanding
 
 _Number of common shares issued_
-
-[shares_outstanding](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#shares-outstanding)
 
 _All fundamental testing algos have the following attributes:_
 
