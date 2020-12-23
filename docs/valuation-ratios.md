@@ -8,8 +8,6 @@ slug: valuation-ratios
 
 _(Assets - liabilities - intangible assets) / common shares outstanding_
 
-[tangible_book_value_per_share](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#tangible-book-value-per-share)
-
 _In development_
 
 ## Book Value per Share
@@ -17,8 +15,6 @@ _In development_
 _(Assets - liabilities) / common shares outstanding_
 
 Find stocks with the highest book value per share.
-
-[book_value_per_share](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#book-value-per-share)
 
 Returns: **50.6%**, Drawdown: **-66.95%**, Benchmark (S&P 500): **276.95%**
 
@@ -88,8 +84,6 @@ _(Assets - liabilities) / close price_
 
 Find stocks with the highest book value yield.
 
-[book_value_yield](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#book-value-yield)
-
 Returns: **99.36%**, Drawdown: **-81.77%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/63.embed?link=false&modebar=false&logo=false"></iframe>
@@ -103,8 +97,6 @@ factor = ms.book_value_yield.latest.rank(mask=univ, ascending=False)
 _(Cash flow operations - capital expenditures) / enterprise value_
 
 Find stocks with the highest cash return.
-
-[cash_return](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#cash-return)
 
 Returns: **66.02%**, Drawdown: **-90.42%**, Benchmark (S&P 500): **276.95%**
 
@@ -120,8 +112,6 @@ _(Diluted earnings / common shares outstanding) / close price_
 
 Find stocks with the highest earning yield.
 
-[earning_yield](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#earning-yield)
-
 Returns: **-92.55%**, Drawdown: **-98.6%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/67.embed?link=false&modebar=false&logo=false"></iframe>
@@ -135,8 +125,6 @@ factor = ms.earning_yield.latest.rank(mask=univ, ascending=False)
 _(Common equity + preferred equity + minority equity + total debt - cash and cash equivalents) / net income - (interest + tax + deprecation + amortization)_
 
 Find stocks with the highest enterprise value to EBITDA.
-
-[ev_to_ebitda](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#ev-to-ebitda)
 
 Returns: -**33.7%**, Drawdown: **-74.49%**, Benchmark (S&P 500): **276.95%**
 
@@ -152,8 +140,6 @@ _(Cash flow operations - capital expenditures / common shares outstanding) / clo
 
 Find stocks with the highest free cash flow yield.
 
-[fcf_yield](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#fcf-yield)
-
 Returns: **-71.49%**, Drawdown: **-92.66%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/71.embed?link=false&modebar=false&logo=false"></iframe>
@@ -167,8 +153,6 @@ factor = ms.fcf_yield.latest.rank(mask=univ, ascending=False)
 _Close price / (assets - liabilities)_
 
 Find stocks with the highest price to book ratio.
-
-[pb_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#pb-ratio)
 
 Returns: **-24.46%**, Drawdown: **-96.45%**, Benchmark (S&P 500): **276.95%**
 
@@ -184,8 +168,6 @@ _Close price / (net income / common shares outstanding)_
 
 Find stocks with the highest price to earnings ratio.
 
-[pe_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#pe-ratio)
-
 Returns: **117.09%**, Drawdown: **-86.27%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/75.embed?link=false&modebar=false&logo=false"></iframe>
@@ -199,8 +181,6 @@ factor = ms.pe_ratio.latest.rank(mask=univ, ascending=False)
 _Close price / (revenue / common shares outstanding)_
 
 Find stocks with the highest price to sales ratio.
-
-[ps_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#ps-ratio)
 
 Returns: **1270.05%**, Drawdown: **-58.17%**, Benchmark (S&P 500): **276.95%**
 
@@ -216,8 +196,6 @@ _(Revenue / common shares outstanding) / close price_
 
 Find stocks with the highest sales yield.
 
-[sales_yield](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#sales-yield)
-
 Returns: **-15.34%**, Drawdown: **-75.64%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/79.embed?link=false&modebar=false&logo=false"></iframe>
@@ -231,8 +209,6 @@ factor = ms.sales_yield.latest.rank(mask=univ, ascending=False)
 _Net income / total common equity * (1 - dividend per share / diluted earnings per share)_
 
 Find stocks with the highest sustainable growth rate.
-
-[sustainable_growth_rate](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#sustainable-growth-rate)
 
 Returns: **191.16%**, Drawdown: **-64.75%**, Benchmark (S&P 500): **276.95%**
 
