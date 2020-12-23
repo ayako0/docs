@@ -186,12 +186,12 @@ factor = ms.total_revenue.latest.rank(mask=univ, ascending=False)
 
 _Historical fundamental data:_
 
-Start to end: 01/02/2006 - 09/01/2020
+_Start to end: Jan 2nd, 2006 to Sep 1st, 2020_
 
-Starting capital: $10000
+_Starting capital: $10000_
 
-Number of stocks: 5, equally weighted
+_Number of stocks: 5, equally weighted_
 
-Max leverage: 1
+_Max leverage: 1_
 
-Universe: Quantopian Q3000US dataset
+_Universe: Quantopian Q3000US dataset_
