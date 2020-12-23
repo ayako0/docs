@@ -10,8 +10,6 @@ _Cash + immediately liquid instruments_
 
 Find stocks with the highest cash and cash equivalents.
 
-[cash_and_cash_equivalents](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#cash-and-cash-equivalents "cash_and_cash_equivalents")
-
 Returns: **-51.42%**, Drawdown: **-77.4%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/11.embed?link=false&modebar=false&logo=false"></iframe>
@@ -80,8 +78,6 @@ _Tangible and intangible value_
 
 Find stocks with the highest total assets.
 
-[total_assets](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-assets "total_assets")
-
 Returns: **-51.27%**, Drawdown: **-83.72%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/13.embed?link=false&modebar=false&logo=false"></iframe>
@@ -96,8 +92,6 @@ _Assets - liabilities_
 
 Find stocks with the highest total equity.
 
-[total_equity](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-equity "total_equity")
-
 Returns: **185.64%**, Drawdown: **-78.54%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/15.embed?link=false&modebar=false&logo=false"></iframe>
@@ -111,8 +105,6 @@ factor = ms.total_equity.latest.rank(mask=univ, ascending=False)
 _Current and long-term debts owed_
 
 Ideally, we find stocks with low debt.
-
-[total_debt](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-debt "total_debt")
 
 Returns: **52.21%**, Drawdown: **-53.81%**, Benchmark (S&P 500): **276.95%**
 
