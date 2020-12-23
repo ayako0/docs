@@ -80,7 +80,7 @@ _Common shares outstanding * share price_
 
 _Number of common shares issued_
 
-_All fundamental testing algos have the following attributes:_
+_Historical fundamental data:_
 
 Start to end: 01/02/2006 - 09/01/2020
 
