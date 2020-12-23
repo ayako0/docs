@@ -10,8 +10,6 @@ _Current assets / current liabilities_
 
 Find stocks with the highest current ratio.
 
-[current_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#current-ratio)
-
 Returns: **78.55%**, Drawdown: **-70.61%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/37.embed?link=false&modebar=false&logo=false"></iframe>
@@ -80,8 +78,6 @@ _((Net income current - net income from previous quarter) / net income current) 
 
 Find stocks with the highest net income growth.
 
-[net_income_growth](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#net-income-growth)
-
 Returns: **61.41%**, Drawdown: **-72.47%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/39.embed?link=false&modebar=false&logo=false"></iframe>
@@ -95,8 +91,6 @@ factor = ms.net_income_growth.latest.rank(mask=univ, ascending=False)
 _Net income / revenue_
 
 Find stocks with the highest net margin.
-
-[net_margin](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#net-margin)
 
 Returns: **16.2%**, Drawdown: **-84.68%**, Benchmark (S&P 500): **276.95%**
 
@@ -112,8 +106,6 @@ _((Operation revenue current - operation revenue from previous quarter) / operat
 
 Find stocks with the highest operation revenue growth.
 
-[operation_revenue_growth3_month_avg](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#operation-revenue-growth3-month-avg)
-
 Returns: **358.41%**, Drawdown: **-86.73%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/43.embed?link=false&modebar=false&logo=false"></iframe>
@@ -127,8 +119,6 @@ factor = ms.operation_revenue_growth3_month_avg.latest.rank(mask=univ, ascending
 _Liquidity / liabilities_
 
 Find stocks with the highest quick ratio.
-
-[quick_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#quick-ratio)
 
 Returns: **317.22%**, Drawdown: **-58.24%**, Benchmark (S&P 500): **276.95%**
 
@@ -144,8 +134,6 @@ _((Revenue current - revenue from previous quarter) / revenue current) * 100_
 
 Find stocks with the highest revenue growth.
 
-[revenue_growth](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#revenue-growth)
-
 Returns: **211.05%**, Drawdown: **-87.44%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/47.embed?link=false&modebar=false&logo=false"></iframe>
@@ -159,8 +147,6 @@ factor = ms.revenue_growth.latest.rank(mask=univ, ascending=False)
 _Net income / total assets_
 
 Find stocks with the highest return on assets.
-
-[roa](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#roa)
 
 Returns: -**62.16%**, Drawdown: **-85.02%**, Benchmark (S&P 500): **276.95%**
 
@@ -176,8 +162,6 @@ _Net income / total common equity_
 
 Find stocks with the highest return on equity.
 
-[roe](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#roe)
-
 Returns: **24.3%**, Drawdown: **-87.77%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/51.embed?link=false&modebar=false&logo=false"></iframe>
@@ -192,8 +176,6 @@ _Net income / (total equity + total debt and capital lease obligation)_
 
 Find stocks with the highest return on invested capital.
 
-[roic](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#roic)
-
 Returns: **36.25%**, Drawdown: **-72.09%**, Benchmark (S&P 500): **276.95%**
 
 <iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/53.embed?link=false&modebar=false&logo=false"></iframe>
@@ -207,8 +189,6 @@ factor = ms.roic.latest.rank(mask=univ, ascending=False)
 _Total debt / common equity_
 
 Find stocks with the lowest** debt to equity ratio.
-
-[total_debt_equity_ratio](https://www.quantopian.com/docs/data-reference/morningstar_fundamentals#total-debt-equity-ratio)
 
 Returns: **100.86%**, Drawdown: **-31.12%**, Benchmark (S&P 500): **276.95%**
 
