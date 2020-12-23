@@ -1,7 +1,7 @@
 <template>
   <Layout :sidebar="false">
     <main class="relative">
-      <section class="bg-silver">
+      <section>
         <div
           class="container p2 border-box"
           style="padding-top: 7.5rem; padding-bottom: 9.5rem;"
