@@ -3,9 +3,9 @@ title: Trading Algorithm
 slug: trading-algorithm
 
 ---
-## Personal Chart
+## Efficient Frontier Optimization
 
-A quantamental approach blending Modern Portfolio Theory + revenue growth.
+A quantamental approach blending Efficient Frontier + revenue growth.
 
 Returns: **29923.07%**, Drawdown: **-39.77%**, Benchmark (S&P 500): **288.21%**
 
