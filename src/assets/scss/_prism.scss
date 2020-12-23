@@ -16,7 +16,7 @@ pre[class*="language-"] {
   transition: background 0.15s ease-in-out, color 0.15s ease-in-out;
   border-left: 1px solid $textBright;
   font-weight: 400;
-  
+
   * {
     transition: color 0.15s ease-in-out;
   }
@@ -80,7 +80,7 @@ pre[class*="language-"] {
   }
 
   .token.punctuation {
-    color: #36c1a0;
+    color: rgba(43, 44, 48, 0.5);
   }
 
   .token.property,
@@ -90,7 +90,7 @@ pre[class*="language-"] {
   .token.constant,
   .token.symbol,
   .token.deleted {
-    color: #6c54ff;
+    color: rgba(43, 44, 48, 0.5);
   }
 
   .token.selector,
@@ -99,7 +99,7 @@ pre[class*="language-"] {
   .token.char,
   .token.builtin,
   .token.inserted {
-    color: #5CCDD9;
+    color: rgba(43, 44, 48, 0.5);
   }
 
   .token.operator,
@@ -107,24 +107,24 @@ pre[class*="language-"] {
   .token.url,
   .language-css .token.string,
   .style .token.string {
-    color: #0dcdad;
+    color: rgba(43, 44, 48, 0.5);
   }
 
   .token.atrule,
   .token.attr-value,
   .token.keyword {
-    color: #0fe27c;
+    color: rgba(43, 44, 48, 0.5);
   }
 
   .token.function,
   .token.class-name {
-    color: #15d1bd;
+    color: rgba(43, 44, 48, 0.5);
   }
 
   .token.regex,
   .token.important,
   .token.variable {
-    color: #6AD7B0;
+    color: rgba(43, 44, 48, 0.5);
   }
 }
 
@@ -140,7 +140,7 @@ pre[class*="language-"] {
   }
 
   .token.punctuation {
-    color: #36c1a0;
+    color: rgba(43, 44, 48, 0.5);
   }
 
   .token.property,
@@ -149,12 +149,12 @@ pre[class*="language-"] {
   .token.symbol,
   .token.deleted,
   .language-scss .token.variable {
-    color: #6AD7B0;
+    color: rgba(43, 44, 48, 0.5);
   }
 
   .token.boolean,
   .token.number {
-    color: #6c54ff;
+    color: rgba(43, 44, 48, 0.5);
   }
 
   .token.selector,
@@ -163,7 +163,7 @@ pre[class*="language-"] {
   .token.char,
   .token.builtin,
   .token.inserted {
-    color: #5CCDD9;
+    color: rgba(43, 44, 48, 0.5);
   }
 
   .token.operator,
@@ -172,22 +172,22 @@ pre[class*="language-"] {
   .language-css .token.string,
   .style .token.string,
   .token.variable {
-    color: #0dcdad;
+    color: rgba(43, 44, 48, 0.5);
   }
 
   .token.atrule,
   .token.attr-value,
   .token.function,
   .token.class-name {
-    color: #15d1bd;
+    color: rgba(43, 44, 48, 0.5);
   }
 
   .token.keyword {
-    color: #0fe27c;
+    color: rgba(43, 44, 48, 0.5);
   }
 
   .token.regex,
   .token.important {
-    color: #6AD7B0;
+    color: rgba(43, 44, 48, 0.5);
   }
 }
