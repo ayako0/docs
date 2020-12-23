@@ -141,7 +141,7 @@ def make_pipeline(context):
     return pipe
 ```
 
-_All fundamental testing algos have the following attributes:_
+_Historical fundamental data:_
 
 Start to end: 01/02/2006 - 09/01/2020
 
