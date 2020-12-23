@@ -1,23 +1,60 @@
 <template>
   <Layout :sidebar="false">
-    <div class="flex-container">
-      <div class="flex-item"></div>
-      <div class="flex-item">
-        <h2>Benjamin Graham Equation</h2>
-        <p>Does Benjamin Graham's equation outperform the market?</p>
-        <a href="/benjamin-graham">Learn more</a>
-      </div>
-      <div class="flex-item">
-        <h2>Equity per Share Growth</h2>
-        <p>One of the leading factors in correlation to the S&P 500.</p>
-        <a href="/earnings-ratios#equity-per-share-growth">Learn more</a>
-      </div>
-      <div class="flex-item">
-        <h2>Quick Ratio</h2>
-        <p>A factor that performs in consistency with the S&P 500.</p>
-        <a href="/operation-ratios#quick-ratio">Learn more</a>
-      </div>
-    </div>
+    <main class="relative">
+      <section class="bg-silver">
+        <div
+          class="container p2 border-box"
+          style="padding-top: 7.5rem; padding-bottom: 9.5rem;"
+        >
+          <div class="md-col-12 p2 border-box inline-block align-middle">
+            <h1 class="h0 mt0 mb2">Fundamentals</h1>
+
+            <div class="clearfix mb2">
+              <div class="relative mb2 ml0 md-col md-col-4 md-border-right">
+                <div class="border-box mt2 mb2">
+                  <h3 class="mt0 mb0 h2">29,923.07%</h3>
+                  <a href="/trading-algorithm#personal-chart" class="mb0 mt0"
+                    >Markowitz <br />Optimization →</a
+                  >
+                </div>
+              </div>
+
+              <div
+                class="relative mb2 md-col md-col-4 md-center md-border-right"
+              >
+                <div class="border-box mt2 mb2">
+                  <h3 class="mt0 mb0 h2">1270.05%</h3>
+                  <a
+                    href="/earnings-ratios#equity-per-share-growth"
+                    class="mb0 mt0"
+                    >Price to<br />
+                    Sales Ratio →</a
+                  >
+                </div>
+              </div>
+
+              <div class="relative mb2 mr0 md-col md-col-4 md-right-align">
+                <div class="border-box mt2 mb2">
+                  <h3 class="mt0 mb0 h2">-91.3%</h3>
+                  <a
+                    href="/earnings-report#earnings-per-share-eps"
+                    class="mb0 mt0"
+                    >Earnings <br />per Share →</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <p class="mb0">
+              <small class="italic muted"
+                >Historical fundamental data from Jan 2nd, 2006 to Sep 1st, 2020
+                | Future research TBD</small
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
   </Layout>
 </template>
 
@@ -58,106 +95,115 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.content {
-  display: flex;
-  flex-direction: column;
+//.bg-silver {
+//  background-color: none;
+//}
+.container {
+  max-width: 76pc;
+  max-width: 76rem;
+  margin-left: auto;
+  margin-right: auto;
 }
-h1 {
-  text-align: center;
-  max-width: 600px;
-  margin: 1.5em auto 1.5em;
-  @include respond-above(md) {
-    max-width: 1000px;
+.p2 {
+  //padding: 1pc;
+  padding: 30px;
+}
+.border-box {
+  box-sizing: border-box;
+}
+.md-col-12 {
+  width: 100%;
+}
+.inline-block {
+  display: inline-block;
+}
+.align-middle {
+  vertical-align: middle;
+}
+.h0,
+.h-lg {
+  font-size: 44px;
+  font-size: 2.75rem;
+  letter-spacing: -1px;
+  letter-spacing: -0.08rem;
+}
+@media (min-width: 47.938em) {
+  .h0 {
+    font-size: 3.25rem;
+  }
+  .h-lg {
+    font-size: 5rem;
+  }
+  .h1,
+  h1 {
+    font-size: 2.5rem;
   }
 }
-h2 {
-  font-size: 1.4rem;
-  margin: 0;
-  line-height: 1.4;
-  padding-bottom: 0;
-}
-nav {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  @include respond-above(sm) {
-    flex-direction: row;
+@media (min-width: 60em) {
+  .h0 {
+    font-size: 4rem;
+  }
+  .h-lg {
+    font-size: 6.25rem;
   }
 }
-.git {
-  margin: 3em 0 0;
-  align-self: center;
-  @include respond-above(md) {
-    margin: 5em 0 0;
-  }
+.clearfix:after,
+.clearfix:before {
+  content: " ";
+  display: table;
 }
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-content: stretch;
-  height: 100%;
-}
-.flex-item {
-  color: white;
-}
-.flex-item:nth-child(1) {
-  order: 0;
-  flex: 12 1 auto;
-  align-self: auto;
-  margin-top: auto;
-  width: 33.4%;
-}
-.flex-item:nth-child(2),
-.flex-item:nth-child(3),
-.flex-item:nth-child(4) {
-  order: 0;
-  flex: 1 1 auto;
-  align-self: auto;
-  transform: translateY(50%);
-  width: 22.2%;
-  padding-right: 20px;
-  // font-family: "IBM Plex Sans", monospace;
-  // font-size: 14px;
-  // font-style: italic;
-}
-.main .flex-item a {
-  text-decoration: none;
+.clearfix:after {
+  clear: both;
 }
 
-@include respond-between(xxs, sm) {
-  .flex-container {
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    padding: 0px 120px;
-    flex-direction: column;
-    justify-content: space-between;
+@media (min-width: 47.938em) {
+  .md-col {
+    float: left;
+    box-sizing: border-box;
   }
-  .flex-item:nth-child(1) {
-    display: none;
+  .md-col-4 {
+    width: 33.33333%;
   }
-  .flex-item:nth-child(2),
-  .flex-item:nth-child(3),
-  .flex-item:nth-child(4) {
-    width: 100%;
-    padding-right: 0px;
-    transform: translateY(0);
-    margin-top: 80px;
+  .md-border-right {
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: rgba(43, 44, 48, 0.125);
   }
-  .flex-item:nth-child(4) {
-    padding-bottom: 100px;
+  .md-center {
+    text-align: center;
+  }
+  .md-right-align {
+    text-align: right;
   }
 }
-@include respond-between(sm, md) {
-  .flex-item:nth-child(1) {
-    width: 20%;
-  }
-  .flex-item:nth-child(2),
-  .flex-item:nth-child(3),
-  .flex-item:nth-child(4) {
-    width: 26.7%;
-  }
+.ml0 {
+  margin-left: 0;
+}
+.mt2 {
+  margin-top: 1pc;
+  margin-top: 1rem;
+}
+.mb2 {
+  margin-bottom: 1pc;
+  margin-bottom: 1rem;
+}
+.mt0 {
+  margin-top: 0;
+}
+.mb0 {
+  margin-bottom: 0;
+}
+.h2 {
+  font-size: 26px;
+  font-size: 1.625rem;
+}
+.mr0 {
+  margin-right: 0;
+}
+.italic {
+  font-style: italic;
+}
+.muted {
+  opacity: 0.5;
 }
 </style>
