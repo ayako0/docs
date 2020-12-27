@@ -28,7 +28,7 @@ body {
     }
   }
   @include respond-below(sm) {
-    font-size: 1rem;
+    font-size: 0.875rem;
   }
 
   &.bright {
@@ -44,6 +44,19 @@ body {
 
 * {
   box-sizing: border-box;
+}
+
+p {
+}
+
+.main {
+  a {
+    background: linear-gradient(260deg, #1aff24, #20e95c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    font-weight: 600;
+  }
 }
 
 h1,
@@ -83,12 +96,4 @@ h2 {
   @include respond-above(sm) {
     padding-bottom: 6px;
   }
-}
-
-.main a {
-  background: linear-gradient(260deg, #1aff24, #20e95c);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-box-decoration-break: clone;
-  font-weight: 600;
 }
