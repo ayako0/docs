@@ -76,7 +76,7 @@ export default {
   }
 
   @include respond-between(xs, sm) {
-    padding: 100px 80px 100px 80px;
+    padding: 100px 60px 100px 80px;
     &--no-sidebar {
       overflow: scroll;
     }
