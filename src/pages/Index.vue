@@ -1,7 +1,7 @@
 <template>
   <Layout :sidebar="false">
     <main class="relative">
-      <section>
+      <section class="bg-silver">
         <div
           class="container p2 border-box"
           style="padding-top: 7.5rem; padding-bottom: 9.5rem;"
@@ -127,7 +127,7 @@ export default {
   letter-spacing: -1px;
   letter-spacing: -0.08rem;
 }
-@media (min-width: 47.938em) {
+@include respond-above(sm) {
   .h0 {
     font-size: 3.25rem;
   }
@@ -139,7 +139,7 @@ export default {
     font-size: 2.5rem;
   }
 }
-@media (min-width: 60em) {
+@include respond-above(md) {
   .h0 {
     font-size: 4rem;
   }
@@ -155,8 +155,7 @@ export default {
 .clearfix:after {
   clear: both;
 }
-
-@media (min-width: 47.938em) {
+@include respond-above(sm) {
   .md-col {
     float: left;
     box-sizing: border-box;
@@ -176,6 +175,12 @@ export default {
     text-align: right;
   }
 }
+@include respond-below(sm) {
+  .h0 {
+    font-size: 2rem;
+  }
+}
+
 .ml0 {
   margin-left: 0;
 }
