@@ -13,7 +13,7 @@ body {
     sans-serif, Apple Color Emoji, Segoe UI Emoji;
   margin: 0;
   padding: 0;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 1.4;
   font-size: 1.125rem;
   transition: background 0.15s ease-in-out, color 0.15s ease-in-out;
@@ -29,6 +29,7 @@ body {
   }
   @include respond-below(sm) {
     font-size: 1rem;
+    font-weight: 400;
   }
 
   &.bright {
@@ -44,9 +45,6 @@ body {
 
 * {
   box-sizing: border-box;
-}
-
-p {
 }
 
 .main {
