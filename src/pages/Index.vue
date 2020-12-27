@@ -45,7 +45,7 @@
               </div>
             </div>
 
-            <p class="mb0 italic muted">
+            <p class="mb0 italic muted p1">
               Historical fundamental data from Jan 2nd, 2006 to Sep 1st, 2020 |
               Future research TBD
             </p>
@@ -210,6 +210,19 @@ export default {
   opacity: 0.5;
 }
 .a1 {
-  font-size: 1.125rem;
+  @include respond-below(md) {
+    font-size: 1.125rem;
+  }
+  @include respond-above(md) {
+    font-size: 1.25rem;
+  }
+}
+.p1 {
+  @include respond-below(md) {
+    font-size: 0.875rem;
+  }
+  @include respond-above(md) {
+    font-size: 1rem;
+  }
 }
 </style>
