@@ -175,7 +175,7 @@ export default {
 }
 @include respond-below(sm) {
   .h0 {
-    font-size: 2rem;
+    font-size: 1.875rem;
   }
 }
 
@@ -210,6 +210,6 @@ export default {
   opacity: 0.5;
 }
 .a1 {
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 </style>
