@@ -25,7 +25,7 @@
                 <div class="border-box mt2 mb2">
                   <h3 class="mt0 mb0 h2">1270.05%</h3>
                   <a
-                    href="/earnings-ratios#equity-per-share-growth"
+                    href="/valuation-ratios#price-to-sales-ratio"
                     class="mb0 mt0 a1"
                     >Price to<br />
                     Sales Ratio →</a
