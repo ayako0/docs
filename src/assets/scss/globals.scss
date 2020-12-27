@@ -80,6 +80,9 @@ h2 {
     font-size: 1.375rem;
     padding-bottom: 4px;
   }
+  @include respond-above(sm) {
+    padding-bottom: 6px;
+  }
 }
 
 .main a {
