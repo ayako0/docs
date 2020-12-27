@@ -61,6 +61,13 @@ export default {
   padding: 140px 160px 20px 120px;
   transition: transform 0.15s ease-in-out;
 
+  @include respond-below(xxs) {
+    padding: 100px 20px 100px 80px;
+    &--no-sidebar {
+      overflow: scroll;
+    }
+  }
+
   @include respond-between(xxs, xs) {
     padding: 100px 80px 100px 80px;
     &--no-sidebar {
@@ -107,16 +114,5 @@ export default {
   &--sidebar-is-open {
     transform: translate(280px);
   }
-
-  //.flex-item a {
-  //  background: white;
-  //  -webkit-background-clip: content-box;
-  //  background-clip: content-box;
-  //  -webkit-text-fill-color: white;
-  //  -webkit-box-decoration-break: clone;
-  //  box-decoration-break: clone;
-  //  background-color: transparent;
-  //  font-weight: 600;
-  //}
 }
 </style>
