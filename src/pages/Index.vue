@@ -13,7 +13,7 @@
               <div class="relative mb2 ml0 md-col md-col-4 md-border-right">
                 <div class="border-box mt2 mb2">
                   <h3 class="mt0 mb0 h2">29,923.07%</h3>
-                  <a href="/trading-algorithm#personal-chart" class="mb0 mt0"
+                  <a href="/trading-algorithm#personal-chart" class="mb0 mt0 a1"
                     >Markowitz <br />Optimization →</a
                   >
                 </div>
@@ -26,7 +26,7 @@
                   <h3 class="mt0 mb0 h2">1270.05%</h3>
                   <a
                     href="/earnings-ratios#equity-per-share-growth"
-                    class="mb0 mt0"
+                    class="mb0 mt0 a1"
                     >Price to<br />
                     Sales Ratio →</a
                   >
@@ -38,18 +38,16 @@
                   <h3 class="mt0 mb0 h2">-91.3%</h3>
                   <a
                     href="/earnings-report#earnings-per-share-eps"
-                    class="mb0 mt0"
+                    class="mb0 mt0 a1"
                     >Earnings <br />per Share →</a
                   >
                 </div>
               </div>
             </div>
 
-            <p class="mb0">
-              <small class="italic muted"
-                >Historical fundamental data from Jan 2nd, 2006 to Sep 1st, 2020
-                | Future research TBD</small
-              >
+            <p class="mb0 italic muted">
+              Historical fundamental data from Jan 2nd, 2006 to Sep 1st, 2020 |
+              Future research TBD
             </p>
           </div>
         </div>
@@ -210,5 +208,8 @@ export default {
 }
 .muted {
   opacity: 0.5;
+}
+.a1 {
+  font-size: 1rem;
 }
 </style>
