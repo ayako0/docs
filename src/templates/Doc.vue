@@ -4,26 +4,31 @@
       {{ $page.doc.title }}
     </h1>
     <div class="markdown" v-html="$page.doc.content" />
-    <footer>
-      <div class="footer-inner" id="footer-left">
-        <ul>
-          <li id="footer-year">2020</li>
-        </ul>
+
+    <div class="clearfix f-top">
+      <div class="relative ml0 md-col md-col-3 ft">
+        <div class="border-box">
+          <p class="mt0 mb0 fp">2020 - 2021</p>
+        </div>
       </div>
-      <div class="footer-inner" id="footer-right">
-        <ul>
-          <li id="twitter">
-            <a href="https://twitter.com/numberatomism">Twitter</a>
-          </li>
-          <li id="email">
-            <a href="mailto: ayakowenko@protonmail.com">Email</a>
-          </li>
-          <li id="github">
-            <a href="https://github.com/ayako0">Github</a>
-          </li>
-        </ul>
+      <div class="relative ml0 md-col md-col-3 md-right-align ft">
+        <div class="border-box">
+          <a href="https://twitter.com/numberatomism">Twitter</a>
+        </div>
       </div>
-    </footer>
+
+      <div class="relative md-col md-col-3 md-center md-right-align ft">
+        <div class="border-box">
+          <a href="https://github.com/ayako0">Github</a>
+        </div>
+      </div>
+
+      <div class="relative mr0 md-col md-col-3 md-right-align ft">
+        <div class="border-box">
+          <a href="mailto: ayakowenko@protonmail.com">Email</a>
+        </div>
+      </div>
+    </div>
   </Layout>
 </template>
 
@@ -55,7 +60,6 @@ export default {
 };
 </script>
 
-
 <style lang="scss" scoped>
 /*
 /deep/ > p {
@@ -78,77 +82,5 @@ export default {
 
 .markdown {
   padding-bottom: 40px;
-}
-
-footer {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  //box-sizing: border-box;
-  border-top: 1px solid $textBright;
-}
-
-.footer-inner {
-  background: transparent;
-  width: 50%;
-  display: flex;
-  align-items: center;
-  padding: 0;
-  color: $textBright;
-}
-
-#footer-left {
-  display: flex;
-  //justify-content: flex-end;
-}
-
-#footer-left ul {
-  display: flex;
-  list-style-type: none;
-  //justify-content: flex-end;
-  padding-inline-start: 0px;
-}
-
-#footer-left ul li {
-  padding: 0px 20px;
-  color: $textBright;
-}
-
-#footer-right {
-  display: flex;
-  justify-content: flex-end;
-}
-
-#footer-right ul {
-  display: flex;
-  list-style-type: none;
-  justify-content: flex-end;
-  padding-inline-start: 0px;
-}
-
-#footer-right ul li {
-  padding: 0px 20px;
-  color: $textBright;
-}
-
-@include respond-between(xxs, md) {
-  footer {
-    flex-direction: column;
-    align-items: center;
-    padding: 0px 10px;
-    font-size: 1rem;
-  }
-  .footer-inner {
-    justify-content: center;
-    min-width: 240px;
-  }
-  #footer-right {
-    justify-content: center;
-  }
-  #footerright ul {
-    justify-content: center;
-  }
 }
 </style>
