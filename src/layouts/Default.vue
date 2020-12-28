@@ -52,7 +52,7 @@ export default {
 
 <style lang="scss" scoped>
 .site {
-  overflow: scroll;
+  overflow: visible;
 }
 
 .main {
@@ -62,7 +62,8 @@ export default {
   transition: transform 0.15s ease-in-out;
 
   @include respond-below(xxs) {
-    padding: 100px 20px 100px 80px;
+    padding: 100px 20px 100px 20px;
+
     &--no-sidebar {
       overflow: scroll;
     }
