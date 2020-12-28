@@ -52,7 +52,7 @@ export default {
 
 <style lang="scss" scoped>
 .site {
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .main {
