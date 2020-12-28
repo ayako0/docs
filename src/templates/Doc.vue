@@ -25,7 +25,7 @@
 
       <div class="relative mr0 md-col md-col-3 md-right-align ft">
         <div class="border-box">
-          <a href="mailto: ayakowenko@protonmail.com">Email</a>
+          <a href="mailto:ayakowenko@protonmail.com">Email</a>
         </div>
       </div>
     </div>
