@@ -55,9 +55,9 @@ body {
     -webkit-box-decoration-break: clone;
     font-weight: 600;
   }
-  @include respond-below(xxs) {
-    min-width: 375px;
-  }
+  //  @include respond-below(xxs) {
+  //    min-width: 375px;
+  //  }
 }
 
 h1,
