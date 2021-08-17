@@ -1,12 +1,6 @@
 {
   "sidebar": [
     {
-      "section": "Formulas",
-      "topics": [
-
-      ]
-    },
-    {
       "section": "Economic Drivers",
       "topics": [
         {
@@ -44,7 +38,7 @@
       ]
     },
     {
-      "section": "Algorithms",
+      "section": "Technical Algorithms",
       "topics": [
         {
           "title": "Machine Learning",
