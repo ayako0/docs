@@ -18,7 +18,3 @@ _Leverage: 1_
 ## Live Trading Conversion
 
 _In development_
-
-## Security Ephemera
-
-_In development_
