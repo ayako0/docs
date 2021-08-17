@@ -62,6 +62,10 @@
       "section": "Personal",
       "topics": [
         {
+          "title": "Security Ephemera",
+          "slug": "security-ephemera"
+        },
+        {
           "title": "Trading Algorithm",
           "slug": "trading-algorithm"
         }
