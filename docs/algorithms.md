@@ -27,7 +27,3 @@ _In development_
 ## Slope
 
 _In development_
-
-## Capital Asset Pricing Model (CAPM)
-
-_In development_
