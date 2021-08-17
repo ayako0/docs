@@ -83,7 +83,7 @@ export default {
         {
           key: "description",
           name: "description",
-          content: "Visualizing economic theory.",
+          content: "Quantitative algorithms and technical projects.",
         },
       ],
     };
