@@ -14,3 +14,9 @@ _In development_
 Reference:
 
 [Activity Recognition API](https://developers.google.com/location-context/activity-recognition)
+
+## Falken
+
+Reference:
+
+[Falken](google-research/falken "Falken")
