@@ -17,6 +17,7 @@ pages:
 - docs/localized-sentiment-analysis.md
 - docs/machine-learning.md
 - docs/operation-ratios.md
+- docs/security-ephemera.md
 - docs/trading-algorithm.md
 - docs/valuation-ratios.md
 - docs/valuation.md
