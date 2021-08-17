@@ -1,6 +1,6 @@
 ---
-title: Localized Analysis
-slug: localized-analysis
+title: Localized Branding
+slug: localized-branding
 
 ---
 ## Gradient Mood Chart Based on Regional Sentiment Analysis
