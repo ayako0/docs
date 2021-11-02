@@ -46,7 +46,7 @@
             </div>
 
             <p class="mb0 italic muted p1">
-              Historical fundamental data from Jan 2nd, 2006 to Sep 1st, 2020
+              Historical fundamental data from Jan 2nd, 2006 to Sep 1st, 2020.
             </p>
           </div>
         </div>
