@@ -40,22 +40,7 @@
     {
       "section": "Technical Algorithms",
       "topics": [
-        {
-          "title": "Machine Learning",
-          "slug": "machine-learning"
-        },
-        {
-          "title": "Volume",
-          "slug": "algorithms-volume"
-        },
-        {
-          "title": "Volatility",
-          "slug": "algorithms-volatility"
-        },
-        {
-          "title": "Trend",
-          "slug": "algorithms-trend"
-        }
+
       ]
     },
     {
