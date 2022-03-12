@@ -1,6 +1,6 @@
 ---
-title: Security Ephemera
-slug: security-ephemera
+title: Security
+slug: security
 
 ---
 ## Compute Security
