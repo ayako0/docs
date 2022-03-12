@@ -9,7 +9,6 @@ fields:
   name: slug
   label: slug
 pages:
-- docs/algorithms.md
 - docs/balance-sheet.md
 - docs/cash-flow.md
 - docs/earnings-ratios.md
