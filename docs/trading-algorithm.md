@@ -1,5 +1,5 @@
 ---
-title: Optimized Algorithm
+title: Optimized Trading Algorithm
 slug: optimized-algorithm
 
 ---
