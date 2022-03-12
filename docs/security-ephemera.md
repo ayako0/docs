@@ -5,12 +5,12 @@ slug: security
 ---
 ## Compute Security
 
-_In development_
+_Oracle Linux, testing_
 
-## Network Security
+## AWS
 
 _In development_
 
 ## Architectural Security
 
-_Project scope TBD_
+_Bowley Locks_
