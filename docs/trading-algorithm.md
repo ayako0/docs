@@ -1,6 +1,6 @@
 ---
 title: Optimized Trading Algorithm
-slug: optimized-algorithm
+slug: trading-algorithm
 
 ---
 Returns: **29923.07%**, Drawdown: **-39.77%**, Benchmark (S&P 500): **288.21%**
