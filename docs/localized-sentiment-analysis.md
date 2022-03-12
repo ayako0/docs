@@ -3,13 +3,11 @@ title: Localized Branding
 slug: localized-branding
 
 ---
-#### Activity Recognition API
+Activity Recognition API
 
 [Activity Recognition API](https://developers.google.com/location-context/activity-recognition)
 
-#### Falken
-
-Reference:
+Falken
 
 [Falken](google-research/falken "Falken")
 
