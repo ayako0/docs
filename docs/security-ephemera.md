@@ -3,14 +3,14 @@ title: Security
 slug: security
 
 ---
-## Compute Security
+## OS and CPU
 
-_Oracle Linux, testing_
+## _Oracle Linux, testing_
 
 ## AWS
 
 _In development_
 
-## Architectural Security
+## Built Environment
 
 _Bowley Locks_
