@@ -43,10 +43,12 @@ _Imitation Learning_
 
 [Quickly Training Game-Playing Agents with Machine Learning](https://ai.googleblog.com/2021/06/quickly-training-game-playing-agents.html "Quickly Training Game-Playing Agents with Machine Learning")
 
+<br>
+
 _Image Data and Recognition_
 
-[Toward Fast and Accurate Neural Networks for Image Recognition](https://ai.googleblog.com/2021/09/toward-fast-and-accurate-neural.html "Toward Fast and Accurate Neural Networks for Image Recognition")
+[Music Conditioned 3D Dance Generation with AIST++](https://ai.googleblog.com/2021/09/music-conditioned-3d-dance-generation.html "Music Conditioned 3D Dance Generation with AIST++")
 
 [Revisiting Mask-Head Architectures for Novel Class Instance Segmentation](https://ai.googleblog.com/2021/09/revisiting-mask-head-architectures-for.html)
 
-[Music Conditioned 3D Dance Generation with AIST++](https://ai.googleblog.com/2021/09/music-conditioned-3d-dance-generation.html "Music Conditioned 3D Dance Generation with AIST++")
+[Toward Fast and Accurate Neural Networks for Image Recognition](https://ai.googleblog.com/2021/09/toward-fast-and-accurate-neural.html "Toward Fast and Accurate Neural Networks for Image Recognition")
