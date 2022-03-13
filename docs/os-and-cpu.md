@@ -20,5 +20,3 @@ _Windows_
 _Intel_
 
 [Intel SDM](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)
-
-[Model Zoo for Intel® Architecture](https://github.com/IntelAI/models)
