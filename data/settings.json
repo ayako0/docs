@@ -50,16 +50,16 @@
       "section": "Security",
       "topics": [
         {
-          "title": "Built Environment",
-          "slug": "built-environment"
+          "title": "OS and CPU",
+          "slug": "os-cpu"
         },
         {
           "title": "AWS",
           "slug": "aws"
         },
         {
-          "title": "OS and CPU",
-          "slug": "os-cpu"
+          "title": "Built Environment",
+          "slug": "built-environment"
         }
       ]
     },
