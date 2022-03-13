@@ -22,6 +22,8 @@ _Generative Face Modeling_
 
 [Nvidia GAN research](https://nvlabs.github.io/stylegan2/versions.html "Nvidia GAN research")
 
+<br>
+
 _Generative Language Models_
 
 [Megatron-Turing](https://www.microsoft.com/en-us/research/blog/using-deepspeed-and-megatron-to-train-megatron-turing-nlg-530b-the-worlds-largest-and-most-powerful-generative-language-model/?utm_campaign=Sunday%20Newsletter&utm_medium=email&_hsmi=172072722&_hsenc=p2ANqtz-_E4S7ptx_cGkDhyc1bJ1Sn2LVypGh3lFxs-LXIbU-n41wZh3Mbe4hFOyXsIyGgiCgXPCbkEdaxtfDULJox7lGqi-WjwA&utm_content=172072722&utm_source=hs_email "Megatron-Turing")
