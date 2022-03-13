@@ -3,7 +3,7 @@ title: Localized Branding
 slug: localized-branding
 
 ---
-Personal to local scale design and technical ideas consisting of research and code for branding environments.
+Personal to local scale design and technical list consisting of research and code relating to branding environments.
 
 _Intel_
 
