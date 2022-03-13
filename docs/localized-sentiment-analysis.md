@@ -21,11 +21,15 @@ _Architectures_
 
 <br>
 
-_Social Networks_
+_Network Communications_ 
 
 [Learning in Repeated Interactions on Networks](https://arxiv.org/pdf/2112.14265.pdf "Learning in Repeated Interactions on Networks")
 
 [Private Private Information](https://arxiv.org/pdf/2112.14356.pdf "Private Private Information")
+
+<br>
+
+_Demographic Accessibility_
 
 [On the Equivalence of Two Competing Affirmative Actions in School Choice](https://arxiv.org/pdf/2112.14074.pdf "On the Equivalence of Two Competing Affirmative Actions in School Choice")
 
