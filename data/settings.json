@@ -50,12 +50,8 @@
       "section": "Security",
       "topics": [
         {
-          "title": "Optimized Trading Algorithm",
-          "slug": "trading-algorithm3"
-        },
-        {
-          "title": "Security",
-          "slug": "security"
+          "title": "OS and CPU",
+          "slug": "os-cpu"
         }
       ]
     },
