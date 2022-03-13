@@ -3,20 +3,17 @@ title: Localized Branding
 slug: localized-branding
 
 ---
+Personal to local scale design and technical ideas consisting of research and code for branding environments.
+
+<br>
 
 _Social Networks_
 
-Learning in Repeated Interactions on Networks
+[Learning in Repeated Interactions on Networks](https://arxiv.org/pdf/2112.14265.pdf "Learning in Repeated Interactions on Networks")
 
-[https://arxiv.org/pdf/2112.14265.pdf](https://arxiv.org/pdf/2112.14265.pdf "https://arxiv.org/pdf/2112.14265.pdf")[…](https://t.co/nPoNEtP9An) 
+[Private Private Information](https://arxiv.org/pdf/2112.14356.pdf "Private Private Information")
 
-Private Private Information
-
-[https://arxiv.org/pdf/2112.14356.pdf](https://arxiv.org/pdf/2112.14356.pdf "https://arxiv.org/pdf/2112.14356.pdf")[…](https://t.co/o349jMABHs) 
-
-On the Equivalence of Two Competing Affirmative Actions in School Choice
-
-[https://arxiv.org/pdf/2112.14074.pdf](https://arxiv.org/pdf/2112.14074.pdf "https://arxiv.org/pdf/2112.14074.pdf")[…](https://t.co/Jd71qzBKBl)
+[On the Equivalence of Two Competing Affirmative Actions in School Choice](https://arxiv.org/pdf/2112.14074.pdf "On the Equivalence of Two Competing Affirmative Actions in School Choice")
 
 <br>
 
@@ -34,19 +31,13 @@ _Generative Language Models_
 
 _Architectures_
 
-Neuron Simulator
-
 [Neuron Simulator](https://github.com/neuronsimulator/nrn "Neuron Simulator")
-
-Activity Recognition API
 
 [Activity Recognition API](https://developers.google.com/location-context/activity-recognition)
 
 <br>
 
 _Imitation Learning_
-
-Falken
 
 [Falken](google-research/falken "Falken")
 
