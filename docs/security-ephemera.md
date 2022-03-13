@@ -5,7 +5,7 @@ slug: security
 ---
 ## OS and CPU
 
-## _Oracle Linux, testing_
+Oracle Linux, testing
 
 ## AWS
 
