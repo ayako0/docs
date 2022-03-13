@@ -5,6 +5,10 @@ slug: localized-branding
 ---
 Personal to local scale design and technical ideas consisting of research and code for branding environments.
 
+_Intel_
+
+[Model Zoo for Intel® Architecture](https://github.com/IntelAI/models)
+
 <br>
 
 _Social Networks_
