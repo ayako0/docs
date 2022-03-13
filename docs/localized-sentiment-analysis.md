@@ -3,6 +3,10 @@ title: Localized Branding
 slug: localized-branding
 
 ---
+My Neuron
+
+[My Neuron](https://github.com/HighSchoolSoftwareClub/MyNeuron "My Neuron")
+
 Activity Recognition API
 
 [Activity Recognition API](https://developers.google.com/location-context/activity-recognition)
