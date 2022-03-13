@@ -50,6 +50,10 @@
       "section": "Security",
       "topics": [
         {
+          "title": "topic",
+          "slug": "topic"
+        },
+        {
           "title": "OS and CPU",
           "slug": "os-cpu"
         }
