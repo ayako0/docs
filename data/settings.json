@@ -50,6 +50,10 @@
       "section": "Security",
       "topics": [
         {
+          "title": "Built Environment",
+          "slug": "built-environment"
+        },
+        {
           "title": "AWS",
           "slug": "aws"
         },
