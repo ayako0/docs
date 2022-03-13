@@ -3,9 +3,9 @@ title: Localized Branding
 slug: localized-branding
 
 ---
-My Neuron
+Neuron Simulator
 
-[My Neuron](https://github.com/HighSchoolSoftwareClub/MyNeuron "My Neuron")
+[Neuron Simulator](https://github.com/neuronsimulator/nrn "Neuron Simulator")
 
 Activity Recognition API
 
