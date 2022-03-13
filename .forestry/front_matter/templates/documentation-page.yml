@@ -11,6 +11,7 @@ fields:
 pages:
 - docs/aws.md
 - docs/balance-sheet.md
+- docs/built-environment.md
 - docs/cash-flow.md
 - docs/earnings-ratios.md
 - docs/earnings-report.md
