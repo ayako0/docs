@@ -1,24 +1,68 @@
 ---
 title: Valuation Ratios
-date: ''
+date: ""
 slug: valuation-ratios
-
 ---
-## Tangible Book Value per Share
 
-_(Assets - liabilities - intangible assets) / common shares outstanding_
+### Tangible Book Value per Share
 
-_In development_
+<div>
+  <p>
+    ((Assets - liabilities - intangible assets) / common shares outstanding)
+  </p>
 
-## Book Value per Share
+### Book Value per Share
 
-_(Assets - liabilities) / common shares outstanding_
+  <p>((Assets - liabilities) / common shares outstanding)</p>
 
-Find stocks with the highest book value per share.
+  <p class="mb4">
+    An algorithm that trades stocks with the highest book value per share values
+    weekly.
+  </p>
 
-Returns: **50.6%**, Drawdown: **-66.95%**, Benchmark (S&P 500): **276.95%**
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/146.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: 50.6%
+            <br />
+            Drawdown: -66.95%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/61.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix mb4">
 
 ```python
 import quantopian.algorithm as algo
@@ -78,154 +122,657 @@ def trade(context, data):
     )
 ```
 
-## Book Value Yield
+  </div>
 
-_(Assets - liabilities) / close price_
+### Book Value Yield
 
-Find stocks with the highest book value yield.
+  <p>((Assets - liabilities) / close price)</p>
 
-Returns: **99.36%**, Drawdown: **-81.77%**, Benchmark (S&P 500): **276.95%**
+  <p class="mb4">
+    An algorithm that trades stocks with the highest book value yield values
+    weekly.
+  </p>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/63.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/148.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: 99.36%
+            <br />
+            Drawdown: -81.77%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix mb4">
 
 ```python
 factor = ms.book_value_yield.latest.rank(mask=univ, ascending=False)
 ```
 
-## Cash Return
+  </div>
 
-_(Cash flow operations - capital expenditures) / enterprise value_
+### Cash Return
 
-Find stocks with the highest cash return.
+  <p>((Cash flow operations - capital expenditures) / enterprise value)</p>
 
-Returns: **66.02%**, Drawdown: **-90.42%**, Benchmark (S&P 500): **276.95%**
+  <p class="mb4">
+    An algorithm that trades stocks with the highest cash return values weekly.
+  </p>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/65.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/150.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: 66.02%
+            <br />
+            Drawdown: -90.42%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix mb4">
 
 ```python
 factor = ms.cash_return.latest.rank(mask=univ, ascending=False)
 ```
 
-## Earning Yield
+  </div>
 
-_(Diluted earnings / common shares outstanding) / close price_
+### Earning Yield
 
-Find stocks with the highest earning yield.
+  <p>((Diluted earnings / common shares outstanding) / close price)</p>
 
-Returns: **-92.55%**, Drawdown: **-98.6%**, Benchmark (S&P 500): **276.95%**
+  <p class="mb4">
+    An algorithm that trades stocks with the highest earning yield values
+    weekly.
+  </p>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/67.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/152.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: -92.55%
+            <br />
+            Drawdown: -98.6%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix mb4">
 
 ```python
 factor = ms.earning_yield.latest.rank(mask=univ, ascending=False)
 ```
 
-## Enterprise Value to EBITDA
+  </div>
 
-_(Common equity + preferred equity + minority equity + total debt - cash and cash equivalents) / net income - (interest + tax + deprecation + amortization)_
+### Enterprise Value to EBITDA
 
-Find stocks with the highest enterprise value to EBITDA.
+  <p>
+    ((Common equity + preferred equity + minority equity + total debt - cash and
+    cash equivalents) / net income - (interest + tax + deprecation +
+    amortization))
+  </p>
 
-Returns: -**33.7%**, Drawdown: **-74.49%**, Benchmark (S&P 500): **276.95%**
+  <p class="mb4">
+    An algorithm that trades stocks with the highest enterprise value to EBITDA
+    values weekly.
+  </p>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/69.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/154.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: -33.7%
+            <br />
+            Drawdown: -74.49%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix mb4">
 
 ```python
 factor = ms.ev_to_ebitda.latest.rank(mask=univ, ascending=False)
 ```
 
-## Free Cash Flow Yield
+  </div>
 
-_(Cash flow operations - capital expenditures / common shares outstanding) / close price_
+### Free Cash Flow Yield
 
-Find stocks with the highest free cash flow yield.
+  <p>
+    ((Cash flow operations - capital expenditures / common shares outstanding) /
+    close price)
+  </p>
 
-Returns: **-71.49%**, Drawdown: **-92.66%**, Benchmark (S&P 500): **276.95%**
+  <p class="mb4">
+    An algorithm that trades stocks with the highest free cash flow yield values
+    weekly.
+  </p>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/71.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/156.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: -71.49%
+            <br />
+            Drawdown: -92.66%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix mb4">
 
 ```python
 factor = ms.fcf_yield.latest.rank(mask=univ, ascending=False)
 ```
 
-## Price to Book Ratio
+  </div>
 
-_Close price / (assets - liabilities)_
+### Price to Book Ratio
 
-Find stocks with the highest price to book ratio.
+  <p>(Close price / (assets - liabilities))</p>
 
-Returns: **-24.46%**, Drawdown: **-96.45%**, Benchmark (S&P 500): **276.95%**
+  <p class="mb4">
+    An algorithm that trades stocks with the highest price to book ratio values
+    weekly.
+  </p>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/73.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/164.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: -24.46%
+            <br />
+            Drawdown: -96.45%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix mb4">
 
 ```python
 factor = ms.pb_ratio.latest.rank(mask=univ, ascending=False)
 ```
 
-## Price to Earnings Ratio
+  </div>
 
-_Close price / (net income / common shares outstanding)_
+### Price to Earnings Ratio
 
-Find stocks with the highest price to earnings ratio.
+  <p>(Close price / (net income / common shares outstanding))</p>
 
-Returns: **117.09%**, Drawdown: **-86.27%**, Benchmark (S&P 500): **276.95%**
+  <p class="mb4">
+    An algorithm that trades stocks with the highest price to earnings ratio
+    values weekly.
+  </p>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/75.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/166.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: 117.09%
+            <br />
+            Drawdown: -86.27%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix mb4">
 
 ```python
 factor = ms.pe_ratio.latest.rank(mask=univ, ascending=False)
 ```
 
-## Price to Sales Ratio
+  </div>
 
-_Close price / (revenue / common shares outstanding)_
+### Price to Sales Ratio
 
-Find stocks with the highest price to sales ratio.
+  <p>(Close price / (revenue / common shares outstanding))</p>
 
-Returns: **1270.05%**, Drawdown: **-58.17%**, Benchmark (S&P 500): **276.95%**
+  <p class="mb4">
+    An algorithm that trades stocks with the highest price to sales ratio values
+    weekly.
+  </p>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/77.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/168.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: 1270.05%
+            <br />
+            Drawdown: -58.17%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix mb4">
 
 ```python
 factor = ms.ps_ratio.latest.rank(mask=univ, ascending=False)
 ```
 
-## Sales Yield
+  </div>
 
-_(Revenue / common shares outstanding) / close price_
+### Sales Yield
 
-Find stocks with the highest sales yield.
+  <p>((Revenue / common shares outstanding) / close price)</p>
 
-Returns: **-15.34%**, Drawdown: **-75.64%**, Benchmark (S&P 500): **276.95%**
+  <p class="mb4">
+    An algorithm that trades stocks with the highest sales yield values weekly.
+  </p>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/79.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/170.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: -15.34%
+            <br />
+            Drawdown: -75.64%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix mb4">
 
 ```python
 factor = ms.sales_yield.latest.rank(mask=univ, ascending=False)
 ```
 
-## Sustainable Growth Rate
+  </div>
 
-_Net income / total common equity * (1 - dividend per share / diluted earnings per share)_
+### Sustainable Growth Rate
 
-Find stocks with the highest sustainable growth rate.
+  <p>
+    (Net income / total common equity * (1 - dividend per share / diluted
+    earnings per share))
+  </p>
 
-Returns: **191.16%**, Drawdown: **-64.75%**, Benchmark (S&P 500): **276.95%**
+  <p class="mb4">
+    An algorithm that trades stocks with the highest sustainable growth rate
+    percentages weekly.
+  </p>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/81.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/172.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: 191.16%
+            <br />
+            Drawdown: -64.75%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix mb4">
 
 ```python
 factor = ms.sustainable_growth_rate.latest.rank(mask=univ, ascending=False)
 ```
 
-_Historical fundamental data:_
+  </div>
 
-_Start to end: Jan 2nd, 2006 to Sep 1st, 2020_
-
-_Starting capital: $10000_
-
-_Number of stocks: 5, equally weighted_
-
-_Max leverage: 1_
-
-_Universe: Quantopian Q3000US dataset_
+  <div class="clearfix mb4">
+    <div class="md-col-8">
+      <div class="footnotes">
+        Terms:
+        <br />
+        1. Tangible Book Value per Share
+        <a href="https://www.investopedia.com/terms/t/tbvps.asp">
+          Investopedia
+        </a>
+        <br />
+        2. Book Value per Share
+        <a href="https://www.investopedia.com/terms/b/bvps.asp">Investopedia</a>
+        <br />
+        3. Earning Yield
+        <a href="https://www.investopedia.com/terms/e/earningsyield.asp">
+          Investopedia
+        </a>
+        <br />
+        4. Enterprise Value to EBITDA
+        <a href="https://www.investopedia.com/terms/e/ev-ebitda.asp">
+          Investopedia
+        </a>
+        <br />
+        5. Free Cash Flow Yield
+        <a href="https://www.investopedia.com/terms/f/freecashflowyield.asp">
+          Investopedia
+        </a>
+        <br />
+        6. Price to Book Ratio
+        <a href="https://www.investopedia.com/terms/p/price-to-bookratio.asp">
+          Investopedia
+        </a>
+        <br />
+        7. Price to Earnings Ratio
+        <a href="https://www.investopedia.com/terms/p/price-earningsratio.asp">
+          Investopedia
+        </a>
+        <br />
+        8. Price to Sales Ratio
+        <a href="https://www.investopedia.com/terms/p/price-to-salesratio.asp">
+          Investopedia
+        </a>
+        <br />
+        <br />
+        <br />
+        Statements on this website are for informational purposes only and do
+        not constitute a recommendation or advice by the website owner to
+        transact any security or market instrument. All trading activity
+        involves known and unknown risk. Historical data presented is not always
+        indicative of future performance.
+      </div>
+    </div>
+  </div>
+</div>
