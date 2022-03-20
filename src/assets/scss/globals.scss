@@ -70,9 +70,9 @@ ul {
 .main {
   a {
     background: linear-gradient(260deg, $gradientOne, $gradientTwo);
-    -webkit-background-clip: text;
+    //-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-box-decoration-break: clone;
+    //-webkit-box-decoration-break: clone;
     font-weight: 500;
   }
 }
