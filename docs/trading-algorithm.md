@@ -158,8 +158,7 @@ spy_beta = SB(target=context.SPY, regression_length=context.bars_5)
         Under monthly negative price action or weekly sharp drops, stocks are
         not purchased. Bonds are purchased instead to stabilize the portfolio
         under such market conditions. In the instance of the Lehman
-        Brothers crash of 2008-09, long term damage was prevented - elevating
-        the path to exponentially larger future gains.
+        Brothers crash of 2008-09, long term damage was prevented - increasing the initial value of exponential growth.
       </p>
       <p>
         During the time period, only Netflix (NFLX) and Monster (MNST) outperformed the
