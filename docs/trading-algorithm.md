@@ -162,7 +162,7 @@ spy_beta = SB(target=context.SPY, regression_length=context.bars_5)
         the path to exponentially larger future gains.
       </p>
       <p>
-        During the given time period, only NFLX and MNST outperformed the
+        During the time period, only Netflix (NFLX) and Monster (MNST) outperformed the
         algorithm.
       </p>
     </div>
