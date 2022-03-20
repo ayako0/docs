@@ -576,7 +576,7 @@ factor = ms.pe_ratio.latest.rank(mask=univ, ascending=False)
       <div class="border-box">
         <div class="flex bt pt1 pb3">
           <div class="notes">
-            Returns: 1270.05%
+            Returns: 1,270.05%
             <br />
             Drawdown: -58.17%
           </div>
