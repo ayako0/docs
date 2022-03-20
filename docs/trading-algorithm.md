@@ -54,7 +54,7 @@ slug: trading-algorithm
     <div class="md-col-8">
       <p class="intro">
         An algorithm optimized for long-only, non-leveraged trading
-        with a backtested percentage performance similar to Apple from Sep 1,
+        with backtested percentage performance similar to Apple from Sep 1,
         2002 - Oct 5, 2020, using real-time quarterly market data from the Morningstar
         universe.
       </p>
