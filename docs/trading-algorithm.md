@@ -53,9 +53,10 @@ slug: trading-algorithm
   <div class="clearfix mb4">
     <div class="md-col-8">
       <p class="intro">
-        Optimized algorithm for long-only, non-leveraged algo trading with
-        backtesting performance similar to Apple from Sep 1, 2002 - Oct 5, 2020,
-        using real-time market data from the Morningstar universe.
+        Optimized algorithm for long-only, non-leveraged algorithmic trading
+        with a backtested percentage performance similar to Apple from Sep 1,
+        2002 - Oct 5, 2020, using real-time market data from the Morningstar
+        universe.
       </p>
       <p>
         Using fundamental factors and momentum strategies the algorithm ranks
