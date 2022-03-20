@@ -61,7 +61,7 @@ slug: trading-algorithm
       <p>
         Using fundamental factors and momentum strategies the algorithm ranks
         all stocks in the dataset and chooses the top five to trade weekly,
-        outperforming most long term held stocks in the S&P 500 within the time
+        outperforming most long term held stocks in the NYSE within the time
         frame at a percentage gain of 29,923.07%.
       </p>
       <p>
@@ -118,7 +118,7 @@ slug: trading-algorithm
   <div class="clearfix mb4">
     <div class="md-col-8">
       The algorithm starts by measuring weekly S&P 500 beta with all existing
-      assets<sup class="super">2</sup> and simultaneously ranks defined fundamental factors of
+      assets<sup>2</sup> within the Quantopian dataset and simultaneously ranks defined fundamental factors of
       all stocks in the Morningstar universe, then associates the top
       fundamentally-based selection or the alpha of the selection with the given
       beta conditions, which are then traded in the current week. Using linear
