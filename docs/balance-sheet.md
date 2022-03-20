@@ -1,18 +1,62 @@
 ---
 title: Balance Sheet
-date: ''
+date: ""
 slug: balance-sheet
-
 ---
-## Cash and Cash Equivalents
 
-_Cash + immediately liquid instruments_
+### Cash and Cash Equivalents
 
-Find stocks with the highest cash and cash equivalents.
+<div>
+  <p>(Cash + immediately liquid instruments)</p>
 
-Returns: **-51.42%**, Drawdown: **-77.4%**, Benchmark (S&P 500): **276.95%**
+  <p class="mb4">
+    An algorithm that trades stocks with the highest values of cash and cash
+    equivalents weekly.
+  </p>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/11.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/96.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: -51.42%
+            <br />
+            Drawdown: -77.4%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix mb4">
 
 ```python
 import quantopian.algorithm as algo
@@ -72,64 +116,239 @@ def trade(context, data):
     )
 ```
 
-## Total Assets
+  </div>
 
-_Tangible and intangible value_
+### Total Assets
 
-Find stocks with the highest total assets.
+  <p>Tangible and intangible value.</p>
 
-Returns: **-51.27%**, Drawdown: **-83.72%**, Benchmark (S&P 500): **276.95%**
+  <p class="mb4">
+    An algorithm that trades stocks with the highest values of total assets
+    weekly.
+  </p>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/13.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/106.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: -51.27%
+            <br />
+            Drawdown: -83.72%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix mb4">
 
 ```python
 factor = ms.total_assets.latest.rank(mask=univ, ascending=False)
 ```
 
-## Total Equity
+  </div>
 
-_Assets - liabilities_
+### Total Equity
 
-Find stocks with the highest total equity.
+  <p>(Assets - liabilities)</p>
 
-Returns: **185.64%**, Drawdown: **-78.54%**, Benchmark (S&P 500): **276.95%**
+  <p class="mb4">
+    An algorithm that trades stocks with the highest values of total equity
+    weekly.
+  </p>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/15.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/176.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: 185.64%
+            <br />
+            Drawdown: -78.54%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix mb4">
 
 ```python
 factor = ms.total_equity.latest.rank(mask=univ, ascending=False)
 ```
 
-## Total Debt
+  </div>
 
-_Current and long-term debts owed_
+### Total Debt
 
-Ideally, we find stocks with low debt.
+  <p>Current and long-term debts owed.</p>
 
-Returns: **52.21%**, Drawdown: **-53.81%**, Benchmark (S&P 500): **276.95%**
+  <p class="mb4">
+    An algorithm that trades stocks with the lowest debt weekly.
+  </p>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/19.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/180.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: 52.21%
+            <br />
+            Drawdown: -53.81%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix mb4">
 
 ```python
 def make_pipeline(context):
-    univ = Q3000US()
-    factor = ms.total_debt.latest.rank(mask=univ, ascending=True)
-    bottom = factor.bottom(context.FINE_FILTER)
-    pipe = Pipeline(
-        columns={'bottom': bottom}, screen=univ)
-    return pipe
-
+  univ = Q3000US()
+  factor = ms.total_debt.latest.rank(mask=univ, ascending=True)
+  bottom = factor.bottom(context.FINE_FILTER)
+  pipe = Pipeline(
+      columns={'bottom': bottom}, screen=univ)
+  return pipe
 
 def stocks_weights(context, data):
-    df = algo.pipeline_output('pipeline')
-    rule = 'bottom'
+df = algo.pipeline_output('pipeline')
+rule = 'bottom'
 ```
 
-We can also find stocks with high debt.
+  </div>
 
-Returns: **-21.78%**, Drawdown: **-75.52%**, Benchmark (S&P 500): **276.95%**
+  <p>An algorithm that trades stocks with the highest debt weekly.</p>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/17.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/178.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: -21.78%
+            <br />
+            Drawdown: -75.52%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix mb4">
 
 ```python
 def make_pipeline(context):
@@ -141,14 +360,41 @@ def make_pipeline(context):
     return pipe
 ```
 
-_Historical fundamental data:_
+  </div>
 
-_Start to end: Jan 2nd, 2006 to Sep 1st, 2020_
-
-_Starting capital: $10000_
-
-_Number of stocks: 5, equally weighted_
-
-_Max leverage: 1_
-
-_Universe: Quantopian Q3000US dataset_
+  <div class="clearfix mb4">
+    <div class="md-col-8">
+      <div class="footnotes">
+        Terms:
+        <br />
+        1. Cash and Cash Equivalents
+        <a href="https://www.investopedia.com/terms/c/cashandcashequivalents.asp">
+          Investopedia
+        </a>
+        <br />
+        2. Asset
+        <a href="https://www.investopedia.com/terms/a/asset.asp">
+          Investopedia
+        </a>
+        <br />
+        3. Equity
+        <a href="https://www.investopedia.com/terms/e/equity.asp">
+          Investopedia
+        </a>
+        <br />
+        4. Net Debt
+        <a href="https://www.investopedia.com/terms/n/netdebt.asp">
+          Investopedia
+        </a>
+        <br />
+        <br />
+        <br />
+        Statements on this website are for informational purposes only and do
+        not constitute a recommendation or advice by the website owner to
+        transact any security or market instrument. All trading activity
+        involves known and unknown risk. Historical data presented is not always
+        indicative of future performance.
+      </div>
+    </div>
+  </div>
+</div>
