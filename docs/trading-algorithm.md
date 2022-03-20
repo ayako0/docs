@@ -16,7 +16,7 @@ slug: trading-algorithm
       <div class="border-box">
         <div class="flex bt pb2 pt2">
           <div>
-            Returns: 29923.07%
+            Returns: 29,923.07%
             <br />
             Drawdown: -39.77%
           </div>
@@ -61,7 +61,7 @@ slug: trading-algorithm
         Using fundamental factors and momentum strategies the algorithm ranks
         all stocks in the dataset and chooses the top five to trade weekly,
         outperforming most long term held stocks in the given time frame within
-        the S&P 500 at a percentage gain of 28,777%.
+        the S&P 500 at a percentage gain of 29,923.07%.
       </p>
       <p>
         Slope, beta and linear regression methods<sup>1</sup> were chosen to
