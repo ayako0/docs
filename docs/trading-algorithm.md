@@ -61,8 +61,8 @@ slug: trading-algorithm
       <p>
         Using fundamental factors and momentum strategies the algorithm ranks
         all stocks in the dataset and chooses the top five to trade weekly,
-        outperforming most long term held stocks in the given time frame within
-        the S&P 500 at a percentage gain of 29,923.07%.
+        outperforming most long term held stocks in the S&P 500 within the time
+        frame at a percentage gain of 29,923.07%.
       </p>
       <p>
         Slope, beta and linear regression methods<sup>1</sup> were chosen to
