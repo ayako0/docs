@@ -144,7 +144,7 @@ spy_beta = SB(target=context.SPY, regression_length=context.bars_5)
       <p>
         It was found that certain groups of stocks performed optimally with
         certain conditions - a 'growth'-focused selection performed best under
-        positive S&P 500 beta conditions, whereas a 'value' selection performed
+        positive S&P 500 beta conditions; a 'value' selection performed
         best under negative S&P 500 beta conditions. Growth and value lists can
         both be best defined as stable, revenue producing companies, where
         growth focuses more on fundamental value percentage growth.
