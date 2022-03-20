@@ -155,8 +155,7 @@ spy_beta = SB(target=context.SPY, regression_length=context.bars_5)
         any other number of stocks selected.
       </p>
       <p>
-        Under monthly negative price action or weekly sharp drops, stocks are
-        not purchased. Bonds are purchased instead to stabilize the portfolio
+        Under monthly negative price action or weekly sharp drops, bonds are purchased instead of stocks to stabilize the portfolio
         under such market conditions. In the instance of the Lehman
         Brothers crash of 2008-09, long term damage was prevented - increasing the initial value of exponential growth.
       </p>
