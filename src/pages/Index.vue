@@ -43,7 +43,7 @@
                 class="relative mb2 md-col md-col-4 md-center md-border-right"
               >
                 <div class="border-box mt2 mb2">
-                  <h4 class="mt0 mb0 i2">High: 1270.05%</h4>
+                  <h4 class="mt0 mb0 i2">High: 1,270.05%</h4>
                   <a
                     href="/valuation-ratios#price-to-sales-ratio"
                     class="mb0 mt0 i1"
