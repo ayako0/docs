@@ -1,18 +1,62 @@
 ---
 title: Operation Ratios
-date: ''
+date: ""
 slug: operation-ratios
-
 ---
-## Current Ratio
 
-_Current assets / current liabilities_
+### Current Ratio
 
-Find stocks with the highest current ratio.
+<div>
+  <p>(Current assets / current liabilities)</p>
 
-Returns: **78.55%**, Drawdown: **-70.61%**, Benchmark (S&P 500): **276.95%**
+  <p class="mb4">
+    An algorithm that trades stocks with the highest current ratio values
+    weekly.
+  </p>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/37.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/124.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: 78.55%
+            <br />
+            Drawdown: -70.61%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix mb4">
 
 ```python
 import quantopian.algorithm as algo
@@ -72,134 +116,546 @@ def trade(context, data):
     )
 ```
 
-## Net Income Growth
+  </div>
 
-_((Net income current - net income from previous quarter) / net income current) * 100_
+### Net Income Growth
 
-Find stocks with the highest net income growth.
+  <p>
+    (((Net income current - net income from previous quarter) / net income
+    current) * 100)
+  </p>
 
-Returns: **61.41%**, Drawdown: **-72.47%**, Benchmark (S&P 500): **276.95%**
+  <p class="mb4">
+    An algorithm that trades stocks with the highest percentages of net income
+    growth weekly.
+  </p>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/39.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/126.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: 61.41%
+            <br />
+            Drawdown: -72.47%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix mb4">
 
 ```python
 factor = ms.net_income_growth.latest.rank(mask=univ, ascending=False)
 ```
 
-## Net Margin
+  </div>
 
-_Net income / revenue_
+### Net Margin
 
-Find stocks with the highest net margin.
+  <p>(Net income / revenue)</p>
 
-Returns: **16.2%**, Drawdown: **-84.68%**, Benchmark (S&P 500): **276.95%**
+  <p class="mb4">
+    An algorithm that trades stocks with the highest net margin values weekly.
+  </p>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/41.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/128.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: 16.2%
+            <br />
+            Drawdown: -84.68%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix mb4">
 
 ```python
 factor = ms.net_margin.latest.rank(mask=univ, ascending=False)
 ```
 
-## Operation Revenue Growth, Three Month Average
+  </div>
 
-_((Operation revenue current - operation revenue from previous quarter) / operation revenue current) * 100_
+### Operation Revenue Growth, Three Month Average
 
-Find stocks with the highest operation revenue growth.
+  <p>
+    (((Operation revenue current - operation revenue from previous quarter) /
+    operation revenue current) * 100)
+  </p>
 
-Returns: **358.41%**, Drawdown: **-86.73%**, Benchmark (S&P 500): **276.95%**
+  <p class="mb4">
+    An algorithm that trades stocks with the highest percentages of operation
+    revenue growth weekly.
+  </p>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/43.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/130.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: 358.41%
+            <br />
+            Drawdown: -86.73%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix mb4">
 
 ```python
 factor = ms.operation_revenue_growth3_month_avg.latest.rank(mask=univ, ascending=False)
 ```
 
-## Quick Ratio
+  </div>
 
-_Liquidity / liabilities_
+### Quick Ratio
 
-Find stocks with the highest quick ratio.
+  <p>(Liquidity / liabilities)</p>
 
-Returns: **317.22%**, Drawdown: **-58.24%**, Benchmark (S&P 500): **276.95%**
+  <p class="mb4">
+    An algorithm that trades stocks with the highest quick ratio values weekly.
+  </p>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/45.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/132.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: 317.22%
+            <br />
+            Drawdown: -58.24%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix mb4">
 
 ```python
 factor = ms.quick_ratio.latest.rank(mask=univ, ascending=False)
 ```
 
-## Revenue Growth
+  </div>
 
-_((Revenue current - revenue from previous quarter) / revenue current) * 100_
+### Revenue Growth
 
-Find stocks with the highest revenue growth.
+  <p>
+    (((Revenue current - revenue from previous quarter) / revenue current) *
+    100)
+  </p>
 
-Returns: **211.05%**, Drawdown: **-87.44%**, Benchmark (S&P 500): **276.95%**
+  <p class="mb4">
+    An algorithm that trades stocks with the highest percentages of revenue
+    growth weekly.
+  </p>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/47.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/134.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: 211.05%
+            <br />
+            Drawdown: -87.44%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix mb4">
 
 ```python
 factor = ms.revenue_growth.latest.rank(mask=univ, ascending=False)
 ```
 
-## Return on Assets (ROA)
+  </div>
 
-_Net income / total assets_
+### Return on Assets (ROA)
 
-Find stocks with the highest return on assets.
+  <p>(Net income / total assets)</p>
 
-Returns: -**62.16%**, Drawdown: **-85.02%**, Benchmark (S&P 500): **276.95%**
+  <p class="mb4">
+    An algorithm that trades stocks with the highest return on assets (ROA)
+    values weekly.
+  </p>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/49.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/136.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: -62.16%
+            <br />
+            Drawdown: -85.02%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix mb4">
 
 ```python
 factor = ms.roa.latest.rank(mask=univ, ascending=False)
 ```
 
-## Return on Equity (ROE)
+  </div>
 
-_Net income / total common equity_
+### Return on Equity (ROE)
 
-Find stocks with the highest return on equity.
+  <p>(Net income / total common equity)</p>
 
-Returns: **24.3%**, Drawdown: **-87.77%**, Benchmark (S&P 500): **276.95%**
+  <p class="mb4">
+    An algorithm that trades stocks with the highest return on equity (ROE)
+    values weekly.
+  </p>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/51.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/138.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: 24.3%
+            <br />
+            Drawdown: -87.77%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix mb4">
 
 ```python
 factor = ms.roe.latest.rank(mask=univ, ascending=False)
 ```
 
-## Return on Invested Capital (ROIC)
+  </div>
 
-_Net income / (total equity + total debt and capital lease obligation)_
+### Return on Invested Capital (ROIC)
 
-Find stocks with the highest return on invested capital.
+  <p>(Net income / (total equity + total debt and capital lease obligation))</p>
 
-Returns: **36.25%**, Drawdown: **-72.09%**, Benchmark (S&P 500): **276.95%**
+  <p class="mb4">
+    An algorithm that trades stocks with the highest return on invested capital
+    (ROIC) values weekly.
+  </p>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/53.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/140.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: 36.25%
+            <br />
+            Drawdown: -72.09%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix mb4">
 
 ```python
 factor = ms.roic.latest.rank(mask=univ, ascending=False)
 ```
 
-## Total Debt to Equity Ratio
+  </div>
 
-_Total debt / common equity_
+### Total Debt to Equity Ratio
 
-Find stocks with the lowest** debt to equity ratio.
+  <p>(Total debt / common equity)</p>
 
-Returns: **100.86%**, Drawdown: **-31.12%**, Benchmark (S&P 500): **276.95%**
+  <p class="mb4">
+    An algorithm that trades stocks with the lowest debt to equity ratio values
+    weekly.
+  </p>
 
-<iframe width="100%" height="300px" frameborder="0" scrolling="no" src="//plotly.com/\~ayako0/55.embed?link=false&modebar=false&logo=false"></iframe>
+  <div class="clearfix">
+    <p class="date mt0">
+      Starting capital: $10000
+      <br />
+      Max leverage: 1<br />
+      Jan 2, 2006 - Sep 1, 2020
+    </p>
+  </div>
+  <div class="clearfix mb4a">
+    <div class="relative ml0 xs-col xs-col-9">
+      <div class="border-box pr2a">
+        <iframe
+          width="100%"
+          height="240px"
+          frameborder="0"
+          scrolling="no"
+          src="//plotly.com/~ayako0/142.embed?link=false&modebar=false&logo=false"
+        ></iframe>
+      </div>
+    </div>
+    <div class="relative ml0 xs-col xs-col-3 mt-s">
+      <div class="border-box">
+        <div class="flex bt pt1 pb3">
+          <div class="notes">
+            Returns: 100.86%
+            <br />
+            Drawdown: -31.12%
+          </div>
+          <div class="push pl1">
+            <span class="lg" />
+          </div>
+        </div>
+        <div class="flex bt pt1 pb3">
+          <div class="notes">Benchmark (S&P 500): 276.95%</div>
+          <div class="push pl1">
+            <span class="lh" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix mb4">
 
 ```python
 def make_pipeline(context):
     univ = Q3000US()
 
     debt_eq_low = ms.total_debt_equity_ratio.latest < 0.5
-    debt_eq_hi = ms.total_debt_equity_ratio.latest > 0.5
+    #debt_eq_hi = ms.total_debt_equity_ratio.latest > 0.5
 
     factor = ms.total_debt_equity_ratio.latest.rank(mask=debt_eq_low, ascending=True)
     #factor = ms.total_debt_equity_ratio.latest.rank(mask=debt_eq_hi, ascending=False)
@@ -209,16 +665,71 @@ def make_pipeline(context):
     return pipe
 ```
 
-_Historical fundamental data:_
+  </div>
 
-_Start to end: Jan 2nd, 2006 to Sep 1st, 2020_
-
-_Starting capital: $10000_
-
-_Number of stocks: 5, equally weighted_
-
-_Max leverage: 1_
-
-_Universe: Quantopian Q3000US dataset_
-
-\** See [Total Debt](https://annayakowenko.com/balance-sheet#total-debt).
+  <div class="clearfix mb4">
+    <div class="md-col-8">
+      <div class="footnotes">
+        Terms:
+        <br />
+        1. Current Ratio
+        <a href="https://www.investopedia.com/terms/c/currentratio.asp">
+          Investopedia
+        </a>
+        <br />
+        2. Net Income Growth
+        <a href="https://www.investopedia.com/terms/n/netincome.asp">
+          Investopedia
+        </a>
+        <br />
+        3. Net Margin
+        <a href="https://www.investopedia.com/terms/n/net_margin.asp">
+          Investopedia
+        </a>
+        <br />
+        4. Operation Revenue Growth
+        <a href="https://www.investopedia.com/terms/o/operating-revenue.asp">
+          Investopedia
+        </a>
+        <br />
+        5. Quick Ratio
+        <a href="https://www.investopedia.com/terms/q/quickratio.asp">
+          Investopedia
+        </a>
+        <br />
+        6. Revenue
+        <a href="https://www.investopedia.com/terms/r/revenue.asp">
+          Investopedia
+        </a>
+        <br />
+        7. Return on Assets (ROA)
+        <a href="https://www.investopedia.com/terms/r/returnonassets.asp">
+          Investopedia
+        </a>
+        <br />
+        8. Return on Equity (ROE)
+        <a href="https://www.investopedia.com/terms/r/returnonequity.asp">
+          Investopedia
+        </a>
+        <br />
+        9. Return on Invested Capital (ROIC)
+        <a href="https://www.investopedia.com/terms/r/returnoninvestmentcapital.asp">
+          Investopedia
+        </a>
+        <br />
+        10. Debt to Equity Ratio
+        <a href="https://www.investopedia.com/terms/d/debtequityratio.asp">
+          Investopedia
+        </a>
+        <br />
+        <br />
+        <br />
+        Statements on this website are for informational purposes only and do
+        not constitute a recommendation or advice by the website owner to
+        transact any security or market instrument. All trading activity
+        involves known and unknown risk. Historical data presented is not always
+        indicative of future performance.
+      </div>
+    </div>
+  </div>
+</div>
