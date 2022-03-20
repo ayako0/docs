@@ -83,7 +83,7 @@ export default {
         return true;
       }
     },
-    stateFromSize: function () {
+    stateFromSize: function() {
       if (
         window.getComputedStyle(document.body, ":before").content == '"small"'
       ) {
@@ -92,7 +92,7 @@ export default {
         this.$store.commit("openSidebar");
       }
     },
-    sidebarScroll: function () {
+    sidebarScroll: function() {
       let mainNavLinks = document.querySelectorAll(
         ".topic.active + ul .sub-topic"
       );
@@ -129,7 +129,7 @@ export default {
     border-color 0.15s linear;
   padding: 140px 0px 100px 80px;
   width: 280px;
-  line-height: 20px;
+  line-height: 1.25rem;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -157,7 +157,7 @@ export default {
 nav {
   position: relative;
   min-height: 100%;
-  padding-bottom: 40px;
+  padding-bottom: 2.5rem;
 }
 
 ul {
@@ -168,11 +168,11 @@ ul {
   a {
     text-decoration: none;
     color: inherit;
-    padding: 5px 0;
+    padding: 0.125rem 0;
     display: block;
 
     &.active {
-      background: linear-gradient(260deg, #1aff24, #20e95c);
+      background: linear-gradient(260deg, $gradientOne, $gradientTwo);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       -webkit-box-decoration-break: clone;
@@ -182,45 +182,45 @@ ul {
 }
 
 .section {
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
 }
 
 .section-title {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0;
-  padding-bottom: 5px;
-  margin-top: 4em;
+  padding-bottom: 0.25rem;
+  margin-bottom: -0.75rem;
 }
 
 .topic {
-  font-weight: 600;
+  font-weight: 300;
   font-size: 1rem;
   border-top: 1px solid $textBright;
-  margin-top: 1em;
-  margin-left: 50%;
-  width: 50%;
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+  margin-top: 1.25rem;
+  //margin-left: 50%;
+  //width: 50%;
+  padding-top: 0.5rem;
 }
 
 .sub-topic {
-  font-size: 1rem;
+  font-size: 0.875rem;
   position: relative;
-  font-weight: 600;
+  font-weight: 500;
 
   &.current {
     &::after {
       opacity: 1;
       content: "";
       transition: opacity 0.15s ease-in-out;
-      width: 40px;
-      height: 4px;
-      background: linear-gradient(260deg, #1aff24, #20e95c);
+      width: 2.5rem;
+      height: 0.25rem;
+      background: linear-gradient(260deg, $gradientOne, $gradientTwo);
       display: block;
       position: absolute;
       z-index: -1;
-      left: -60px;
-      top: 15px;
+      left: -3.75rem;
+      top: 1rem;
     }
   }
 }
@@ -237,7 +237,7 @@ ul {
 }
 
 .disable-scrollbars::-webkit-scrollbar {
-  width: 0px;
+  width: 0;
   background: transparent; /* Chrome/Safari/Webkit */
 }
 </style>
