@@ -20,17 +20,17 @@ export default {
   props: {
     color: {
       type: String,
-      required: true
-    }
-  }
-}
+      required: true,
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
 .logo {
   height: 40px;
   display: block;
-  transition: color .15s ease-in-out;
+  transition: color 0.15s ease-in-out;
   color: $textBright;
   position: relative;
   perspective: 200px;
@@ -51,15 +51,15 @@ export default {
 .square {
   width: 40px;
   height: 40px;
-  background: linear-gradient(260deg, #1aff24, #20e95c);
+  //background: linear-gradient(260deg, #1aff24, #20e95c);
+  background: linear-gradient(260deg, $gradientOne, $gradientTwo);
 }
 
-.theme-enter-active, .theme-leave-active {
-  transition: opacity .15s ease-in-out;
+.theme-enter-active,
+.theme-leave-active {
+  transition: opacity 0.15s ease-in-out;
 }
 .theme-enter, .theme-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
 }
 </style>
-
-
