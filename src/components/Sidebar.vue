@@ -174,8 +174,10 @@ ul {
     &.active {
       background: linear-gradient(260deg, $gradientOne, $gradientTwo);
       -webkit-background-clip: text;
+      background-clip: text;
       -webkit-text-fill-color: transparent;
       -webkit-box-decoration-break: clone;
+      box-decoration-break: clone;
       opacity: 1;
     }
   }
@@ -191,6 +193,8 @@ ul {
   margin: 0;
   padding-bottom: 0.25rem;
   margin-bottom: -0.75rem;
+  letter-spacing: inherit;
+  color: rgba(43, 44, 48, 0.5);
 }
 
 .topic {
