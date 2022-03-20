@@ -65,9 +65,8 @@ slug: trading-algorithm
       </p>
       <p>
         Slope, beta and linear regression methods<sup>1</sup> were chosen to
-        measure the market's technical signals, responsively attending to the
-        market's short term price velocities over moving average applications
-        (which are more often used for longer term signal making).
+        measure technical signals, responsively attending to short term price velocities over moving average applications
+        (more often used for time series modeling).
       </p>
     </div>
   </div>
