@@ -1,3 +1,9 @@
+//@font-face {
+//  font-family: "Archivo";
+//  src: url("https://cdn.rawgit.com/rtaibah/dubai-font-cdn/7aebfc4b/fonts/Dubai-Medium.woff2")
+//    format("woff2");
+//}
+
 @import "config/colors";
 @import "config/maps";
 @import "config/mixins";
@@ -6,17 +12,23 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
-    sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-family: -apple-system, BlinkMacSystemFont, "IBM Plex Sans", Segoe UI,
+    Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
   margin: 0;
   padding: 0;
-  font-weight: 200;
-  line-height: 1.4;
+  font-weight: 300;
+  line-height: 1.5rem;
   font-size: 1.125rem;
   transition: background 0.15s ease-in-out, color 0.15s ease-in-out;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "liga" on, "clig" on, "dlig" off;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.016rem;
 
   &::before {
     display: none;
@@ -28,8 +40,9 @@ body {
     }
   }
   @include respond-below(sm) {
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: 0.875rem;
+    //font-weight: 400;
+    line-height: 1.25rem;
   }
 
   &.bright {
@@ -47,105 +60,90 @@ body {
   box-sizing: border-box;
 }
 
+.flex {
+  display: flex;
+}
+
+.push {
+  margin-left: auto;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
 .main {
   a {
-    background: linear-gradient(260deg, #1aff24, #20e95c);
+    background: linear-gradient(260deg, $gradientOne, $gradientTwo);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-box-decoration-break: clone;
-    font-weight: 600;
+    font-weight: 500;
   }
-  //  @include respond-below(xxs) {
-  //    min-width: 375px;
-  //  }
 }
 
 h1,
 h2,
 h3,
 h4 {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
-    sans-serif, Apple Color Emoji, Segoe UI Emoji;
   font-weight: 300;
-  line-height: 1.8;
+  line-height: 2.25rem;
   opacity: 0.2;
 }
 
 h1 {
-  margin-top: -10px;
-  font-weight: 600;
-  font-size: 1.8rem;
-  line-height: 1.4;
+  margin-top: -0.625rem;
+  font-weight: 200;
+  font-size: 1.875rem;
+  line-height: 5.5rem;
 
   @include respond-above(sm) {
-    font-size: 1.8rem;
+    font-size: 1.875rem;
+    letter-spacing: -0.125rem;
   }
   @include respond-below(sm) {
     font-size: 1.375rem;
+    letter-spacing: -0.125rem;
   }
 }
 
 h2 {
   opacity: 1;
-  font-size: 1.8rem;
-  margin-block-end: -0.4em;
-  line-height: 1.4;
+  font-size: 3.5rem;
+  margin-block-end: -0.375rem;
+  line-height: 3.875rem;
+  font-weight: 200;
   @include respond-below(sm) {
-    font-size: 1.375rem;
-    padding-bottom: 4px;
+    font-size: 1.625rem;
+    line-height: 3.25rem;
+    padding-bottom: 0.25rem;
+    font-size: 3.25rem;
+    letter-spacing: -0.125rem;
   }
   @include respond-above(sm) {
-    padding-bottom: 6px;
+    padding-bottom: 0.375rem;
+    letter-spacing: -0.125rem;
   }
 }
-
+h3 {
+  font-size: 1.625rem;
+  color: $textBright;
+  opacity: 1;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.75rem;
+  letter-spacing: -0.0625rem;
+}
+h4 {
+  font-size: 1.625rem;
+  white-space: nowrap;
+  letter-spacing: -0.0625rem;
+}
 .container {
-  max-width: 76pc;
   max-width: 76rem;
   margin-left: auto;
   margin-right: auto;
-}
-.p2 {
-  //padding: 1pc;
-  padding: 30px;
-}
-.border-box {
-  box-sizing: border-box;
-}
-.md-col-12 {
-  width: 100%;
-}
-.inline-block {
-  display: inline-block;
-}
-.align-middle {
-  vertical-align: middle;
-}
-.h0,
-.h-lg {
-  font-size: 44px;
-  font-size: 2.75rem;
-  letter-spacing: -1px;
-  letter-spacing: -0.08rem;
-}
-@include respond-above(sm) {
-  .h0 {
-    font-size: 3.25rem;
-  }
-  .h-lg {
-    font-size: 5rem;
-  }
-  .h1 {
-    font-size: 2.5rem;
-  }
-}
-@include respond-above(md) {
-  .h0 {
-    font-size: 4rem;
-  }
-  .h-lg {
-    font-size: 6.25rem;
-  }
 }
 .relative {
   position: relative;
@@ -158,16 +156,185 @@ h2 {
 .clearfix:after {
   clear: both;
 }
+.border-box {
+  box-sizing: border-box;
+}
+.inline-block {
+  display: inline-block;
+}
+.align-middle {
+  vertical-align: middle;
+}
+.md-col-12 {
+  width: 100%;
+}
+.m0 {
+  margin: 0;
+}
+.ml0 {
+  margin-left: 0;
+}
+.mt2 {
+  margin-top: 1rem;
+}
+.mb2 {
+  margin-bottom: 1rem;
+}
+.mb4 {
+  margin-bottom: 2rem;
+}
+.mb4a {
+  @include respond-below(xs) {
+    margin-bottom: 0;
+  }
+  @include respond-above(xs) {
+    margin-bottom: 0;
+  }
+}
+.mt0 {
+  margin-top: 0;
+}
+.mb0 {
+  margin-bottom: 0;
+}
+.mr0 {
+  margin-right: 0;
+}
+.pl1 {
+  @include respond-below(sm) {
+    padding-left: 1rem;
+  }
+  @include respond-above(sm) {
+    padding-left: 1.5rem;
+  }
+}
+.pt1 {
+  @include respond-below(sm) {
+    padding-top: 0.375rem;
+  }
+  @include respond-above(sm) {
+    padding-top: 0.5rem;
+  }
+}
+.pt2 {
+  @include respond-below(sm) {
+    padding-top: 0.375rem;
+  }
+  @include respond-above(sm) {
+    padding-top: 0.75rem;
+  }
+}
+.pb2 {
+  @include respond-below(sm) {
+    padding-bottom: 0.875rem;
+  }
+  @include respond-above(sm) {
+    padding-bottom: 1.5rem;
+  }
+}
+.pb3 {
+  @include respond-below(sm) {
+    padding-bottom: 0.875rem;
+  }
+  @include respond-above(sm) {
+    padding-bottom: 1rem;
+  }
+}
+.mt-s {
+  @include respond-below(xs) {
+    margin-top: 1rem;
+  }
+}
+.pb0 {
+  @include respond-below(sm) {
+    padding-bottom: 0.25rem;
+  }
+  @include respond-above(sm) {
+    padding-bottom: 0.25rem;
+  }
+}
+.pr2 {
+  padding-right: 1rem;
+}
+.pr2a {
+  @include respond-below(xs) {
+    padding-right: 0;
+  }
+  @include respond-above(xs) {
+    padding-right: 1rem;
+  }
+}
+.p2 {
+  padding: 2rem;
+}
+.italic {
+  font-style: italic;
+}
+.muted {
+  opacity: 0.6;
+}
+.intro {
+  @include respond-below(sm) {
+    font-size: 1rem;
+    line-height: 1.375rem;
+  }
+  @include respond-above(sm) {
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+  }
+}
+.h0,
+.h-lg {
+  font-size: 2.75rem;
+}
+@include respond-above(xs) {
+  .xs-col {
+    float: left;
+    box-sizing: border-box;
+  }
+  .xs-col-2 {
+    width: 16.6666%;
+  }
+  .xs-col-3 {
+    width: 25%;
+  }
+  .xs-col-4 {
+    width: 33.3333%;
+  }
+  .xs-col-8 {
+    width: 66.6666%;
+  }
+  .xs-col-9 {
+    width: 75%;
+  }
+  .xs-col-10 {
+    width: 83.3333%;
+  }
+}
+//@include respond-below(sm) {
+//  .h0 {
+//    font-size: 1.625rem;
+//  }
+//}
 @include respond-above(sm) {
   .md-col {
     float: left;
     box-sizing: border-box;
+  }
+  .md-col-2 {
+    width: 16.6666%;
   }
   .md-col-3 {
     width: 25%;
   }
   .md-col-4 {
     width: 33.33333%;
+  }
+  .md-col-6 {
+    width: 50%;
+  }
+  .md-col-8 {
+    width: 66.6666%;
   }
   .md-border-right {
     border-right-style: solid;
@@ -180,44 +347,25 @@ h2 {
   .md-right-align {
     text-align: right;
   }
-}
-@include respond-below(sm) {
   .h0 {
-    font-size: 1.875rem;
+    font-size: 3.25rem;
+  }
+  .h-lg {
+    font-size: 5rem;
+  }
+  .h1 {
+    font-size: 2.5rem;
   }
 }
-
-.ml0 {
-  margin-left: 0;
+@include respond-above(md) {
+  .h0 {
+    font-size: 3.5rem;
+  }
+  .h-lg {
+    font-size: 6.25rem;
+  }
 }
-.mt2 {
-  margin-top: 1pc;
-  margin-top: 1rem;
-}
-.mb2 {
-  margin-bottom: 1pc;
-  margin-bottom: 1rem;
-}
-.mt0 {
-  margin-top: 0;
-}
-.mb0 {
-  margin-bottom: 0;
-}
-.h2 {
-  font-size: 26px;
-  font-size: 1.625rem;
-}
-.mr0 {
-  margin-right: 0;
-}
-.italic {
-  font-style: italic;
-}
-.muted {
-  opacity: 0.5;
-}
-.a1 {
+.i1 {
   @include respond-below(md) {
     font-size: 1.125rem;
   }
@@ -225,31 +373,189 @@ h2 {
     font-size: 1.25rem;
   }
 }
-.p1 {
+.i2 {
   @include respond-below(md) {
-    font-size: 0.875rem;
-    line-height: 1.375rem;
+    font-size: 1.625rem;
   }
   @include respond-above(md) {
-    font-size: 1rem;
-    line-height: 2rem;
+    font-size: 1.75rem;
   }
 }
-.f-top {
+.p1 {
+  @include respond-below(sm) {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+  @include respond-above(sm) {
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+  }
+}
+.caption,
+.code-caption {
+  @include respond-below(sm) {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+  }
+  @include respond-above(sm) {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+.code-caption {
+  @include respond-below(sm) {
+    //padding-top: 0.125rem;
+  }
+}
+.footnotes {
+  @include respond-below(sm) {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+  }
+  @include respond-above(sm) {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+.footer-heading {
+  @include respond-below(sm) {
+    padding-top: 0.25rem;
+  }
+}
+.notes {
+  @include respond-below(sm) {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+  }
+  @include respond-above(sm) {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+.blocks {
+  @include respond-below(sm) {
+    font-size: 0.875rem;
+    //line-height: 1.125rem;
+  }
+  @include respond-above(sm) {
+    font-size: 1.125rem;
+    //line-height: 1.25rem;
+  }
+}
+.date {
+  @include respond-below(sm) {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    margin-bottom: 0.125rem;
+  }
+  @include respond-above(sm) {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-bottom: 0.25rem;
+  }
+}
+sup,
+.super {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.375rem;
+  @include respond-below(sm) {
+    font-size: 0.5rem;
+  }
+  @include respond-above(sm) {
+    font-size: 0.75rem;
+  }
+}
+.bt {
   border-top: 1px solid $textBright;
+}
+.bb {
+  border-bottom: 1px solid $textBright;
+}
+.ct {
+  @include respond-below(sm) {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+  }
+  @include respond-above(sm) {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
 }
 .ft {
   @include respond-below(sm) {
-    font-size: 1rem;
-    line-height: 1.5rem;
+    //padding-top: 0.125rem;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
   }
   @include respond-above(sm) {
-    font-size: 1rem;
-    line-height: 2rem;
+    padding-top: 0.125rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 }
-.fp {
-  @include respond-below(sm) {
-    padding-top: 5px;
+.grid-sq-120 {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  height: 120px;
+  width: 120px;
+}
+.center {
+  grid-row: 2 / span 2;
+  grid-column: 2 / span 2;
+  background: linear-gradient(45deg, #fcfcfc, #f1f1f1);
+  border: 1px;
+}
+.frame {
+  grid-column: 1 / span 4;
+  grid-row: 1 / span 4;
+  background-color: #f1f1f1;
+}
+.full-width {
+  @include respond-above(sm) {
+    width: 100vw;
+    position: relative;
+    left: calc(50% - 140px);
+    //left: calc(33.3333vw - 106.6667px);
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
   }
+  @include respond-below(sm) {
+    position: relative;
+  }
+}
+span.lg {
+  @include respond-below(sm) {
+    display: inline-block;
+    height: 1.5rem;
+    width: 0.25rem;
+    background-color: #6fff73;
+  }
+  @include respond-above(sm) {
+    display: inline-block;
+    height: 1.5rem;
+    width: 0.25rem;
+    background-color: #6fff73;
+  }
+}
+span.lh {
+  @include respond-below(sm) {
+    display: inline-block;
+    height: 1.5rem;
+    width: 0.25rem;
+    background-color: #abff76;
+  }
+  @include respond-above(sm) {
+    display: inline-block;
+    height: 1.5rem;
+    width: 0.25rem;
+    background-color: #abff76;
+  }
+}
+.temp-chart {
+  background: gray;
+  width: 100%;
+  height: 240px;
 }
