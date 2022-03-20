@@ -1,14 +1,14 @@
 <template>
   <Layout>
-    <h1>
+    <!--h1>
       {{ $page.doc.title }}
-    </h1>
+    </h1-->
     <div class="markdown" v-html="$page.doc.content" />
 
-    <div class="clearfix f-top">
-      <div class="relative ml0 md-col md-col-3 ft">
+    <div class="clearfix bt">
+      <div class="relative ml0 md-col md-col-3 ft footer-heading">
         <div class="border-box">
-          <p class="mt0 mb0 fp">2020 - 2021</p>
+          <p class="mt0 mb0">2020 -</p>
         </div>
       </div>
       <div class="relative ml0 md-col md-col-3 md-right-align ft">
@@ -65,22 +65,22 @@ export default {
 /deep/ > p {
   opacity: .8;
 }
-*/
 
 /deep/ > h2 {
-  padding-top: 100px;
-  margin-top: -80px;
+  padding-top: 6.25rem;
+  margin-top: -5rem;
 
   @include respond-above(md) {
-    font-size: 1.8rem;
+    font-size: 1.75rem;
   }
 }
 
 /deep/ > p > img {
   max-width: 100%;
 }
+*/
 
 .markdown {
-  padding-bottom: 40px;
+  padding-bottom: 2.5rem;
 }
 </style>
