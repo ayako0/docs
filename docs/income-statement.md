@@ -16,7 +16,7 @@ slug: income-statement
 
   <div class="clearfix">
     <p class="date mt0">
-      Starting capital: $10000
+      Starting capital: $10,000
       <br />
       Max leverage: 1<br />
       Jan 2, 2006 - Sep 1, 2020
@@ -129,7 +129,7 @@ def trade(context, data):
 
   <div class="clearfix">
     <p class="date mt0">
-      Starting capital: $10000
+      Starting capital: $10,000
       <br />
       Max leverage: 1<br />
       Jan 2, 2006 - Sep 1, 2020
@@ -241,7 +241,7 @@ def trade(context, data):
 
   <div class="clearfix">
     <p class="date mt0">
-      Starting capital: $10000
+      Starting capital: $10,000
       <br />
       Max leverage: 1<br />
       Jan 2, 2006 - Sep 1, 2020
@@ -300,7 +300,7 @@ factor = ms.net_income_income_statement.latest.rank(mask=univ, ascending=False)
 
   <div class="clearfix">
     <p class="date mt0">
-      Starting capital: $10000
+      Starting capital: $10,000
       <br />
       Max leverage: 1<br />
       Jan 2, 2006 - Sep 1, 2020
@@ -359,7 +359,7 @@ factor = ms.operating_income.latest.rank(mask=univ, ascending=False)
 
   <div class="clearfix">
     <p class="date mt0">
-      Starting capital: $10000
+      Starting capital: $10,000
       <br />
       Max leverage: 1<br />
       Jan 2, 2006 - Sep 1, 2020
