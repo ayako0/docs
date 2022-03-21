@@ -22,7 +22,7 @@ slug: valuation-ratios
 
   <div class="clearfix">
     <p class="date mt0">
-      Starting capital: $10000
+      Starting capital: $10,000
       <br />
       Max leverage: 1<br />
       Jan 2, 2006 - Sep 1, 2020
@@ -135,7 +135,7 @@ def trade(context, data):
 
   <div class="clearfix">
     <p class="date mt0">
-      Starting capital: $10000
+      Starting capital: $10,000
       <br />
       Max leverage: 1<br />
       Jan 2, 2006 - Sep 1, 2020
@@ -193,7 +193,7 @@ factor = ms.book_value_yield.latest.rank(mask=univ, ascending=False)
 
   <div class="clearfix">
     <p class="date mt0">
-      Starting capital: $10000
+      Starting capital: $10,000
       <br />
       Max leverage: 1<br />
       Jan 2, 2006 - Sep 1, 2020
@@ -252,7 +252,7 @@ factor = ms.cash_return.latest.rank(mask=univ, ascending=False)
 
   <div class="clearfix">
     <p class="date mt0">
-      Starting capital: $10000
+      Starting capital: $10,000
       <br />
       Max leverage: 1<br />
       Jan 2, 2006 - Sep 1, 2020
@@ -315,7 +315,7 @@ factor = ms.earning_yield.latest.rank(mask=univ, ascending=False)
 
   <div class="clearfix">
     <p class="date mt0">
-      Starting capital: $10000
+      Starting capital: $10,000
       <br />
       Max leverage: 1<br />
       Jan 2, 2006 - Sep 1, 2020
@@ -377,7 +377,7 @@ factor = ms.ev_to_ebitda.latest.rank(mask=univ, ascending=False)
 
   <div class="clearfix">
     <p class="date mt0">
-      Starting capital: $10000
+      Starting capital: $10,000
       <br />
       Max leverage: 1<br />
       Jan 2, 2006 - Sep 1, 2020
@@ -436,7 +436,7 @@ factor = ms.fcf_yield.latest.rank(mask=univ, ascending=False)
 
   <div class="clearfix">
     <p class="date mt0">
-      Starting capital: $10000
+      Starting capital: $10,000
       <br />
       Max leverage: 1<br />
       Jan 2, 2006 - Sep 1, 2020
@@ -495,7 +495,7 @@ factor = ms.pb_ratio.latest.rank(mask=univ, ascending=False)
 
   <div class="clearfix">
     <p class="date mt0">
-      Starting capital: $10000
+      Starting capital: $10,000
       <br />
       Max leverage: 1<br />
       Jan 2, 2006 - Sep 1, 2020
@@ -554,7 +554,7 @@ factor = ms.pe_ratio.latest.rank(mask=univ, ascending=False)
 
   <div class="clearfix">
     <p class="date mt0">
-      Starting capital: $10000
+      Starting capital: $10,000
       <br />
       Max leverage: 1<br />
       Jan 2, 2006 - Sep 1, 2020
@@ -612,7 +612,7 @@ factor = ms.ps_ratio.latest.rank(mask=univ, ascending=False)
 
   <div class="clearfix">
     <p class="date mt0">
-      Starting capital: $10000
+      Starting capital: $10,000
       <br />
       Max leverage: 1<br />
       Jan 2, 2006 - Sep 1, 2020
@@ -674,7 +674,7 @@ factor = ms.sales_yield.latest.rank(mask=univ, ascending=False)
 
   <div class="clearfix">
     <p class="date mt0">
-      Starting capital: $10000
+      Starting capital: $10,000
       <br />
       Max leverage: 1<br />
       Jan 2, 2006 - Sep 1, 2020
