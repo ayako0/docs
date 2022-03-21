@@ -106,7 +106,7 @@ slug: trading-algorithm
     </div>
     <div class="relative ml0 xs-col xs-col-4">
       <div class="border-box mt2 mb2">
-        <p class="notes">1. Linear regression: [[(Y is distributed as alpha plus beta X)]]</p>
+        <p class="notes">1. Linear regression: (Y ∼ α + βX) Y is distributed as alpha plus beta X</p>
         <p class="notes">
           2. SimpleBeta(): The slope of the regression line between an asset's
           returns and another asset's returns
