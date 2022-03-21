@@ -131,7 +131,7 @@ slug: trading-algorithm
 <div class="clearfix">
 
 ```python
-fundamental_variable = ms.fundamental_variable.latest > 0.5
+fundamental_factor = ms.fundamental_factor.latest > 0.5
 spy_beta = SB(target=context.SPY, regression_length=context.bars_5)
 ```
 
@@ -157,7 +157,7 @@ spy_beta = SB(target=context.SPY, regression_length=context.bars_5)
       <p>
         Under monthly negative price action or weekly sharp drops, bonds are purchased instead of stocks to stabilize the portfolio
         under such market conditions. In the instance of the Lehman
-        Brothers crash of 2008-09, long term damage was prevented by increasing the initial value of exponential growth.
+        Brothers crash of 2008-09, long term damage was prevented by increasing the initial value of growth.
       </p>
       <p>
         During the time period, only Netflix (NFLX) and Monster (MNST) outperformed the
