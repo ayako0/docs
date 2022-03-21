@@ -18,7 +18,7 @@ slug: valuation
 
   <div class="clearfix">
     <p class="date mt0">
-      Starting capital: $10000
+      Starting capital: $10,000
       <br />
       Max leverage: 1<br />
       Jan 2, 2006 - Sep 1, 2020
