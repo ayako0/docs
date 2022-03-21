@@ -6,12 +6,12 @@ slug: trading-algorithm
   <div class="clearfix mb4">
     <div class="relative md-col md-col-8">
       <div class="border-box">
-        <h2 class="mt0 mb4 pr2">Optimized Momentum Trading</h2>
+        <h2 class="mt0 pr2">Optimized Momentum Trading</h2>
       </div>
     </div>
   </div>
 
-  <div class="clearfix mb4 flex">
+  <div class="clearfix flex">
     <div class="relative md-col md-col-4 push">
       <div class="border-box">
         <div class="flex bt pb2 pt2">
