@@ -156,9 +156,10 @@ spy_beta = SB(target=context.SPY, regression_length=context.bars_5)
         Tuesday trade execution provided the greatest returns.
       </p>
       <p>
-        Under monthly negative price action or weekly sharp drops, bonds are purchased instead of stocks to stabilize the portfolio
-        under such market conditions. In the instance of the Lehman
-        Brothers crash of 2008-09, long term damage was prevented by increasing the initial value of growth.
+        Under monthly negative price action or weekly sharp drops, bonds are
+        purchased instead of stocks to stabilize the portfolio. In the instance
+        of the Lehman Brothers crash of 2008-09, long term damage was prevented
+        by increasing the initial value of growth.
       </p>
       <p>
         During the time period, only Netflix (NFLX) and Monster (MNST) outperformed the
