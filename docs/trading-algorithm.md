@@ -149,13 +149,8 @@ spy_beta = SB(target=context.SPY, regression_length=context.bars_5)
         certain conditions - a 'growth'-focused selection performed best under
         positive S&P 500 beta conditions; a 'value' selection performed
         best under negative S&P 500 beta conditions. Growth and value lists can
-        both be best defined as stable, revenue producing companies, where
+        both be best defined as stable companies where
         growth focuses more on fundamental value percentage growth.
-      </p>
-      <p>
-        Tuesday trades outperformed trades executed on any other day of the
-        week. Five stocks fundamentally selected and traded weekly outperformed
-        any other number of stocks selected.
       </p>
       <p>
         Under monthly negative price action or weekly sharp drops, bonds are purchased instead of stocks to stabilize the portfolio
