@@ -5,7 +5,7 @@
         <div class="container p2 border-box" style="padding-bottom: 0">
           <!--div class="container p2 border-box" style="padding-top: 7.5vh"-->
           <div
-            class="md-col-12 p2 border-box inline-block align-middle"
+            class="md-col-12 p3 border-box inline-block align-middle"
             style="padding-bottom: 0"
           >
             <h1 class="h0 mt0 mb2">Quant</h1>
@@ -24,7 +24,7 @@
         </div>
         <div class="container p2 border-box">
           <!--div class="container p2 border-box" style="padding-top: 7.5vh"-->
-          <div class="md-col-12 p2 border-box inline-block align-middle">
+          <div class="md-col-12 p3 border-box inline-block align-middle">
             <h1 class="h0 mt0 mb2">Fundamentals</h1>
 
             <div class="clearfix mb2">
