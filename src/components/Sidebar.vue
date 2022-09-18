@@ -172,7 +172,7 @@ ul {
     display: block;
 
     &.active {
-      background: linear-gradient(260deg, $gradientThree, $gradientTwo);
+      background: linear-gradient(260deg, $gradientThree, $gradientFour);
       -webkit-background-clip: text;
       background-clip: text;
       -webkit-text-fill-color: transparent;
