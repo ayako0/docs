@@ -158,7 +158,7 @@ spy_beta = SB(target=context.SPY, regression_length=context.bars_5)
       <p>
         Under monthly negative price action or weekly sharp drops, bonds are
         purchased instead of stocks to stabilize the portfolio. In the instance
-        of the Lehman Brothers crash of 2008-09, long term damage was prevented
+        of the market crash of 2008-09, long term damage was prevented
         by increasing the initial value of growth.
       </p>
       <p>
