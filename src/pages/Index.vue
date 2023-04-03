@@ -64,13 +64,14 @@
                 </div>
               </div>
             </div>
-
-            <p class="mb0 italic muted p1">
-              Historical fundamental data from Jan 2nd, 2006 to Sep 1st, 2020.
-              Quantopian fundamentals aggregated quarterly. Quantopian shut down
-              Nov 2020: Zipline was used in production as its backtesting and
-              live trading engine, to which most code can be converted.
-            </p>
+            <div>
+              <p class="mb0 italic muted p1">
+                Historical fundamental data from Jan 2nd, 2006 to Sep 1st, 2020.
+                Quantopian fundamentals aggregated quarterly. Quantopian shut
+                down Nov 2020: Zipline was used in production as its backtesting
+                and live trading engine, to which most code can be converted.
+              </p>
+            </div>
           </div>
         </div>
       </section>
