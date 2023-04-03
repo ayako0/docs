@@ -11,9 +11,25 @@ Oracle Linux, testing
 
 _Windows_
 
-[Windows Research Kernel](https://github.com/HighSchoolSoftwareClub/Windows-Research-Kernel-WRK-)
+Windows Defender Firewall rules for blocking incoming and outgoing network connections for Windows. Blocking remote management and general accessibility as well as the Remote Procedure Call (RPC) service using port 135 are emphasized.
 
-[Windows Internals, 7th Edition](https://docs.microsoft.com/en-us/sysinternals/resources/windows-internals)
+Block all incoming:
+
+![](/wdf04.PNG)
+
+<br>
+
+Inbound rules:
+
+![](/wdf01.PNG)
+
+![](/wdf02.PNG)
+
+<br>
+
+Outbound rules:
+
+![](/wdf03.PNG)
 
 <br>
 
