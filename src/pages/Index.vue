@@ -73,19 +73,7 @@
               </p>
             </div>
           </div>
-          <div
-            class="ft md-col-12 p3 border-box inline-block align-middle"
-            style="padding-bottom: 0"
-          >
-            <p class="notes mt0 mb2">
-              Historical fundamental data from Jan 2nd, 2006 to Sep 1st, 2020.
-              Quantopian fundamentals aggregated quarterly. Quantopian shut down
-              Nov 2020: Zipline was used in production as its backtesting and
-              live trading engine, to which most code can be converted.
-            </p>
-          </div>
         </div>
-        
       </section>
     </main>
   </Layout>
