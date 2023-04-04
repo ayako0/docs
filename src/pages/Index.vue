@@ -73,17 +73,17 @@
               </p>
             </div>
           </div>
-          <div class="clearfix mb4">
-          <div class="md-col-8">
-            <div class="footnotes">
-              Statements on this website are for informational purposes only and
-              do not constitute a recommendation or advice by the website owner
-              to transact any security or market instrument. All trading
-              activity involves known and unknown risk. Historical data
-              presented is not always indicative of future performance.
-            </div>
+          <div
+            class="md-col-12 p3 border-box inline-block align-middle"
+            style="padding-bottom: 0"
+          >
+            <p class="notes mt0 mb2">
+              Historical fundamental data from Jan 2nd, 2006 to Sep 1st, 2020.
+              Quantopian fundamentals aggregated quarterly. Quantopian shut down
+              Nov 2020: Zipline was used in production as its backtesting and
+              live trading engine, to which most code can be converted.
+            </p>
           </div>
-        </div>
         </div>
         
       </section>
