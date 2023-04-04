@@ -3,12 +3,6 @@ title: OS and CPU
 slug: os-cpu
 
 ---
-_Personal_
-
-Oracle Linux, testing
-
-<br>
-
 _Windows_
 
 Windows Defender Firewall rules for blocking incoming and outgoing network connections for Windows. Blocking remote management and general accessibility as well as the Remote Procedure Call (RPC) service using port 135 are emphasized.
