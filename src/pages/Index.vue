@@ -64,7 +64,7 @@
                 </div>
               </div>
             </div>
-            <div>
+            <div class="clearfix mb2">
               <p class="mb0 italic muted p1">
                 Historical fundamental data from Jan 2nd, 2006 to Sep 1st, 2020.
                 Quantopian fundamentals aggregated quarterly. Quantopian shut
