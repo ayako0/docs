@@ -15,16 +15,12 @@ slug: income-statement
   </p>
 
   <div class="clearfix">
-  <div class="relative">
-    <div class="border-box">
     <p class="date mt0">
       Starting capital: $10,000
       <br />
       Max leverage: 1<br />
       Jan 2, 2006 - Sep 1, 2020
     </p>
-  </div>
-  </div>
   </div>
   <div class="clearfix mb4a">
     <div class="relative ml0 xs-col xs-col-9">
