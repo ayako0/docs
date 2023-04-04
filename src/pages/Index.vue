@@ -74,6 +74,17 @@
             </div>
           </div>
         </div>
+        <div class="clearfix mb4">
+          <div class="md-col-8">
+            <div class="footnotes">
+              Statements on this website are for informational purposes only and
+              do not constitute a recommendation or advice by the website owner
+              to transact any security or market instrument. All trading
+              activity involves known and unknown risk. Historical data
+              presented is not always indicative of future performance.
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   </Layout>
