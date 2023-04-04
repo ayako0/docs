@@ -74,7 +74,7 @@
             </div>
           </div>
           <div
-            class="md-col-12 p3 border-box inline-block align-middle"
+            class="ft md-col-12 p3 border-box inline-block align-middle"
             style="padding-bottom: 0"
           >
             <p class="notes mt0 mb2">
