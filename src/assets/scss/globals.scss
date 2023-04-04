@@ -383,12 +383,12 @@ h4 {
 }
 .p1 {
   @include respond-below(md) {
-    font-size: 0.75rem;
-    line-height: 1rem;
+    font-size: 0.75rem !important;
+    line-height: 1rem !important;
   }
   @include respond-above(md) {
-    font-size: 0.875rem;
-    line-height: 1.125rem;
+    font-size: 0.875rem !important;
+    line-height: 1.125rem !important;
   }
 }
 .caption,
