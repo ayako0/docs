@@ -5,7 +5,7 @@ slug: os-cpu
 ---
 _Windows_
 
-Windows Defender Firewall rules for blocking incoming and outgoing network connections for Windows. Blocking remote management and general accessibility as well as the Remote Procedure Call (RPC) service using port 135 are emphasized.
+Windows Defender Firewall rules for blocking incoming and outgoing network connections. Blocking remote management and general accessibility as well as the Remote Procedure Call (RPC) service using port 135 are emphasized.
 
 Block all incoming:
 
