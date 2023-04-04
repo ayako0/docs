@@ -73,8 +73,7 @@
               </p>
             </div>
           </div>
-        </div>
-        <div class="clearfix mb4">
+          <div class="clearfix mb4">
           <div class="md-col-8">
             <div class="footnotes">
               Statements on this website are for informational purposes only and
@@ -85,6 +84,8 @@
             </div>
           </div>
         </div>
+        </div>
+        
       </section>
     </main>
   </Layout>
