@@ -13,7 +13,7 @@
       </div>
       <div class="relative ml0 md-col md-col-3 md-right-align ft">
         <div class="border-box">
-          <a href="https://twitter.com/numberatomism">Twitter</a>
+          <a href="https://donate.stripe.com/bIYfZ56ICevG8Fy000">Donate</a>
         </div>
       </div>
 
