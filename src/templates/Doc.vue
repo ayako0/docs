@@ -21,6 +21,7 @@
         <div class="border-box">
           <p class="mt0 mb0">Social</p>
           <a href="https://x.com/numberatomism">X</a>
+          <br>
           <a href="https://github.com/ayako0">Github</a>
         </div>
       </div>
