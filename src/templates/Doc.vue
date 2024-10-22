@@ -14,7 +14,6 @@
       <div class="relative ml0 md-col md-col-3 md-right-align ft">
         <div class="border-box">
           <p class="mt0 mb0">Send money</p>
-          <br>
           <a href="https://donate.stripe.com/bIYfZ56ICevG8Fy000">Donate</a>
         </div>
       </div>
@@ -31,7 +30,6 @@
       <div class="relative mr0 md-col md-col-3 md-right-align ft">
         <div class="border-box">
           <p class="mt0 mb0">Contact</p>
-          <br>
           <a href="mailto:ayakowenko@protonmail.com">Email</a>
         </div>
       </div>
